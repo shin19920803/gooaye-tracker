@@ -24,5 +24,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "Update Data" || exit 0 # 如果沒有資料更新就跳過
+          git commit -m "Update Data & Portfolio PnL" || exit 0 # 如果沒有資料更新就跳過
           git push

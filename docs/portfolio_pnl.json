@@ -1,0 +1,41 @@
+{
+    "summary": {
+        "total_cost": 962000.0,
+        "total_value": 2531069.0,
+        "total_pnl": 1569069.0,
+        "total_pnl_pct": "163.1%",
+        "total_daily_pnl": 100604.0,
+        "total_daily_change_pct": "10.46%",
+        "update_time": "2026-06-22 16:28:11"
+    },
+    "assets": [
+        {
+            "symbol": "2330.TW",
+            "name": "台積電",
+            "buy_price": 950.0,
+            "shares": 1000.0,
+            "current_price": 2510.0,
+            "previous_close": 2410.0,
+            "cost": 950000.0,
+            "value": 2510000.0,
+            "pnl": 1560000.0,
+            "pnl_pct": "164.21%",
+            "daily_pnl": 100000.0,
+            "daily_change_pct": "4.15%"
+        },
+        {
+            "symbol": "NVDA",
+            "name": "輝達",
+            "buy_price": 120.0,
+            "shares": 100.0,
+            "current_price": 210.69,
+            "previous_close": 204.65,
+            "cost": 12000.0,
+            "value": 21069.0,
+            "pnl": 9069.0,
+            "pnl_pct": "75.58%",
+            "daily_pnl": 604.0,
+            "daily_change_pct": "2.95%"
+        }
+    ]
+}

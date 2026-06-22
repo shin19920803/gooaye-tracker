@@ -1,0 +1,16 @@
+[
+  {
+    "symbol": "2330.TW",
+    "name": "台積電",
+    "buy_price": 950.0,
+    "shares": 1000,
+    "buy_date": "2026-06-10"
+  },
+  {
+    "symbol": "NVDA",
+    "name": "輝達",
+    "buy_price": 120.0,
+    "shares": 100,
+    "buy_date": "2026-06-15"
+  }
+]

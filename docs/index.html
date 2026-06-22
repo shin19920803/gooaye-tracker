@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>股癌筆記追蹤器 & 模擬倉儀表板</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="stars-overlay"></div>
+  <div class="app-container">
+    <!-- Local File Warning Banner -->
+    <div id="file-protocol-warning" class="warning-banner hidden">
+      <i class="fa-solid fa-triangle-exclamation"></i>
+      <span>偵測到您直接雙擊 HTML 檔案開啟網頁 (<code>file://</code>)。由於瀏覽器的安全限制 (CORS)，無法直接讀取本地 JSON 數據。建議使用 Python 啟動伺服器或部署至 GitHub Pages。您仍可正常使用「本地編輯模擬器」。</span>
+      <button class="close-banner-btn" onclick="document.getElementById('file-protocol-warning').classList.add('hidden')">&times;</button>
+    </div>
+
+    <!-- Header -->
+    <header class="app-header animate-fade-in">
+      <div class="header-logo">
+        <i class="fa-solid fa-chart-line-up logo-icon"></i>
+        <div>
+          <h1>股癌筆記追蹤與模擬倉</h1>
+          <p class="subtitle">Gooaye Notes Scraper & Mock Portfolio</p>
+        </div>
+      </div>
+      <div class="header-meta" id="update-time-container">
+        <span class="pulse-dot"></span>
+        <span class="meta-label">數據更新時間：</span>
+        <span class="meta-value" id="last-update-time">載入中...</span>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="app-tabs animate-fade-in">
+      <button class="tab-btn active" id="tab-mentions" onclick="switchTab('mentions')">
+        <i class="fa-solid fa-list-check"></i> 股癌提及股票
+      </button>
+      <button class="tab-btn" id="tab-portfolio" onclick="switchTab('portfolio')">
+        <i class="fa-solid fa-wallet"></i> 模擬倉損益
+      </button>
+      <button class="tab-btn" id="tab-simulator" onclick="switchTab('simulator')">
+        <i class="fa-solid fa-sliders"></i> 本地編輯模擬器
+      </button>
+      <button class="tab-btn" id="tab-cloud" onclick="switchTab('cloud')">
+        <i class="fa-solid fa-cloud-arrow-up"></i> 雲端與試算表同步
+      </button>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="app-content animate-fade-in-up">
+      <!-- TAB 1: MENTIONS -->
+      <section class="tab-content" id="content-mentions">
+        <div class="section-header">
+          <div class="section-title">
+            <i class="fa-solid fa-bullhorn icon-accent"></i>
+            <h2>最新集數股票提及統計</h2>
+          </div>
+          <p class="section-desc">分析最新五集股癌筆記，比對股票資料庫標記出熱門標的。</p>
+        </div>
+        <div class="episodes-grid" id="episodes-container">
+          <!-- Dynamically populated -->
+          <div class="loading-state">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+            <p>正在爬梳最新集數筆記...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: PORTFOLIO -->
+      <section class="tab-content hidden" id="content-portfolio">
+        <div class="section-header">
+          <div class="section-title">
+            <i class="fa-solid fa-circle-dollar-to-slot icon-accent"></i>
+            <h2>模擬倉損益總覽 (由 portfolio.json 驅動)</h2>
+          </div>
+          <p class="section-desc">自動讀取您的交易記錄，並利用 Yahoo Finance 最新股價計算總體盈虧。</p>
+        </div>
+
+        <!-- Portfolio Summary Cards -->
+        <div class="summary-cards-grid">
+          <div class="summary-card">
+            <div class="card-icon"><i class="fa-solid fa-sack-dollar"></i></div>
+            <div class="card-info">
+              <span class="card-label">帳戶總市值</span>
+              <span class="card-value" id="port-total-value">$0</span>
+              <span class="card-sub-label" id="port-total-cost">總成本: $0</span>
+            </div>
+          </div>
+          <div class="summary-card">
+            <div class="card-icon" id="cum-pnl-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="card-info">
+              <span class="card-label">累計損益額</span>
+              <span class="card-value" id="port-total-pnl">$0</span>
+              <span class="card-sub-label" id="port-total-pnl-pct">累計投報率: 0.00%</span>
+            </div>
+          </div>
+          <div class="summary-card">
+            <div class="card-icon" id="daily-pnl-icon"><i class="fa-solid fa-calendar-day"></i></div>
+            <div class="card-info">
+              <span class="card-label">今日損益額</span>
+              <span class="card-value" id="port-daily-pnl">$0</span>
+              <span class="card-sub-label" id="port-daily-pct">今日變動率: 0.00%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio Details -->
+        <div class="portfolio-container card-glass">
+          <div class="container-header">
+            <h3><i class="fa-solid fa-rectangle-list"></i> 持股明細與即時表現</h3>
+            <div class="header-actions">
+              <a href="portfolio_pnl.csv" download class="btn btn-secondary btn-sm">
+                <i class="fa-solid fa-file-csv"></i> 下載 CSV 損益表
+              </a>
+            </div>
+          </div>
+          <div class="table-wrapper">
+            <table class="premium-table">
+              <thead>
+                <tr>
+                  <th>股票名稱</th>
+                  <th>代碼</th>
+                  <th>持有股數</th>
+                  <th>買入均價</th>
+                  <th>當前市價</th>
+                  <th>投資成本</th>
+                  <th>目前市值</th>
+                  <th>今日漲跌</th>
+                  <th>累計損益 (投報率)</th>
+                </tr>
+              </thead>
+              <tbody id="portfolio-table-body">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Asset Allocation bar -->
+        <div class="allocation-container card-glass">
+          <h3><i class="fa-solid fa-chart-pie"></i> 模擬倉資產配置權重</h3>
+          <div class="allocation-bar" id="allocation-bar-element">
+            <!-- Dynamically populated segments -->
+          </div>
+          <div class="allocation-legend" id="allocation-legend-element">
+            <!-- Dynamically populated legends -->
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: LOCAL SIMULATOR -->
+      <section class="tab-content hidden" id="content-simulator">
+        <div class="section-header">
+          <div class="section-title">
+            <i class="fa-solid fa-laptop-code icon-accent"></i>
+            <h2>瀏覽器本地模擬倉</h2>
+          </div>
+          <p class="section-desc">您可以在瀏覽器上動態增刪持股，模擬損益。資料將暫存在此瀏覽器中 (localStorage)。</p>
+        </div>
+
+        <div class="simulator-layout">
+          <!-- Editor Form -->
+          <div class="sim-editor-card card-glass">
+            <h3><i class="fa-solid fa-plus-minus"></i> 新增 / 編輯持股</h3>
+            <form id="sim-form" onsubmit="addSimStock(event)">
+              <div class="form-group">
+                <label for="sim-symbol">股票代碼 (Yahoo Finance 格式)</label>
+                <input type="text" id="sim-symbol" placeholder="例如: 2330.TW 或 NVDA" required>
+                <small class="form-hint">台股請加後綴 .TW。例如：台積電為 2330.TW</small>
+              </div>
+              <div class="form-group">
+                <label for="sim-name">股票名稱</label>
+                <input type="text" id="sim-name" placeholder="例如: 台積電" required>
+              </div>
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="sim-price">買入均價</label>
+                  <input type="number" id="sim-price" step="0.01" min="0.01" placeholder="0.00" required>
+                </div>
+                <div class="form-group">
+                  <label for="sim-shares">持有股數</label>
+                  <input type="number" id="sim-shares" step="0.01" min="0.01" placeholder="0" required>
+                </div>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary"><i class="fa-solid fa-square-plus"></i> 加入模擬倉</button>
+                <button type="button" class="btn btn-secondary" onclick="resetSimForm()"><i class="fa-solid fa-rotate-left"></i> 清除</button>
+              </div>
+            </form>
+            
+            <div class="alert-box alert-info">
+              <i class="fa-solid fa-lightbulb"></i>
+              <p>提示：此處新增的股票會以本系統爬蟲最新快取的價格進行損益估算。若要讓 Python 雲端服務永久為您計算，請編輯專案中的 <strong>portfolio.json</strong> 檔案。</p>
+            </div>
+          </div>
+
+          <!-- Simulator Results -->
+          <div class="sim-results-card">
+            <!-- Summary Stats -->
+            <div class="summary-cards-grid mini">
+              <div class="summary-card mini">
+                <div class="card-info">
+                  <span class="card-label">模擬總市值</span>
+                  <span class="card-value" id="sim-total-value">$0</span>
+                </div>
+              </div>
+              <div class="summary-card mini">
+                <div class="card-info">
+                  <span class="card-label">模擬累計損益</span>
+                  <span class="card-value" id="sim-total-pnl">$0</span>
+                  <span class="card-sub-label" id="sim-total-pnl-pct">投報率: 0.00%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- List Table -->
+            <div class="portfolio-container card-glass">
+              <h3><i class="fa-solid fa-table-list"></i> 本地持股明細</h3>
+              <div class="table-wrapper">
+                <table class="premium-table">
+                  <thead>
+                    <tr>
+                      <th>股票名稱</th>
+                      <th>代碼</th>
+                      <th>持有股數</th>
+                      <th>買入均價</th>
+                      <th>當前估價</th>
+                      <th>累計成本</th>
+                      <th>累計損益</th>
+                      <th>操作</th>
+                    </tr>
+                  </thead>
+                  <tbody id="sim-table-body">
+                    <!-- Dynamically populated -->
+                    <tr>
+                      <td colspan="8" class="text-center">尚無持股，請從左側新增模擬交易紀錄。</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: CLOUD GUIDE -->
+      <section class="tab-content hidden" id="content-cloud">
+        <div class="section-header">
+          <div class="section-title">
+            <i class="fa-solid fa-cloud-arrow-up icon-accent"></i>
+            <h2>Google 雲端與試算表同步方案</h2>
+          </div>
+          <p class="section-desc">我們為您準備了兩種與 Google 雲端整合的絕佳方案，以便您隨時隨地監控損益。</p>
+        </div>
+
+        <div class="cloud-guides-grid">
+          <!-- Guide 1: Google Drive Sync -->
+          <div class="guide-card card-glass">
+            <div class="guide-badge"><i class="fa-solid fa-hard-drive"></i> 方案 A：自動生成 CSV 檔案同步</div>
+            <h3>自動生成雲端 CSV 損益報告</h3>
+            <p>每次執行本爬蟲腳本時，程式會自動在 <code>docs/</code> 資料夾內輸出最新損益檔案：<strong>portfolio_pnl.csv</strong>。</p>
+            
+            <div class="step-list">
+              <div class="step-item">
+                <div class="step-num">1</div>
+                <div class="step-text">在您的 Mac 上安裝 <strong>Google 雲端硬碟電腦版</strong> (Google Drive for Desktop)。</div>
+              </div>
+              <div class="step-item">
+                <div class="step-num">2</div>
+                <div class="step-text">將本專案目錄放置於您的 Google Drive 雲端同步資料夾內（例如 <code>~/Google Drive/我的雲端硬碟/projects/gooaye-tracker</code>）。</div>
+              </div>
+              <div class="step-item">
+                <div class="step-num">3</div>
+                <div class="step-text">不論是手動本機執行或定時執行，生成的 CSV 檔案都會秒級同步上雲，您在手機或任何瀏覽器中打開 Google 雲端硬碟就能直接查看最新損益表！</div>
+              </div>
+            </div>
+            
+            <div class="alert-box alert-success">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>我們已為您在 <code>docs/portfolio_pnl.csv</code> 寫入了完整的 UTF-8 BOM，用 Excel 或 Google Sheets 打開皆不會產生中文亂碼。</p>
+            </div>
+          </div>
+
+          <!-- Guide 2: Google Finance Sheets -->
+          <div class="guide-card card-glass">
+            <div class="guide-badge"><i class="fa-solid fa-table"></i> 方案 B：純 Google Sheets 追蹤（極力推薦）</div>
+            <h3>使用 GOOGLEFINANCE 函數輕鬆追蹤</h3>
+            <p>如果您希望不需要執行任何 Python 程式、完全不需設定背景工作，也能在雲端即時獲取價格計算損益，可以直接在 Google Sheets 中建立損益表：</p>
+            
+            <div class="formula-box">
+              <h4>1. 獲取台股即時股價 (以台積電為例)：</h4>
+              <code>=GOOGLEFINANCE("TPE:2330", "price")</code>
+              
+              <h4>2. 獲取美股即時股價 (以 NVIDIA 為例)：</h4>
+              <code>=GOOGLEFINANCE("NASDAQ:NVDA", "price")</code>
+
+              <h4>3. 獲取前一日收盤價 (計算今日損益用)：</h4>
+              <code>=GOOGLEFINANCE("TPE:2330", "closeyest")</code>
+            </div>
+
+            <div class="step-list">
+              <div class="step-item">
+                <div class="step-num">1</div>
+                <div class="step-text">新增一個 Google 試算表，欄位分別設定：股票代碼、買入均價、股數。</div>
+              </div>
+              <div class="step-item">
+                <div class="step-num">2</div>
+                <div class="step-text">「現價」欄位輸入上述 <code>=GOOGLEFINANCE</code> 函數，它會自動隨美股台股開盤動態更新股價！</div>
+              </div>
+              <div class="step-item">
+                <div class="step-num">3</div>
+                <div class="step-text">損益計算公式：<code>=(現價 - 買入均價) * 股數</code>。此方法 100% 免費且完全在雲端運作，不依賴任何本機環境。</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer animate-fade-in">
+      <p>© 2026 股癌筆記 & 模擬倉追蹤器 | 設計致敬 Gooaye Podcast 聽眾小社群</p>
+      <p class="tech-stack">Powered by Python, yfinance, HTML5 & CSS Glassmorphism</p>
+    </footer>
+  </div>
+
+  <!-- Javascript Core Logic -->
+  <script>
+    // Global data structures
+    let gooayeData = [];
+    let portfolioData = { summary: {}, assets: [] };
+    let activeTab = 'mentions';
+
+    // Global price lookup cache constructed from crawled data and portfolio data
+    // Format: { symbol: { price: float, change: string, prevClose: float } }
+    let globalPriceCache = {
+      "2330.TW": { price: 2510.00, change: "4.15%", prevClose: 2410.00, name: "台積電" },
+      "AAPL": { price: 298.01, change: "0.70%", prevClose: 295.94, name: "Apple" },
+      "NVDA": { price: 210.69, change: "2.95%", prevClose: 204.65, name: "輝達" },
+      "2454.TW": { price: 4465.00, change: "1.71%", prevClose: 4390.00, name: "聯發科" }
+    };
+
+    // Initialize application on load
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.location.protocol === 'file:') {
+        document.getElementById('file-protocol-warning').classList.remove('hidden');
+      }
+      loadData();
+      initSimTable();
+    });
+
+    // Fetch compiled JSON data
+    async function loadData() {
+      try {
+        // Load Gooaye Mentions
+        const resMentions = await fetch('data.json');
+        if (resMentions.ok) {
+          gooayeData = await resMentions.json();
+          // Update global cache from parsed mentions
+          gooayeData.forEach(ep => {
+            ep.stocks.forEach(stock => {
+              const sym = stock.ticker;
+              const price = parseFloat(stock.current_price);
+              const change = stock.change;
+              const changeVal = parseFloat(change.replace("%", ""));
+              const prev = price / (1 + changeVal / 100);
+              
+              globalPriceCache[sym] = {
+                price: price,
+                change: change,
+                prevClose: prev,
+                name: stock.name
+              };
+            });
+          });
+        }
+      } catch (e) {
+        console.error("Error loading data.json", e);
+      }
+
+      try {
+        // Load Portfolio PnL
+        const resPortfolio = await fetch('portfolio_pnl.json');
+        if (resPortfolio.ok) {
+          portfolioData = await resPortfolio.json();
+          // Update global cache from portfolio calculations
+          portfolioData.assets.forEach(asset => {
+            const sym = asset.symbol;
+            globalPriceCache[sym] = {
+              price: parseFloat(asset.current_price),
+              change: asset.daily_change_pct,
+              prevClose: parseFloat(asset.previous_close),
+              name: asset.name
+            };
+          });
+        }
+      } catch (e) {
+        console.error("Error loading portfolio_pnl.json", e);
+      }
+
+      // Populate displays
+      renderMentions();
+      renderPortfolio();
+      recalculateSimPnL(); // Re-calculate local simulator in case we got new price cache
+    }
+
+    // Switch between tabs
+    function switchTab(tabId) {
+      // Deactivate all tab buttons and content sections
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(section => section.classList.add('hidden'));
+
+      // Activate selected
+      document.getElementById(`tab-${tabId}`).classList.add('active');
+      document.getElementById(`content-${tabId}`).classList.remove('hidden');
+      activeTab = tabId;
+    }
+
+    // Format currency helper
+    function formatCurrency(value, isUS = false) {
+      const parsed = parseFloat(value);
+      if (isNaN(parsed)) return '$0.00';
+      return new Intl.NumberFormat('zh-TW', {
+        style: 'currency',
+        currency: isUS ? 'USD' : 'TWD',
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+      }).format(parsed);
+    }
+
+    // Render Tab 1: Gooaye Mentions
+    function renderMentions() {
+      const container = document.getElementById('episodes-container');
+      if (!gooayeData || gooayeData.length === 0) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <p>目前沒有提及股票數據。請確認 scraper.py 是否曾順利執行並生成 data.json。</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = '';
+      gooayeData.forEach(ep => {
+        const card = document.createElement('div');
+        card.className = 'episode-card card-glass';
+        
+        let stocksHtml = '';
+        if (ep.stocks && ep.stocks.length > 0) {
+          ep.stocks.forEach(stock => {
+            const isNegative = stock.change.startsWith('-');
+            const badgeClass = isNegative ? 'badge-danger' : 'badge-success';
+            const iconClass = isNegative ? 'fa-caret-down' : 'fa-caret-up';
+            const isUS = !stock.ticker.endsWith('.TW');
+            
+            stocksHtml += `
+              <div class="mention-item">
+                <div class="mention-info">
+                  <span class="mention-name">${stock.name}</span>
+                  <span class="mention-ticker">${stock.ticker}</span>
+                </div>
+                <div class="mention-financials">
+                  <span class="mention-price">${formatCurrency(stock.current_price, isUS)}</span>
+                  <span class="badge ${badgeClass}"><i class="fa-solid ${iconClass}"></i> ${stock.change}</span>
+                </div>
+              </div>
+            `;
+          });
+        } else {
+          stocksHtml = '<p class="text-muted">本集筆記未偵測到資料庫匹配之股票。</p>';
+        }
+
+        card.innerHTML = `
+          <div class="episode-card-header">
+            <div>
+              <h3>${ep.episode}</h3>
+              <span class="episode-date"><i class="fa-regular fa-calendar-days"></i> 筆記分析日期: ${ep.date}</span>
+            </div>
+            <a href="${ep.url}" target="_blank" class="btn btn-secondary btn-sm" title="前往閱讀原部落格筆記">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> 閱讀筆記
+            </a>
+          </div>
+          <div class="episode-card-body">
+            <div class="mentioned-stocks-list">
+              ${stocksHtml}
+            </div>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // Render Tab 2: Portfolio
+    function renderPortfolio() {
+      // Set update time
+      const timeContainer = document.getElementById('last-update-time');
+      if (portfolioData.summary && portfolioData.summary.update_time) {
+        timeContainer.textContent = portfolioData.summary.update_time;
+      } else {
+        timeContainer.textContent = '未更新';
+      }
+
+      if (!portfolioData.assets || portfolioData.assets.length === 0) {
+        document.getElementById('portfolio-table-body').innerHTML = `
+          <tr>
+            <td colspan="9" class="text-center">尚未載入模擬倉持股。請確認 portfolio.json 是否存在且格式正確。</td>
+          </tr>
+        `;
+        return;
+      }
+
+      const summary = portfolioData.summary;
+      
+      // Update Summary Cards
+      const totalValElem = document.getElementById('port-total-value');
+      const totalCostElem = document.getElementById('port-total-cost');
+      const totalPnlElem = document.getElementById('port-total-pnl');
+      const totalPnlPctElem = document.getElementById('port-total-pnl-pct');
+      const dailyPnlElem = document.getElementById('port-daily-pnl');
+      const dailyPctElem = document.getElementById('port-daily-pct');
+      
+      totalValElem.textContent = formatCurrency(summary.total_value);
+      totalCostElem.textContent = `投資成本: ${formatCurrency(summary.total_cost)}`;
+      
+      // PnL classes
+      setPnLStyle(totalPnlElem, summary.total_pnl, formatCurrency(summary.total_pnl));
+      totalPnlPctElem.textContent = `累積投報率: ${summary.total_pnl_pct}`;
+      totalPnlPctElem.className = parseFloat(summary.total_pnl) >= 0 ? 'card-sub-label text-success' : 'card-sub-label text-danger';
+      
+      setPnLStyle(dailyPnlElem, summary.total_daily_pnl, formatCurrency(summary.total_daily_pnl));
+      dailyPctElem.textContent = `今日變動率: ${summary.total_daily_change_pct}`;
+      dailyPctElem.className = parseFloat(summary.total_daily_pnl) >= 0 ? 'card-sub-label text-success' : 'card-sub-label text-danger';
+
+      // PnL Card Icons color
+      document.getElementById('cum-pnl-icon').className = parseFloat(summary.total_pnl) >= 0 ? 'card-icon text-success' : 'card-icon text-danger';
+      document.getElementById('daily-pnl-icon').className = parseFloat(summary.total_daily_pnl) >= 0 ? 'card-icon text-success' : 'card-icon text-danger';
+
+      // Table rows
+      const tbody = document.getElementById('portfolio-table-body');
+      tbody.innerHTML = '';
+      
+      portfolioData.assets.forEach(asset => {
+        const isUS = !asset.symbol.endsWith('.TW');
+        const pnl = parseFloat(asset.pnl);
+        const pnlClass = pnl >= 0 ? 'text-success' : 'text-danger';
+        const pnlSign = pnl >= 0 ? '+' : '';
+        
+        const dailyPnl = parseFloat(asset.daily_pnl);
+        const dailyClass = dailyPnl >= 0 ? 'text-success' : 'text-danger';
+        const dailySign = dailyPnl >= 0 ? '+' : '';
+
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td><strong>${asset.name}</strong></td>
+          <td><span class="ticker-badge">${asset.symbol}</span></td>
+          <td>${asset.shares}</td>
+          <td>${formatCurrency(asset.buy_price, isUS)}</td>
+          <td>${formatCurrency(asset.current_price, isUS)}</td>
+          <td>${formatCurrency(asset.cost)}</td>
+          <td><strong>${formatCurrency(asset.value)}</strong></td>
+          <td class="${dailyClass}">${dailySign}${formatCurrency(asset.daily_pnl)} (${asset.daily_change_pct})</td>
+          <td class="${pnlClass}"><strong>${pnlSign}${formatCurrency(asset.pnl)}</strong> (${asset.pnl_pct})</td>
+        `;
+        tbody.appendChild(row);
+      });
+
+      // Render Asset Allocation Segment Bar
+      const allocBar = document.getElementById('allocation-bar-element');
+      const allocLegend = document.getElementById('allocation-legend-element');
+      allocBar.innerHTML = '';
+      allocLegend.innerHTML = '';
+
+      const totalVal = parseFloat(summary.total_value);
+      if (totalVal > 0) {
+        // Define colors
+        const colors = [
+          'linear-gradient(135deg, #7c4dff, #448aff)', // Indigo-Blue
+          'linear-gradient(135deg, #00d084, #0693e3)', // Green-Teal
+          'linear-gradient(135deg, #ff6900, #fcb900)', // Orange-Yellow
+          'linear-gradient(135deg, #f78da7, #ab1dfe)', // Pink-Purple
+          'linear-gradient(135deg, #cf2e2e, #ff6900)'  // Red-Orange
+        ];
+
+        portfolioData.assets.forEach((asset, idx) => {
+          const val = parseFloat(asset.value);
+          const pct = (val / totalVal * 100);
+          const color = colors[idx % colors.length];
+
+          // Bar segment
+          const segment = document.createElement('div');
+          segment.className = 'alloc-segment';
+          segment.style.width = `${pct}%`;
+          segment.style.background = color;
+          segment.title = `${asset.name}: ${pct.toFixed(2)}%`;
+          allocBar.appendChild(segment);
+
+          // Legend item
+          const legendItem = document.createElement('div');
+          legendItem.className = 'legend-item';
+          legendItem.innerHTML = `
+            <span class="legend-color" style="background: ${color}"></span>
+            <span class="legend-text">${asset.name} (${pct.toFixed(2)}%)</span>
+          `;
+          allocLegend.appendChild(legendItem);
+        });
+      }
+    }
+
+    // Helper to style PnL texts
+    function setPnLStyle(element, pnlVal, text) {
+      const val = parseFloat(pnlVal);
+      if (val > 0) {
+        element.textContent = `+${text}`;
+        element.className = 'card-value text-success';
+      } else if (val < 0) {
+        element.textContent = text;
+        element.className = 'card-value text-danger';
+      } else {
+        element.textContent = text;
+        element.className = 'card-value';
+      }
+    }
+
+    // ==========================================
+    // TAB 3: LOCAL SIMULATOR LOGIC
+    // ==========================================
+    let simPortfolio = [];
+
+    function initSimTable() {
+      const stored = localStorage.getItem('gooaye_sim_portfolio');
+      if (stored) {
+        simPortfolio = JSON.parse(stored);
+      } else {
+        // Default mock portfolio to show off
+        simPortfolio = [
+          { symbol: "2330.TW", name: "台積電", buy_price: 900.0, shares: 500 },
+          { symbol: "AAPL", name: "蘋果電腦", buy_price: 180.0, shares: 10 }
+        ];
+        localStorage.setItem('gooaye_sim_portfolio', JSON.stringify(simPortfolio));
+      }
+      recalculateSimPnL();
+    }
+
+    function renderSimTable() {
+      const tbody = document.getElementById('sim-table-body');
+      if (simPortfolio.length === 0) {
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="8" class="text-center text-muted">目前尚無持股交易紀錄，請新增交易。</td>
+          </tr>
+        `;
+        return;
+      }
+
+      tbody.innerHTML = '';
+      simPortfolio.forEach((stock, idx) => {
+        const isUS = !stock.symbol.endsWith('.TW');
+        
+        // Find price in cache, fallback to buy price if unavailable
+        let currentPrice = stock.buy_price;
+        if (globalPriceCache[stock.symbol]) {
+          currentPrice = globalPriceCache[stock.symbol].price;
+        }
+
+        const cost = stock.buy_price * stock.shares;
+        const value = currentPrice * stock.shares;
+        const pnl = value - cost;
+        const pnlPct = (pnl / cost * 100);
+
+        const pnlClass = pnl >= 0 ? 'text-success' : 'text-danger';
+        const pnlSign = pnl >= 0 ? '+' : '';
+
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td><strong>${stock.name}</strong></td>
+          <td><span class="ticker-badge">${stock.symbol}</span></td>
+          <td>${stock.shares}</td>
+          <td>${formatCurrency(stock.buy_price, isUS)}</td>
+          <td>${formatCurrency(currentPrice, isUS)}</td>
+          <td>${formatCurrency(cost)}</td>
+          <td class="${pnlClass}"><strong>${pnlSign}${formatCurrency(pnl)}</strong> (${pnlPct.toFixed(2)}%)</td>
+          <td>
+            <button class="btn-delete" onclick="deleteSimStock(${idx})" title="刪除交易">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+          </td>
+        `;
+        tbody.appendChild(row);
+      });
+    }
+
+    function recalculateSimPnL() {
+      let totalCost = 0;
+      let totalValue = 0;
+
+      simPortfolio.forEach(stock => {
+        let currentPrice = stock.buy_price;
+        if (globalPriceCache[stock.symbol]) {
+          currentPrice = globalPriceCache[stock.symbol].price;
+        }
+        totalCost += stock.buy_price * stock.shares;
+        totalValue += currentPrice * stock.shares;
+      });
+
+      const totalPnl = totalValue - totalCost;
+      const totalPnlPct = totalCost > 0 ? (totalPnl / totalCost * 100) : 0;
+
+      // Update Summary UI
+      document.getElementById('sim-total-value').textContent = formatCurrency(totalValue);
+      const pnlValElem = document.getElementById('sim-total-pnl');
+      const pnlPctElem = document.getElementById('sim-total-pnl-pct');
+
+      setPnLStyle(pnlValElem, totalPnl, formatCurrency(totalPnl));
+      pnlPctElem.textContent = `投資報酬率: ${totalPnlPct.toFixed(2)}%`;
+      pnlPctElem.className = totalPnl >= 0 ? 'card-sub-label text-success' : 'card-sub-label text-danger';
+
+      renderSimTable();
+    }
+
+    function addSimStock(e) {
+      e.preventDefault();
+      const symbol = document.getElementById('sim-symbol').value.trim().toUpperCase();
+      const name = document.getElementById('sim-name').value.trim();
+      const price = parseFloat(document.getElementById('sim-price').value);
+      const shares = parseFloat(document.getElementById('sim-shares').value);
+
+      if (!symbol || !name || isNaN(price) || isNaN(shares)) return;
+
+      // Add to array
+      simPortfolio.push({
+        symbol: symbol,
+        name: name,
+        buy_price: price,
+        shares: shares
+      });
+
+      // Save and recalculate
+      localStorage.setItem('gooaye_sim_portfolio', JSON.stringify(simPortfolio));
+      recalculateSimPnL();
+
+      // Reset form
+      resetSimForm();
+    }
+
+    function deleteSimStock(idx) {
+      if (confirm(`確定要刪除 ${simPortfolio[idx].name} 的模擬持股紀錄嗎？`)) {
+        simPortfolio.splice(idx, 1);
+        localStorage.setItem('gooaye_sim_portfolio', JSON.stringify(simPortfolio));
+        recalculateSimPnL();
+      }
+    }
+
+    function resetSimForm() {
+      document.getElementById('sim-form').reset();
+    }
+  </script>
+</body>
+</html>
