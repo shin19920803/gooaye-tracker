@@ -976,3 +976,145 @@ input:focus {
 .close-banner-btn:hover {
   color: var(--color-text-primary);
 }
+
+/* ==========================================================================
+   Interactive Edit Mode Styles
+   ========================================================================== */
+.portfolio-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.mode-badge {
+  background: rgba(68, 138, 255, 0.12);
+  color: var(--accent-blue);
+  font-size: 0.75rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 6px;
+  font-weight: 600;
+  vertical-align: middle;
+  margin-left: 0.6rem;
+  border: 1px solid rgba(68, 138, 255, 0.25);
+  display: inline-block;
+}
+
+.mode-badge.edit {
+  background: rgba(255, 110, 0, 0.12);
+  color: #ffab40;
+  border-color: rgba(255, 110, 0, 0.25);
+}
+
+.mode-toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 1rem !important;
+  border-radius: 14px !important;
+  background: var(--glass-bg);
+}
+
+.toggle-label {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  font-weight: 600;
+}
+
+/* iOS/Material Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: .3s;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  bottom: 3px;
+  background-color: #fff;
+  transition: .3s;
+}
+
+input:checked + .slider {
+  background: var(--accent-gradient);
+  border-color: transparent;
+  box-shadow: 0 0 10px rgba(124, 77, 255, 0.35);
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+.slider.round {
+  border-radius: 24px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Horizontal Form Alignment in Edit Mode */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.form-row .form-group {
+  flex: 1 1 180px;
+  margin-bottom: 0;
+}
+
+.form-row .form-button-group {
+  flex: 0 0 auto;
+  margin-bottom: 0;
+}
+
+.price-est-tag {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.1rem 0.25rem;
+  border-radius: 4px;
+  margin-left: 0.35rem;
+  vertical-align: middle;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.formula-box code {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.formula-box code:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: #ffd54f !important;
+  transform: scale(1.01);
+}
+
