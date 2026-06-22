@@ -20,7 +20,7 @@
     <!-- Local File Warning Banner -->
     <div id="file-protocol-warning" class="warning-banner hidden">
       <i class="fa-solid fa-triangle-exclamation"></i>
-      <span>偵測到您直接雙擊 HTML 檔案開啟網頁 (<code>file://</code>)。由於瀏覽器的安全限制 (CORS)，無法直接讀取本地 JSON 數據。建議使用 Python 啟動伺服器或部署至 GitHub Pages。您仍可正常使用「本地自訂編輯模式」。</span>
+      <span>偵測到您直接雙擊 HTML 檔案開啟網頁 (<code>file://</code>)。由於瀏覽器的安全限制 (CORS)，無法直接讀取本地 JSON 數據。建議使用 Python 啟動伺服器或部署至 GitHub Pages。您仍可正常使用「本地自訂編輯模式」與單鍵模擬買入。</span>
       <button class="close-banner-btn" onclick="document.getElementById('file-protocol-warning').classList.add('hidden')">&times;</button>
     </div>
 
@@ -62,7 +62,7 @@
             <i class="fa-solid fa-bullhorn icon-accent"></i>
             <h2>最新集數股票提及統計</h2>
           </div>
-          <p class="section-desc">分析最新五集股癌筆記，比對股票資料庫標記出熱門標的。</p>
+          <p class="section-desc">分析最新五集股癌筆記，比對股票資料庫標記出熱門標的。點選「模擬買入」可直接轉入模擬倉。</p>
         </div>
         <div class="episodes-grid" id="episodes-container">
           <div class="loading-state">
@@ -279,6 +279,41 @@
       </section>
     </main>
 
+    <!-- Buy Modal -->
+    <div id="buy-modal" class="modal-overlay hidden">
+      <div class="modal-card card-glass animate-fade-in-up">
+        <div class="modal-header">
+          <h3><i class="fa-solid fa-cart-shopping text-success"></i> 模擬買入提及標的</h3>
+          <button class="modal-close-btn" onclick="closeBuyModal()">&times;</button>
+        </div>
+        <form id="modal-buy-form" onsubmit="confirmBuyStock(event)">
+          <input type="hidden" id="modal-symbol">
+          <div class="form-group">
+            <label>股票名稱</label>
+            <input type="text" id="modal-name" readonly class="readonly-input">
+          </div>
+          <div class="form-group-row">
+            <div class="form-group">
+              <label>買入日期</label>
+              <input type="date" id="modal-date" required>
+            </div>
+            <div class="form-group">
+              <label>買入價格 (當前市價)</label>
+              <input type="number" id="modal-price" step="0.01" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="modal-shares">買入股數 (Shares)</label>
+            <input type="number" id="modal-shares" step="0.01" min="0.01" placeholder="請輸入欲購買股數，如 1000" required>
+          </div>
+          <div class="modal-actions">
+            <button type="submit" class="btn btn-primary"><i class="fa-solid fa-check"></i> 確認買入</button>
+            <button type="button" class="btn btn-secondary" onclick="closeBuyModal()">取消</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer class="app-footer animate-fade-in">
       <p>© 2026 股癌筆記 & 模擬倉追蹤器 | 設計致敬 Gooaye Podcast 聽眾小社群</p>
@@ -378,6 +413,7 @@
       // Populate displays
       renderMentions();
       renderActivePortfolio();
+      toggleEditMode(isEditMode); // Sync UI elements visibility
     }
 
     function initializeCustomPortfolio() {
@@ -387,13 +423,13 @@
           name: asset.name,
           buy_price: parseFloat(asset.buy_price),
           shares: parseFloat(asset.shares),
+          buy_date: asset.buy_date || "2026-06-15",
           custom_price: null
         }));
       } else {
-        // Backup defaults
         customPortfolio = [
-          { symbol: "2330.TW", name: "台積電", buy_price: 950.0, shares: 1000, custom_price: null },
-          { symbol: "NVDA", name: "輝達", buy_price: 120.0, shares: 100, custom_price: null }
+          { symbol: "2330.TW", name: "台積電", buy_price: 950.0, shares: 1000, buy_date: "2026-06-10", custom_price: null },
+          { symbol: "NVDA", name: "輝達", buy_price: 120.0, shares: 100, buy_date: "2026-06-15", custom_price: null }
         ];
       }
       localStorage.setItem('gooaye_custom_portfolio', JSON.stringify(customPortfolio));
@@ -490,9 +526,14 @@
                   <span class="mention-name">${stock.name}</span>
                   <span class="mention-ticker">${stock.ticker}</span>
                 </div>
-                <div class="mention-financials">
-                  <span class="mention-price">${formatCurrency(stock.current_price, isUS)}</span>
-                  <span class="badge ${badgeClass}"><i class="fa-solid ${iconClass}"></i> ${stock.change}</span>
+                <div class="mention-actions-flex">
+                  <div class="mention-financials">
+                    <span class="mention-price">${formatCurrency(stock.current_price, isUS)}</span>
+                    <span class="badge ${badgeClass}"><i class="fa-solid ${iconClass}"></i> ${stock.change}</span>
+                  </div>
+                  <button class="btn-buy-sm" onclick="openBuyModal('${stock.name}', '${stock.ticker}', ${stock.current_price})">
+                    <i class="fa-solid fa-cart-plus"></i> 模擬買入
+                  </button>
                 </div>
               </div>
             `;
@@ -505,7 +546,7 @@
           <div class="episode-card-header">
             <div>
               <h3>${ep.episode}</h3>
-              <span class="episode-date"><i class="fa-regular fa-calendar-days"></i> 筆記分析日期: ${ep.date}</span>
+              <span class="episode-date"><i class="fa-regular fa-calendar-days"></i> 筆記發布日期: ${ep.date}</span>
             </div>
             <a href="${ep.url}" target="_blank" class="btn btn-secondary btn-sm" title="前往閱讀原部落格筆記">
               <i class="fa-solid fa-arrow-up-right-from-square"></i> 閱讀筆記
@@ -539,7 +580,6 @@
         timeContainer.textContent = '未更新';
       }
 
-      // Show daily card
       document.getElementById('daily-card-container').style.display = 'flex';
 
       if (!defaultPortfolioData.assets || defaultPortfolioData.assets.length === 0) {
@@ -588,11 +628,9 @@
 
     // Render custom portfolio calculated client-side in edit mode
     function renderCustomPortfolio() {
-      // Set update time indicator to local current time
       const timeContainer = document.getElementById('last-update-time');
       timeContainer.textContent = '即時計算';
 
-      // Hide daily card in local mode (since daily change depends on yesterday's close, which might not be cached)
       document.getElementById('daily-card-container').style.display = 'none';
 
       const tbody = document.getElementById('portfolio-table-body');
@@ -613,8 +651,6 @@
 
       customPortfolio.forEach(stock => {
         const isUS = !stock.symbol.endsWith('.TW');
-        
-        // Find price in cache, fallback to buy price, or use custom price if set
         let currentPrice = stock.buy_price;
         let isEstimated = true;
 
@@ -649,10 +685,8 @@
       const totalPnl = totalValue - totalCost;
       const totalPnlPct = totalCost > 0 ? (totalPnl / totalCost * 100) : 0;
 
-      // Update Summary cards
       updateSummaryCards(totalValue, totalCost, totalPnl, `${totalPnlPct.toFixed(2)}%`, 0, '0%');
 
-      // Populate Table Rows
       tbody.innerHTML = '';
       processedAssets.forEach((asset, idx) => {
         const pnlClass = asset.pnl >= 0 ? 'text-success' : 'text-danger';
@@ -703,7 +737,6 @@
         dailyPctElem.className = parseFloat(dailyPnl) >= 0 ? 'card-sub-label text-success' : 'card-sub-label text-danger';
       }
 
-      // Update icon classes
       document.getElementById('cum-pnl-icon').className = parseFloat(totalPnl) >= 0 ? 'card-icon text-success' : 'card-icon text-danger';
       if (document.getElementById('daily-pnl-icon')) {
         document.getElementById('daily-pnl-icon').className = parseFloat(dailyPnl) >= 0 ? 'card-icon text-success' : 'card-icon text-danger';
@@ -719,7 +752,7 @@
       document.getElementById('port-total-pnl-pct').className = 'card-sub-label';
     }
 
-    // Helper: style PnL texts
+    // Helper to style PnL texts
     function setPnLStyle(element, pnlVal, text) {
       const val = parseFloat(pnlVal);
       if (val > 0) {
@@ -761,7 +794,6 @@
           const pct = (val / totalVal * 100);
           const color = colors[idx % colors.length];
 
-          // Bar segment
           const segment = document.createElement('div');
           segment.className = 'alloc-segment';
           segment.style.width = `${pct}%`;
@@ -769,7 +801,6 @@
           segment.title = `${asset.name}: ${pct.toFixed(2)}%`;
           allocBar.appendChild(segment);
 
-          // Legend item
           const legendItem = document.createElement('div');
           legendItem.className = 'legend-item';
           legendItem.innerHTML = `
@@ -791,6 +822,11 @@
       const price = parseFloat(document.getElementById('sim-price').value);
       const shares = parseFloat(document.getElementById('sim-shares').value);
       
+      const today = new Date();
+      const offset = today.getTimezoneOffset();
+      const localToday = new Date(today.getTime() - (offset*60*1000));
+      const dateStr = localToday.toISOString().split('T')[0];
+      
       const customPriceInput = document.getElementById('sim-custom-price').value;
       const customPrice = customPriceInput !== "" ? parseFloat(customPriceInput) : null;
 
@@ -801,20 +837,24 @@
         name: name,
         buy_price: price,
         shares: shares,
+        buy_date: dateStr,
         custom_price: customPrice
       });
 
       localStorage.setItem('gooaye_custom_portfolio', JSON.stringify(customPortfolio));
       renderActivePortfolio();
       document.getElementById('sim-form').reset();
+      showToast(`成功將 ${name} 加入您的自訂模擬倉！`);
     }
 
     // Delete Custom Stock
     function deleteCustomStock(idx) {
       if (confirm(`確定要刪除 ${customPortfolio[idx].name} 嗎？`)) {
+        const deletedName = customPortfolio[idx].name;
         customPortfolio.splice(idx, 1);
         localStorage.setItem('gooaye_custom_portfolio', JSON.stringify(customPortfolio));
         renderActivePortfolio();
+        showToast(`已刪除 ${deletedName} 的模擬持股。`);
       }
     }
 
@@ -823,6 +863,7 @@
       if (confirm('確定要清除所有網頁上的自訂修改，還原為 GitHub 預設的 portfolio.json 持股數據嗎？')) {
         initializeCustomPortfolio();
         renderActivePortfolio();
+        showToast('已還原為 GitHub 預設持股配置！');
       }
     }
 
@@ -833,7 +874,8 @@
           symbol: s.symbol,
           name: s.name,
           buy_price: s.buy_price,
-          shares: s.shares
+          shares: s.shares,
+          buy_date: s.buy_date || "2026-06-15"
         })), null, 2
       ));
       const downloadAnchor = document.createElement('a');
@@ -844,6 +886,76 @@
       downloadAnchor.remove();
     }
 
+    // ==========================================
+    // ONE-CLICK BUY FROM MENTIONS LOGIC
+    // ==========================================
+    function openBuyModal(name, symbol, price) {
+      document.getElementById('modal-symbol').value = symbol;
+      document.getElementById('modal-name').value = name;
+      document.getElementById('modal-price').value = price;
+      
+      const today = new Date();
+      const offset = today.getTimezoneOffset();
+      const localToday = new Date(today.getTime() - (offset*60*1000));
+      document.getElementById('modal-date').value = localToday.toISOString().split('T')[0];
+      
+      document.getElementById('modal-shares').value = '';
+      
+      document.getElementById('buy-modal').classList.remove('hidden');
+    }
+
+    function closeBuyModal() {
+      document.getElementById('buy-modal').classList.add('hidden');
+    }
+
+    function confirmBuyStock(e) {
+      e.preventDefault();
+      const symbol = document.getElementById('modal-symbol').value;
+      const name = document.getElementById('modal-name').value;
+      const date = document.getElementById('modal-date').value;
+      const price = parseFloat(document.getElementById('modal-price').value);
+      const shares = parseFloat(document.getElementById('modal-shares').value);
+
+      if (isNaN(price) || isNaN(shares) || !date) return;
+
+      customPortfolio.push({
+        symbol: symbol,
+        name: name,
+        buy_price: price,
+        shares: shares,
+        buy_date: date,
+        custom_price: null
+      });
+
+      localStorage.setItem('gooaye_custom_portfolio', JSON.stringify(customPortfolio));
+      
+      closeBuyModal();
+      
+      showToast(`模擬買入成功！以 $${price} 買入 ${shares} 股 ${name}。`);
+
+      switchTab('portfolio');
+      document.getElementById('edit-mode-checkbox').checked = true;
+      toggleEditMode(true);
+    }
+
+    // Show floating toast message
+    function showToast(message) {
+      const existing = document.querySelector('.toast-notification');
+      if (existing) existing.remove();
+
+      const toast = document.createElement('div');
+      toast.className = 'toast-notification';
+      toast.innerHTML = `
+        <i class="fa-solid fa-circle-check"></i>
+        <div class="toast-message">${message}</div>
+      `;
+      document.body.appendChild(toast);
+      
+      setTimeout(() => {
+        toast.remove();
+      }, 3500);
+    }
+
     // Copy to clipboard helper
     function copyText(key) {
       let text = '';
@@ -852,7 +964,7 @@
       else if (key === 'TPE:2330_yest') text = '=GOOGLEFINANCE("TPE:2330", "closeyest")';
       
       navigator.clipboard.writeText(text).then(() => {
-        alert(`已複製公式：${text}`);
+        showToast(`已複製公式：${text}`);
       }).catch(err => {
         console.error('無法複製公式：', err);
       });
