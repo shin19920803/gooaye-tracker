@@ -1,24 +1,28 @@
 name: AutoUpdate
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天早上 8 點執行一次
-  workflow_dispatch:
+    - cron: '0 0 * * *' # 每天執行
+  workflow_dispatch:      # 允許手動執行
+
+permissions:
+  contents: write         # 重要：開啟寫入權限，解決 Exit Code 128
+
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4   # 升級到 v4
+      - uses: actions/setup-python@v5 # 升級到 v5
         with:
-          python-version: '3.9'
+          python-version: '3.10'
       - name: Install
         run: pip install -r requirements.txt
       - name: Scrape
         run: python scraper.py
-      - name: Commit
+      - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "Update Data" || exit 0
+          git commit -m "Update Data" || exit 0 # 如果沒有資料更新就跳過
           git push
