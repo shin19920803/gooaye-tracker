@@ -1,8 +1,14 @@
 [
     {
+        "episode": "股癌筆記EP672",
+        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-672/",
+        "date": "2026-06-21",
+        "stocks": []
+    },
+    {
         "episode": "股癌筆記EP671",
         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-671/",
-        "date": "2026-06-22",
+        "date": "2026-06-17",
         "stocks": [
             {
                 "name": "台積電",
@@ -13,9 +19,15 @@
         ]
     },
     {
+        "episode": "股癌筆記EP670",
+        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-670/",
+        "date": "2026-06-13",
+        "stocks": []
+    },
+    {
         "episode": "股癌筆記EP669",
         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-669/",
-        "date": "2026-06-22",
+        "date": "2026-06-10",
         "stocks": [
             {
                 "name": "台積電",
@@ -46,7 +58,7 @@
     {
         "episode": "股癌筆記EP668",
         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-668/",
-        "date": "2026-06-22",
+        "date": "2026-06-06",
         "stocks": [
             {
                 "name": "輝達",
@@ -65,6 +77,143 @@
                 "ticker": "AAPL",
                 "current_price": 298.01,
                 "change": "0.7%"
+            }
+        ]
+    },
+    {
+        "episode": "股癌筆記EP667",
+        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-667/",
+        "date": "2026-06-03",
+        "stocks": [
+            {
+                "name": "Marvell",
+                "ticker": "MRVL",
+                "current_price": 310.58,
+                "change": "7.27%"
+            },
+            {
+                "name": "輝達",
+                "ticker": "NVDA",
+                "current_price": 210.69,
+                "change": "2.95%"
+            },
+            {
+                "name": "聯發科",
+                "ticker": "2454.TW",
+                "current_price": 4465.0,
+                "change": "1.71%"
+            },
+            {
+                "name": "台積電",
+                "ticker": "2330.TW",
+                "current_price": 2510.0,
+                "change": "4.15%"
+            }
+        ]
+    },
+    {
+        "episode": "股癌筆記EP666",
+        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-666/",
+        "date": "2026-05-31",
+        "stocks": [
+            {
+                "name": "蘋果",
+                "ticker": "AAPL",
+                "current_price": 298.01,
+                "change": "0.7%"
+            },
+            {
+                "name": "微軟",
+                "ticker": "MSFT",
+                "current_price": 379.4,
+                "change": "0.13%"
+            },
+            {
+                "name": "Google",
+                "ticker": "GOOGL",
+                "current_price": 368.03,
+                "change": "1.17%"
+            },
+            {
+                "name": "亞馬遜",
+                "ticker": "AMZN",
+                "current_price": 244.39,
+                "change": "2.9%"
+            }
+        ]
+    },
+    {
+        "episode": "股癌筆記EP665",
+        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-665/",
+        "date": "2026-05-27",
+        "stocks": [
+            {
+                "name": "台積電",
+                "ticker": "2330.TW",
+                "current_price": 2510.0,
+                "change": "4.15%"
+            },
+            {
+                "name": "特斯拉",
+                "ticker": "TSLA",
+                "current_price": 400.49,
+                "change": "1.04%"
+            }
+        ]
+    },
+    {
+        "episode": "股癌筆記EP664",
+        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
+        "date": "2026-05-23",
+        "stocks": [
+            {
+                "name": "Google",
+                "ticker": "GOOGL",
+                "current_price": 368.03,
+                "change": "1.17%"
+            },
+            {
+                "name": "台積電",
+                "ticker": "2330.TW",
+                "current_price": 2510.0,
+                "change": "4.15%"
+            },
+            {
+                "name": "輝達",
+                "ticker": "NVDA",
+                "current_price": 210.69,
+                "change": "2.95%"
+            }
+        ]
+    },
+    {
+        "episode": "股癌筆記EP663",
+        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-663/",
+        "date": "2026-05-20",
+        "stocks": [
+            {
+                "name": "Google",
+                "ticker": "GOOGL",
+                "current_price": 368.03,
+                "change": "1.17%"
+            },
+            {
+                "name": "聯發科",
+                "ticker": "2454.TW",
+                "current_price": 4465.0,
+                "change": "1.71%"
+            },
+            {
+                "name": "蘋果",
+                "ticker": "AAPL",
+                "current_price": 298.01,
+                "change": "0.7%"
+            },
+            {
+                "name": "輝達",
+                "ticker": "NVDA",
+                "current_price": 210.69,
+                "change": "2.95%"
             }
         ]
     }

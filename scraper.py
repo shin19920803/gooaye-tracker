@@ -5,6 +5,7 @@ import json
 import datetime
 import os
 import re
+import time
 
 # 強化版股票名稱與代碼對照表 (這部分您可以持續手動增加)
 STOCK_DATABASE = {
@@ -22,7 +23,6 @@ def get_stock_info(ticker):
         hist = stock.history(period="5d")
         if hist.empty:
             return None
-        # 確保數值為原生 Python float，避免 JSON 序列化錯誤
         curr_price = float(hist['Close'].iloc[-1])
         prev_price = float(hist['Close'].iloc[-2])
         change_pct = ((curr_price - prev_price) / prev_price) * 100
@@ -57,10 +57,10 @@ def scrape_episodes():
         
     soup = BeautifulSoup(res.text, 'html.parser')
     
-    # 獲取最新 5 個單集連結與標題
+    # 獲取最新 12 個單集連結與標題
     episode_elements = soup.select('h2.wp-block-post-title a')
     episodes_to_scrape = []
-    for el in episode_elements[:5]:
+    for el in episode_elements[:12]:
         title = el.text.strip()
         url = el.get('href')
         episodes_to_scrape.append((title, url))
@@ -70,6 +70,7 @@ def scrape_episodes():
     
     for title, url in episodes_to_scrape:
         print(f"Scraping episode: {title} ({url})")
+        time.sleep(0.5)  # 禮貌爬取
         try:
             ep_res = requests.get(url, headers=headers)
             ep_res.encoding = 'utf-8'
@@ -81,6 +82,13 @@ def scrape_episodes():
             continue
             
         ep_soup = BeautifulSoup(ep_res.text, 'html.parser')
+        
+        # 取得發布日期
+        pub_date = datetime.datetime.now().strftime("%Y-%m-%d")
+        date_meta = ep_soup.find('meta', property='article:published_time')
+        if date_meta:
+            pub_date = date_meta.get('content')[:10]
+            
         paragraphs = [p.get_text().strip() for p in ep_soup.select('div.entry-content p, div.kv-page-content p') if p.get_text().strip()]
         
         found_stocks = {}
@@ -101,13 +109,13 @@ def scrape_episodes():
                                 "change": price_cache[ticker]["change"]
                             }
                             
-        if found_stocks:
-            results.append({
-                "episode": title,
-                "url": url,
-                "date": datetime.datetime.now().strftime("%Y-%m-%d"),
-                "stocks": list(found_stocks.values())
-            })
+        # 即使該集沒提到股票，也加入結果中，保留集數順序
+        results.append({
+            "episode": title,
+            "url": url,
+            "date": pub_date,
+            "stocks": list(found_stocks.values())
+        })
             
     return results
 
