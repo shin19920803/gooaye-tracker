@@ -226,7 +226,8 @@ def search_netizen_links(ep_num):
     queries = [
         f"股癌 EP{ep_num} 筆記",
         f"股癌 EP{ep_num} PTT",
-        f"股癌 EP{ep_num} 暗示"
+        f"股癌 EP{ep_num} 暗示",
+        f"site:ptt.cc 股癌 EP{ep_num}"
     ]
     links = []
     
@@ -476,10 +477,17 @@ def scrape_episodes():
     episode_elements = soup.select('h2.wp-block-post-title a')
     
     episodes_to_scrape = []
-    for el in episode_elements[:10]: # 抓取最新的前 10 集，確保資訊充足
+    for el in episode_elements:
         title = el.text.strip()
-        url = el.get('href')
-        episodes_to_scrape.append((title, url))
+        url = el.get('href', '')
+        # 篩選真實單集，過濾掉總分類導覽目錄（如 ep-600-to-700）
+        if 'notes-of-gooaye-ep-' in url or re.search(r'(?:EP|ep)?\s*\d+', title):
+            if 'ep-' in url and '-to-' in url:
+                continue
+            episodes_to_scrape.append((title, url))
+            
+    # 只取前 10 個真正的最新單集，確保資料正確且覆蓋完整
+    episodes_to_scrape = episodes_to_scrape[:10]
         
     results = []
     price_cache = {}

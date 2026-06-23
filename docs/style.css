@@ -1339,31 +1339,58 @@ input:checked + .slider:before {
 .stock-mentions-container {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  margin-top: 0.5rem;
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+  width: 100%;
 }
 
 .source-mention-block {
   display: flex;
   flex-direction: column;
+  gap: 0.4rem;
+  padding: 0.55rem 0.75rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 6px;
+  border-left: 3px solid var(--accent-blue);
+  transition: background var(--transition-speed) ease, border-color var(--transition-speed) ease;
+}
+
+.source-mention-block:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-left-color: var(--accent-purple);
+}
+
+.source-reason-row {
+  display: flex;
   align-items: flex-start;
-  gap: 0.25rem;
+  gap: 0.3rem;
+}
+
+.reason-quote-mark {
+  color: var(--accent-blue);
+  font-family: Georgia, serif;
+  font-size: 1.3rem;
+  line-height: 1;
+  margin-top: -3px;
+  opacity: 0.8;
 }
 
 .source-reason-text {
-  font-size: 0.76rem;
+  font-size: 0.78rem;
   color: var(--color-text-secondary);
-  font-style: italic;
-  border-left: 2px solid var(--accent-blue);
-  padding-left: 8px;
-  margin-left: 2px;
-  line-height: 1.4;
+  line-height: 1.45;
   word-break: break-all;
   transition: color var(--transition-speed) ease;
 }
 
 .source-mention-block:hover .source-reason-text {
   color: var(--color-text-primary);
+}
+
+.source-badge-row {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.1rem;
 }
 
 .stock-source-badge {
@@ -1413,6 +1440,146 @@ input:checked + .slider:before {
   background: hsla(200, 15%, 50%, 0.12);
   border: 1px solid hsla(200, 15%, 50%, 0.25);
   color: hsl(200, 15%, 80%);
+}
+
+/* ==========================================================================
+   Server Actions & Loading Overlay CSS Styles
+   ========================================================================== */
+.btn-update-data {
+  background: var(--accent-gradient);
+  color: #fff;
+  border: none;
+  font-size: 0.75rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(124, 77, 255, 0.3);
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  margin-left: 0.75rem;
+}
+
+.btn-update-data:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(124, 77, 255, 0.5);
+  filter: brightness(1.1);
+}
+
+.btn-update-data i {
+  transition: transform 0.5s ease;
+}
+
+.btn-update-data:hover i {
+  transform: rotate(180deg);
+}
+
+#local-server-actions {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(8, 5, 23, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.loading-overlay.hidden {
+  display: none !important;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loading-overlay-content {
+  max-width: 450px;
+  padding: 2.5rem;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: var(--glass-shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(68, 138, 255, 0.1);
+  border: 1px solid rgba(68, 138, 255, 0.2);
+  margin-bottom: 0.5rem;
+}
+
+.spinner-large {
+  font-size: 2rem;
+  color: var(--accent-blue);
+  animation: fa-spin 2s linear infinite;
+}
+
+.loading-overlay-content h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.loading-overlay-content p {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Progress bar animation */
+.progress-bar-container {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  width: 100%;
+  background: var(--accent-gradient);
+  animation: pulse-progress 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  transform-origin: left;
+}
+
+@keyframes pulse-progress {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(0.7);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }
 
 

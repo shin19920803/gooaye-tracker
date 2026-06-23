@@ -14,6 +14,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+  <!-- Loading Overlay for Scraper -->
+  <div id="scraper-loading-overlay" class="loading-overlay hidden">
+    <div class="loading-overlay-content">
+      <div class="spinner-container">
+        <i class="fa-solid fa-arrows-rotate fa-spin spinner-large"></i>
+      </div>
+      <h3>正在本機爬取最新集數與更新報價...</h3>
+      <p>正在爬梳股癌官方筆記、PTT 股板及各大網友分析專欄，並擷取看好理由，大約需要 1 至 2 分鐘，請耐心等候。</p>
+      <div class="progress-bar-container">
+        <div class="progress-bar-fill"></div>
+      </div>
+    </div>
+  </div>
   <div class="stars-overlay"></div>
   <div class="app-container">
     
@@ -37,6 +50,11 @@
         <span class="pulse-dot"></span>
         <span class="meta-label">數據更新時間：</span>
         <span class="meta-value" id="last-update-time">載入中...</span>
+        <div id="local-server-actions" class="hidden">
+          <button class="btn-update-data" onclick="triggerScraperUpdate()">
+            <i class="fa-solid fa-arrows-rotate"></i> 一鍵更新數據
+          </button>
+        </div>
       </div>
     </header>
 
@@ -344,6 +362,15 @@
       if (window.location.protocol === 'file:') {
         document.getElementById('file-protocol-warning').classList.remove('hidden');
       }
+      
+      // Show update button if running on local server
+      if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.port === '8000') {
+        const localMeta = document.getElementById('local-server-actions');
+        if (localMeta) {
+          localMeta.classList.remove('hidden');
+        }
+      }
+      
       loadData();
     });
 
@@ -432,7 +459,7 @@
           { symbol: "NVDA", name: "輝達", buy_price: 120.0, shares: 100, buy_date: "2026-06-15", custom_price: null }
         ];
       }
-      localStorage.setItem('gooaye_custom_portfolio', JSON.stringify(customPortfolio));
+      savePortfolio(customPortfolio);
     }
 
     // Switch between tabs
@@ -532,11 +559,16 @@
                     else if (name.includes('官方')) badgeClass = 'source-badge-official';
                     else if (name.includes('麻瓜')) badgeClass = 'source-badge-muggle';
                     
-                    const reasonHtml = m.reason ? `<div class="source-reason-text">「${m.reason}」</div>` : '';
+                    const reasonText = m.reason ? m.reason : '提及此標的，無特定描述。';
                     return `
                       <div class="source-mention-block">
-                        <a href="${m.url}" target="_blank" class="stock-source-badge ${badgeClass}" title="前往閱讀網友討論原文">${name}</a>
-                        ${reasonHtml}
+                        <div class="source-reason-row">
+                          <span class="reason-quote-mark">“</span>
+                          <span class="source-reason-text">${reasonText}</span>
+                        </div>
+                        <div class="source-badge-row">
+                          <a href="${m.url}" target="_blank" class="stock-source-badge ${badgeClass}" title="前往閱讀網友討論原文">${name}</a>
+                        </div>
                       </div>
                     `;
                   }).join('')}
@@ -546,7 +578,13 @@
               mentionsHtml = `
                 <div class="stock-mentions-container">
                   <div class="source-mention-block">
-                    <a href="${ep.url}" target="_blank" class="stock-source-badge source-badge-official" title="前往閱讀官方原筆記">官方原筆記</a>
+                    <div class="source-reason-row">
+                      <span class="reason-quote-mark">“</span>
+                      <span class="source-reason-text">股癌於最新一集節目筆記中提及此標的。</span>
+                    </div>
+                    <div class="source-badge-row">
+                      <a href="${ep.url}" target="_blank" class="stock-source-badge source-badge-official" title="前往閱讀官方原筆記">官方原筆記</a>
+                    </div>
                   </div>
                 </div>
               `;
@@ -895,7 +933,7 @@
         custom_price: customPrice
       });
 
-      localStorage.setItem('gooaye_custom_portfolio', JSON.stringify(customPortfolio));
+      savePortfolio(customPortfolio);
       renderActivePortfolio();
       document.getElementById('sim-form').reset();
       showToast(`成功將 ${name} 加入您的自訂模擬倉！`);
@@ -906,7 +944,7 @@
       if (confirm(`確定要刪除 ${customPortfolio[idx].name} 嗎？`)) {
         const deletedName = customPortfolio[idx].name;
         customPortfolio.splice(idx, 1);
-        localStorage.setItem('gooaye_custom_portfolio', JSON.stringify(customPortfolio));
+        savePortfolio(customPortfolio);
         renderActivePortfolio();
         showToast(`已刪除 ${deletedName} 的模擬持股。`);
       }
@@ -981,7 +1019,7 @@
         custom_price: null
       });
 
-      localStorage.setItem('gooaye_custom_portfolio', JSON.stringify(customPortfolio));
+      savePortfolio(customPortfolio);
       
       closeBuyModal();
       
@@ -1022,7 +1060,56 @@
       }).catch(err => {
         console.error('無法複製公式：', err);
       });
-    }
-  </script>
+      }
+
+      // Sync portfolio to local server if running locally
+      function savePortfolio(portfolio) {
+        localStorage.setItem('gooaye_custom_portfolio', JSON.stringify(portfolio));
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.port === '8000') {
+          fetch('/api/save-portfolio', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(portfolio)
+          })
+          .then(res => res.json())
+          .then(data => {
+            console.log("Portfolio synced to local server successfully:", data);
+          })
+          .catch(err => {
+            console.error("Failed to sync portfolio to local server:", err);
+          });
+        }
+      }
+
+      // Trigger local scraper execution
+      function triggerScraperUpdate() {
+        const overlay = document.getElementById('scraper-loading-overlay');
+        overlay.classList.remove('hidden');
+        
+        fetch('/api/run-scraper', {
+          method: 'POST'
+        })
+        .then(res => {
+          if (!res.ok) {
+            throw new Error("更新失敗");
+          }
+          return res.json();
+        })
+        .then(data => {
+          // Clear local storage custom portfolio so it resets to the new server PnL state
+          localStorage.removeItem('gooaye_custom_portfolio');
+          showToast("本機數據更新成功！正在重新載入網頁...");
+          setTimeout(() => {
+            window.location.reload();
+          }, 1500);
+        })
+        .catch(err => {
+          alert("本機數據更新失敗：" + err.message);
+          overlay.classList.add('hidden');
+        });
+      }
+    </script>
 </body>
 </html>
