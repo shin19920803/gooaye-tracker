@@ -6,15 +6,29 @@ import datetime
 import os
 import re
 import time
+from urllib.parse import urlparse, parse_qs
 
-# 強化版股票名稱與代碼對照表 (這部分您可以持續手動增加)
+# 擴充版股票資料庫 (涵蓋主要美股/台股科技股與半導體股)
 STOCK_DATABASE = {
-    "台積電": "2330.TW", "聯電": "2303.TW", "鴻海": "2317.TW", "長榮": "2603.TW",
+    "台積電": "2330.TW", "台積": "2330.TW", "TSMC": "2330.TW",
+    "聯電": "2303.TW", "鴻海": "2317.TW", "長榮": "2603.TW",
     "聯發科": "2454.TW", "廣達": "2382.TW", "緯創": "3231.TW", "技嘉": "2376.TW",
-    "Nvidia": "NVDA", "輝達": "NVDA", "Apple": "AAPL", "蘋果": "AAPL",
-    "Tesla": "TSLA", "特斯拉": "TSLA", "Marvell": "MRVL", "AMD": "AMD",
-    "Microsoft": "MSFT", "微軟": "MSFT", "Google": "GOOGL", "谷歌": "GOOGL",
-    "Amazon": "AMZN", "亞馬遜": "AMZN", "Meta": "META", "美光": "MU"
+    "世界先進": "5347.TW", "大中": "6435.TW", "國巨": "2327.TW", "欣興": "3037.TW",
+    "世芯": "3661.TW", "創意": "3443.TW", "智原": "3035.TW", "台達電": "2308.TW",
+    "信驊": "5274.TW", "智邦": "2345.TW", "健策": "3653.TW", "川湖": "2059.TW",
+    "奇鋐": "3017.TW", "雙鴻": "3324.TW", "神達": "2370.TW", "英業達": "2356.TW",
+    "金像電": "2368.TW", 
+    "Nvidia": "NVDA", "輝達": "NVDA", "NVDA": "NVDA",
+    "Apple": "AAPL", "蘋果": "AAPL", "AAPL": "AAPL",
+    "Tesla": "TSLA", "特斯拉": "TSLA", "TSLA": "TSLA",
+    "Marvell": "MRVL", "MRVL": "MRVL",
+    "AMD": "AMD", "Microsoft": "MSFT", "微軟": "MSFT", 
+    "Google": "GOOGL", "谷歌": "GOOGL", "GOOGL": "GOOGL",
+    "Amazon": "AMZN", "亞馬遜": "AMZN", "Meta": "META", 
+    "美光": "MU", "MU": "MU", "Vishay": "VSH", "VSH": "VSH",
+    "Broadcom": "AVGO", "博通": "AVGO", "AVGO": "AVGO",
+    "Supermicro": "SMCI", "SMCI": "SMCI", "ASML": "ASML",
+    "Intel": "INTC", "英特爾": "INTC"
 }
 
 def get_stock_info(ticker):
@@ -36,8 +50,81 @@ def get_stock_info(ticker):
         print(f"Error fetching stock info for {ticker}: {e}")
         return None
 
+def search_netizen_links(ep_num):
+    """
+    使用 DuckDuckGo HTML 版搜尋有關該集股癌筆記的網頁、部落格或論壇文章
+    """
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'Accept-Language': 'zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+    
+    # 建構多個搜尋關鍵字，提高涵蓋度
+    queries = [f"股癌 EP{ep_num}", f"股癌 {ep_num} 筆記"]
+    links = []
+    
+    for q in queries:
+        url = f"https://html.duckduckgo.com/html/?q={q}"
+        try:
+            res = requests.get(url, headers=headers, timeout=5)
+            if res.status_code == 200:
+                soup = BeautifulSoup(res.text, 'html.parser')
+                for a in soup.select('a.result__url'):
+                    href = a.get('href', '')
+                    if 'uddg=' in href:
+                        real_url = parse_qs(urlparse(href).query).get('uddg', [None])[0]
+                        if real_url and real_url not in links:
+                            links.append(real_url)
+            time.sleep(0.3)
+        except Exception as e:
+            print(f"Error searching DuckDuckGo for '{q}': {e}")
+            
+    # 過濾連結，排除聲音平台與無關網站
+    filtered = []
+    for l in links:
+        l_lower = l.lower()
+        if any(k in l_lower for k in [
+            'youtube.com', 'spotify.com', 'apple.com', 'podcast', 'facebook.com', 
+            'instagram.com', 'threads.net', 'twitter.com', 'x.com', 'duckduckgo.com',
+            'google.com', 'soundon.fm', 'kkbox.com', 'wikipedia.org', 'bing.com'
+        ]):
+            continue
+        filtered.append(l)
+        
+    return filtered
+
+def extract_stocks_from_url(url, headers):
+    """
+    爬取特定 URL 的內文並分析提及的股票
+    """
+    try:
+        # 設定較短的 timeout 避免卡死
+        res = requests.get(url, headers=headers, timeout=5)
+        res.encoding = 'utf-8'
+        if res.status_code != 200:
+            return []
+            
+        soup = BeautifulSoup(res.text, 'html.parser')
+        # 移除 scripts 跟 styles
+        for s in soup(["script", "style"]):
+            s.decompose()
+            
+        text = soup.get_text()
+        
+        found = []
+        # 掃描比對資料庫
+        for name, ticker in STOCK_DATABASE.items():
+            # 使用簡單的比對，如果出現就記錄
+            if name in text:
+                found.append((name, ticker))
+        return found
+    except Exception as e:
+        print(f"Error parsing content from {url}: {e}")
+        return []
+
 def scrape_episodes():
-    # 爬取股癌筆記首頁以取得最新集數連結
+    # 1. 爬取股癌筆記首頁以取得最新集數連結
     index_url = "https://socialworkerdaily.com/index/invest/notes-of-gooaye/ep-600-to-700/"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -56,11 +143,10 @@ def scrape_episodes():
         return []
         
     soup = BeautifulSoup(res.text, 'html.parser')
-    
-    # 獲取最新 12 個單集連結與標題
     episode_elements = soup.select('h2.wp-block-post-title a')
+    
     episodes_to_scrape = []
-    for el in episode_elements[:12]:
+    for el in episode_elements[:10]: # 預設抓取前 10 集
         title = el.text.strip()
         url = el.get('href')
         episodes_to_scrape.append((title, url))
@@ -68,54 +154,84 @@ def scrape_episodes():
     results = []
     price_cache = {}
     
-    for title, url in episodes_to_scrape:
-        print(f"Scraping episode: {title} ({url})")
-        time.sleep(0.5)  # 禮貌爬取
-        try:
-            ep_res = requests.get(url, headers=headers)
-            ep_res.encoding = 'utf-8'
-            if ep_res.status_code != 200:
-                print(f"Failed to fetch episode page {title}: {ep_res.status_code}")
-                continue
-        except Exception as e:
-            print(f"Error fetching episode page {title}: {e}")
-            continue
-            
-        ep_soup = BeautifulSoup(ep_res.text, 'html.parser')
+    for title, original_url in episodes_to_scrape:
+        # 解析集數數字 (例如 "股癌筆記EP672" -> "672")
+        match = re.search(r'(?:EP|ep)?\s*(\d+)', title)
+        ep_num = match.group(1) if match else None
         
-        # 取得發布日期
+        print(f"\n========== Processing Episode: {title} (EP {ep_num}) ==========")
+        
+        # 收集來源網頁清單
+        candidate_urls = [original_url]
+        
+        # 2. 如果有集數數字，則上網搜尋其他網友/筆記來源
+        if ep_num:
+            print(f"Searching web for additional notes on EP {ep_num}...")
+            search_links = search_netizen_links(ep_num)
+            for link in search_links[:3]: # 取前 3 個外部搜尋連結，避免過度爬取
+                if link not in candidate_urls:
+                    candidate_urls.append(link)
+        
+        # 3. 爬取所有來源並聚合股票
+        found_stocks_map = {}
+        successful_sources = []
+        
+        print(f"Sources to crawl for EP {ep_num}: {candidate_urls}")
+        
+        for url in candidate_urls:
+            time.sleep(0.3) # 禮貌延遲
+            print(f"Crawling source: {url}")
+            stocks_found = extract_stocks_from_url(url, headers)
+            if stocks_found:
+                successful_sources.append(url)
+                for name, ticker in stocks_found:
+                    # 避免同個股票因不同名稱重複出現在同一集（例如「台積電」與「TSMC」）
+                    # 統一以 ticker 代碼為 key
+                    if ticker not in found_stocks_map:
+                        found_stocks_map[ticker] = {
+                            "name": name,
+                            "ticker": ticker
+                        }
+                    # 偏好使用中文或較長的名字作為顯示名稱
+                    elif len(name) > len(found_stocks_map[ticker]["name"]):
+                        found_stocks_map[ticker]["name"] = name
+
+        # 4. 對本集所有提及的股票抓取即時價格
+        final_stocks = []
+        for ticker, s_info in found_stocks_map.items():
+            if ticker not in price_cache:
+                info = get_stock_info(ticker)
+                if info:
+                    price_cache[ticker] = info
+            
+            if ticker in price_cache:
+                final_stocks.append({
+                    "name": s_info["name"],
+                    "ticker": ticker,
+                    "current_price": price_cache[ticker]["current_price"],
+                    "change": price_cache[ticker]["change"]
+                })
+        
+        # 5. 解析發布日期 (從原部落格頁面)
         pub_date = datetime.datetime.now().strftime("%Y-%m-%d")
-        date_meta = ep_soup.find('meta', property='article:published_time')
-        if date_meta:
-            pub_date = date_meta.get('content')[:10]
+        try:
+            ep_res = requests.get(original_url, headers=headers, timeout=5)
+            if ep_res.status_code == 200:
+                ep_soup = BeautifulSoup(ep_res.text, 'html.parser')
+                date_meta = ep_soup.find('meta', property='article:published_time')
+                if date_meta:
+                    pub_date = date_meta.get('content')[:10]
+        except Exception as e:
+            print(f"Error fetching date from original post: {e}")
             
-        paragraphs = [p.get_text().strip() for p in ep_soup.select('div.entry-content p, div.kv-page-content p') if p.get_text().strip()]
-        
-        found_stocks = {}
-        for p in paragraphs:
-            for name, ticker in STOCK_DATABASE.items():
-                if name in p:
-                    if name not in found_stocks:
-                        if ticker not in price_cache:
-                            info = get_stock_info(ticker)
-                            if info:
-                                price_cache[ticker] = info
-                        
-                        if ticker in price_cache:
-                            found_stocks[name] = {
-                                "name": name,
-                                "ticker": ticker,
-                                "current_price": price_cache[ticker]["current_price"],
-                                "change": price_cache[ticker]["change"]
-                            }
-                            
-        # 即使該集沒提到股票，也加入結果中，保留集數順序
         results.append({
             "episode": title,
-            "url": url,
+            "url": original_url,
             "date": pub_date,
-            "stocks": list(found_stocks.values())
+            "stocks": final_stocks,
+            "sources": successful_sources # 記錄成功的分析來源提供前端顯示
         })
+        print(f"Finished EP {ep_num}. Found stocks: {[s['name'] for s in final_stocks]}")
             
     return results
 
@@ -208,7 +324,7 @@ def calculate_portfolio():
     with open('docs/portfolio_pnl.json', 'w', encoding='utf-8') as f:
         json.dump(portfolio_pnl, f, ensure_ascii=False, indent=4)
         
-    # 寫入 CSV 檔案 (可直接拉入 Google Drive)
+    # 寫入 CSV 檔案
     import csv
     with open('docs/portfolio_pnl.csv', 'w', encoding='utf-8-sig', newline='') as f:
         writer = csv.writer(f)
@@ -242,12 +358,12 @@ def calculate_portfolio():
     print("Portfolio PnL reports generated successfully!")
 
 if __name__ == "__main__":
-    print("Starting Gooaye Scraper...")
+    print("Starting Gooaye Multi-Source Search Scraper...")
     results = scrape_episodes()
     os.makedirs('docs', exist_ok=True)
     with open('docs/data.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
-    print("Episode scraping completed.")
+    print("Episode search scraping completed.")
     
     print("Starting Portfolio PnL Calculation...")
     calculate_portfolio()

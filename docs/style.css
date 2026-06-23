@@ -1283,4 +1283,47 @@ input:checked + .slider:before {
   gap: 1rem;
 }
 
+/* Crawled Sources Styling */
+.card-sources-container {
+  margin-top: 1.25rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+  font-size: 0.72rem;
+}
+
+.sources-label {
+  color: var(--color-text-muted);
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.sources-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.source-link-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  color: var(--accent-blue);
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: var(--font-display);
+}
+
+.source-link-item:hover {
+  background: rgba(68, 138, 255, 0.1);
+  border-color: rgba(68, 138, 255, 0.25);
+  color: var(--color-text-primary);
+  transform: translateY(-1px);
+}
+
 

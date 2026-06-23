@@ -3,7 +3,197 @@
         "episode": "股癌筆記EP672",
         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-672/",
         "date": "2026-06-21",
-        "stocks": []
+        "stocks": [
+            {
+                "name": "TSMC",
+                "ticker": "2330.TW",
+                "current_price": 2510.0,
+                "change": "4.15%"
+            },
+            {
+                "name": "聯電",
+                "ticker": "2303.TW",
+                "current_price": 160.0,
+                "change": "9.97%"
+            },
+            {
+                "name": "鴻海",
+                "ticker": "2317.TW",
+                "current_price": 268.5,
+                "change": "0.0%"
+            },
+            {
+                "name": "長榮",
+                "ticker": "2603.TW",
+                "current_price": 193.0,
+                "change": "0.0%"
+            },
+            {
+                "name": "聯發科",
+                "ticker": "2454.TW",
+                "current_price": 4465.0,
+                "change": "1.71%"
+            },
+            {
+                "name": "廣達",
+                "ticker": "2382.TW",
+                "current_price": 380.0,
+                "change": "1.06%"
+            },
+            {
+                "name": "緯創",
+                "ticker": "3231.TW",
+                "current_price": 162.5,
+                "change": "0.62%"
+            },
+            {
+                "name": "技嘉",
+                "ticker": "2376.TW",
+                "current_price": 339.5,
+                "change": "-1.31%"
+            },
+            {
+                "name": "國巨",
+                "ticker": "2327.TW",
+                "current_price": 1065.0,
+                "change": "-1.39%"
+            },
+            {
+                "name": "欣興",
+                "ticker": "3037.TW",
+                "current_price": 1005.0,
+                "change": "3.82%"
+            },
+            {
+                "name": "世芯",
+                "ticker": "3661.TW",
+                "current_price": 4325.0,
+                "change": "-1.26%"
+            },
+            {
+                "name": "創意",
+                "ticker": "3443.TW",
+                "current_price": 4755.0,
+                "change": "-2.16%"
+            },
+            {
+                "name": "智原",
+                "ticker": "3035.TW",
+                "current_price": 229.5,
+                "change": "9.81%"
+            },
+            {
+                "name": "台達電",
+                "ticker": "2308.TW",
+                "current_price": 2150.0,
+                "change": "0.0%"
+            },
+            {
+                "name": "智邦",
+                "ticker": "2345.TW",
+                "current_price": 2595.0,
+                "change": "6.57%"
+            },
+            {
+                "name": "健策",
+                "ticker": "3653.TW",
+                "current_price": 3840.0,
+                "change": "-3.15%"
+            },
+            {
+                "name": "川湖",
+                "ticker": "2059.TW",
+                "current_price": 7550.0,
+                "change": "9.98%"
+            },
+            {
+                "name": "奇鋐",
+                "ticker": "3017.TW",
+                "current_price": 2420.0,
+                "change": "0.83%"
+            },
+            {
+                "name": "英業達",
+                "ticker": "2356.TW",
+                "current_price": 67.8,
+                "change": "0.15%"
+            },
+            {
+                "name": "金像電",
+                "ticker": "2368.TW",
+                "current_price": 1385.2,
+                "change": "2.95%"
+            },
+            {
+                "name": "NVDA",
+                "ticker": "NVDA",
+                "current_price": 208.65,
+                "change": "-0.97%"
+            },
+            {
+                "name": "Apple",
+                "ticker": "AAPL",
+                "current_price": 297.01,
+                "change": "-0.34%"
+            },
+            {
+                "name": "TSLA",
+                "ticker": "TSLA",
+                "current_price": 405.05,
+                "change": "1.14%"
+            },
+            {
+                "name": "Marvell",
+                "ticker": "MRVL",
+                "current_price": 307.86,
+                "change": "-0.88%"
+            },
+            {
+                "name": "AMD",
+                "ticker": "AMD",
+                "current_price": 551.63,
+                "change": "2.65%"
+            },
+            {
+                "name": "Google",
+                "ticker": "GOOGL",
+                "current_price": 349.68,
+                "change": "-4.99%"
+            },
+            {
+                "name": "美光",
+                "ticker": "MU",
+                "current_price": 1211.38,
+                "change": "6.82%"
+            },
+            {
+                "name": "Vishay",
+                "ticker": "VSH",
+                "current_price": 64.27,
+                "change": "-0.97%"
+            },
+            {
+                "name": "AVGO",
+                "ticker": "AVGO",
+                "current_price": 392.13,
+                "change": "-4.67%"
+            },
+            {
+                "name": "SMCI",
+                "ticker": "SMCI",
+                "current_price": 35.46,
+                "change": "15.66%"
+            },
+            {
+                "name": "Intel",
+                "ticker": "INTC",
+                "current_price": 140.94,
+                "change": "5.19%"
+            }
+        ],
+        "sources": [
+            "https://mugglestock.com/articles/211"
+        ]
     },
     {
         "episode": "股癌筆記EP671",
@@ -15,14 +205,65 @@
                 "ticker": "2330.TW",
                 "current_price": 2510.0,
                 "change": "4.15%"
+            },
+            {
+                "name": "台達電",
+                "ticker": "2308.TW",
+                "current_price": 2150.0,
+                "change": "0.0%"
+            },
+            {
+                "name": "健策",
+                "ticker": "3653.TW",
+                "current_price": 3840.0,
+                "change": "-3.15%"
+            },
+            {
+                "name": "鴻海",
+                "ticker": "2317.TW",
+                "current_price": 268.5,
+                "change": "0.0%"
+            },
+            {
+                "name": "NVDA",
+                "ticker": "NVDA",
+                "current_price": 208.65,
+                "change": "-0.97%"
             }
+        ],
+        "sources": [
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-671/",
+            "https://yasac.substack.com/p/ep671"
         ]
     },
     {
         "episode": "股癌筆記EP670",
         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-670/",
         "date": "2026-06-13",
-        "stocks": []
+        "stocks": [
+            {
+                "name": "國巨",
+                "ticker": "2327.TW",
+                "current_price": 1065.0,
+                "change": "-1.39%"
+            },
+            {
+                "name": "Google",
+                "ticker": "GOOGL",
+                "current_price": 349.68,
+                "change": "-4.99%"
+            },
+            {
+                "name": "Meta",
+                "ticker": "META",
+                "current_price": 563.85,
+                "change": "-2.32%"
+            }
+        ],
+        "sources": [
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-670/",
+            "https://yasac.substack.com/p/ep670"
+        ]
     },
     {
         "episode": "股癌筆記EP669",
@@ -36,23 +277,27 @@
                 "change": "4.15%"
             },
             {
-                "name": "Apple",
-                "ticker": "AAPL",
-                "current_price": 298.01,
-                "change": "0.7%"
+                "name": "國巨",
+                "ticker": "2327.TW",
+                "current_price": 1065.0,
+                "change": "-1.39%"
             },
             {
-                "name": "蘋果",
+                "name": "Apple",
                 "ticker": "AAPL",
-                "current_price": 298.01,
-                "change": "0.7%"
+                "current_price": 297.01,
+                "change": "-0.34%"
             },
             {
                 "name": "Google",
                 "ticker": "GOOGL",
-                "current_price": 368.03,
-                "change": "1.17%"
+                "current_price": 349.68,
+                "change": "-4.99%"
             }
+        ],
+        "sources": [
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-669/",
+            "https://gdinvestornotes.substack.com/p/ep669"
         ]
     },
     {
@@ -61,23 +306,196 @@
         "date": "2026-06-06",
         "stocks": [
             {
-                "name": "輝達",
-                "ticker": "NVDA",
-                "current_price": 210.69,
-                "change": "2.95%"
-            },
-            {
                 "name": "聯發科",
                 "ticker": "2454.TW",
                 "current_price": 4465.0,
                 "change": "1.71%"
             },
             {
+                "name": "國巨",
+                "ticker": "2327.TW",
+                "current_price": 1065.0,
+                "change": "-1.39%"
+            },
+            {
+                "name": "NVDA",
+                "ticker": "NVDA",
+                "current_price": 208.65,
+                "change": "-0.97%"
+            },
+            {
                 "name": "Apple",
                 "ticker": "AAPL",
-                "current_price": 298.01,
-                "change": "0.7%"
+                "current_price": 297.01,
+                "change": "-0.34%"
+            },
+            {
+                "name": "Google",
+                "ticker": "GOOGL",
+                "current_price": 349.68,
+                "change": "-4.99%"
+            },
+            {
+                "name": "TSMC",
+                "ticker": "2330.TW",
+                "current_price": 2510.0,
+                "change": "4.15%"
+            },
+            {
+                "name": "聯電",
+                "ticker": "2303.TW",
+                "current_price": 160.0,
+                "change": "9.97%"
+            },
+            {
+                "name": "鴻海",
+                "ticker": "2317.TW",
+                "current_price": 268.5,
+                "change": "0.0%"
+            },
+            {
+                "name": "長榮",
+                "ticker": "2603.TW",
+                "current_price": 193.0,
+                "change": "0.0%"
+            },
+            {
+                "name": "廣達",
+                "ticker": "2382.TW",
+                "current_price": 380.0,
+                "change": "1.06%"
+            },
+            {
+                "name": "緯創",
+                "ticker": "3231.TW",
+                "current_price": 162.5,
+                "change": "0.62%"
+            },
+            {
+                "name": "技嘉",
+                "ticker": "2376.TW",
+                "current_price": 339.5,
+                "change": "-1.31%"
+            },
+            {
+                "name": "欣興",
+                "ticker": "3037.TW",
+                "current_price": 1005.0,
+                "change": "3.82%"
+            },
+            {
+                "name": "世芯",
+                "ticker": "3661.TW",
+                "current_price": 4325.0,
+                "change": "-1.26%"
+            },
+            {
+                "name": "創意",
+                "ticker": "3443.TW",
+                "current_price": 4755.0,
+                "change": "-2.16%"
+            },
+            {
+                "name": "智原",
+                "ticker": "3035.TW",
+                "current_price": 229.5,
+                "change": "9.81%"
+            },
+            {
+                "name": "台達電",
+                "ticker": "2308.TW",
+                "current_price": 2150.0,
+                "change": "0.0%"
+            },
+            {
+                "name": "智邦",
+                "ticker": "2345.TW",
+                "current_price": 2595.0,
+                "change": "6.57%"
+            },
+            {
+                "name": "健策",
+                "ticker": "3653.TW",
+                "current_price": 3840.0,
+                "change": "-3.15%"
+            },
+            {
+                "name": "川湖",
+                "ticker": "2059.TW",
+                "current_price": 7550.0,
+                "change": "9.98%"
+            },
+            {
+                "name": "奇鋐",
+                "ticker": "3017.TW",
+                "current_price": 2420.0,
+                "change": "0.83%"
+            },
+            {
+                "name": "英業達",
+                "ticker": "2356.TW",
+                "current_price": 67.8,
+                "change": "0.15%"
+            },
+            {
+                "name": "金像電",
+                "ticker": "2368.TW",
+                "current_price": 1385.2,
+                "change": "2.95%"
+            },
+            {
+                "name": "TSLA",
+                "ticker": "TSLA",
+                "current_price": 405.05,
+                "change": "1.14%"
+            },
+            {
+                "name": "Marvell",
+                "ticker": "MRVL",
+                "current_price": 307.86,
+                "change": "-0.88%"
+            },
+            {
+                "name": "AMD",
+                "ticker": "AMD",
+                "current_price": 551.63,
+                "change": "2.65%"
+            },
+            {
+                "name": "MU",
+                "ticker": "MU",
+                "current_price": 1211.38,
+                "change": "6.82%"
+            },
+            {
+                "name": "VSH",
+                "ticker": "VSH",
+                "current_price": 64.27,
+                "change": "-0.97%"
+            },
+            {
+                "name": "AVGO",
+                "ticker": "AVGO",
+                "current_price": 392.13,
+                "change": "-4.67%"
+            },
+            {
+                "name": "SMCI",
+                "ticker": "SMCI",
+                "current_price": 35.46,
+                "change": "15.66%"
+            },
+            {
+                "name": "Intel",
+                "ticker": "INTC",
+                "current_price": 140.94,
+                "change": "5.19%"
             }
+        ],
+        "sources": [
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-668/",
+            "https://hackmd.io/@9YTiaqFUTCKFjsEWWLThBw/B1378Fb-fg",
+            "https://mugglestock.com/articles/207"
         ]
     },
     {
@@ -86,16 +504,10 @@
         "date": "2026-06-03",
         "stocks": [
             {
-                "name": "Marvell",
-                "ticker": "MRVL",
-                "current_price": 310.58,
-                "change": "7.27%"
-            },
-            {
-                "name": "輝達",
-                "ticker": "NVDA",
-                "current_price": 210.69,
-                "change": "2.95%"
+                "name": "TSMC",
+                "ticker": "2330.TW",
+                "current_price": 2510.0,
+                "change": "4.15%"
             },
             {
                 "name": "聯發科",
@@ -104,11 +516,27 @@
                 "change": "1.71%"
             },
             {
-                "name": "台積電",
-                "ticker": "2330.TW",
-                "current_price": 2510.0,
-                "change": "4.15%"
+                "name": "輝達",
+                "ticker": "NVDA",
+                "current_price": 208.65,
+                "change": "-0.97%"
+            },
+            {
+                "name": "Marvell",
+                "ticker": "MRVL",
+                "current_price": 307.86,
+                "change": "-0.88%"
+            },
+            {
+                "name": "博通",
+                "ticker": "AVGO",
+                "current_price": 392.13,
+                "change": "-4.67%"
             }
+        ],
+        "sources": [
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-667/",
+            "https://gdinvestornotes.substack.com/p/ep667"
         ]
     },
     {
@@ -117,29 +545,38 @@
         "date": "2026-05-31",
         "stocks": [
             {
+                "name": "國巨",
+                "ticker": "2327.TW",
+                "current_price": 1065.0,
+                "change": "-1.39%"
+            },
+            {
                 "name": "蘋果",
                 "ticker": "AAPL",
-                "current_price": 298.01,
-                "change": "0.7%"
+                "current_price": 297.01,
+                "change": "-0.34%"
             },
             {
                 "name": "微軟",
                 "ticker": "MSFT",
-                "current_price": 379.4,
-                "change": "0.13%"
+                "current_price": 367.34,
+                "change": "-3.18%"
             },
             {
                 "name": "Google",
                 "ticker": "GOOGL",
-                "current_price": 368.03,
-                "change": "1.17%"
+                "current_price": 349.68,
+                "change": "-4.99%"
             },
             {
                 "name": "亞馬遜",
                 "ticker": "AMZN",
-                "current_price": 244.39,
-                "change": "2.9%"
+                "current_price": 232.79,
+                "change": "-4.75%"
             }
+        ],
+        "sources": [
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-666/"
         ]
     },
     {
@@ -154,11 +591,20 @@
                 "change": "4.15%"
             },
             {
-                "name": "特斯拉",
+                "name": "國巨",
+                "ticker": "2327.TW",
+                "current_price": 1065.0,
+                "change": "-1.39%"
+            },
+            {
+                "name": "TSLA",
                 "ticker": "TSLA",
-                "current_price": 400.49,
-                "change": "1.04%"
+                "current_price": 405.05,
+                "change": "1.14%"
             }
+        ],
+        "sources": [
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-665/"
         ]
     },
     {
@@ -167,35 +613,34 @@
         "date": "2026-05-23",
         "stocks": [
             {
-                "name": "Google",
-                "ticker": "GOOGL",
-                "current_price": 368.03,
-                "change": "1.17%"
-            },
-            {
                 "name": "台積電",
                 "ticker": "2330.TW",
                 "current_price": 2510.0,
                 "change": "4.15%"
             },
             {
-                "name": "輝達",
+                "name": "國巨",
+                "ticker": "2327.TW",
+                "current_price": 1065.0,
+                "change": "-1.39%"
+            },
+            {
+                "name": "健策",
+                "ticker": "3653.TW",
+                "current_price": 3840.0,
+                "change": "-3.15%"
+            },
+            {
+                "name": "Nvidia",
                 "ticker": "NVDA",
-                "current_price": 210.69,
-                "change": "2.95%"
-            }
-        ]
-    },
-    {
-        "episode": "股癌筆記EP663",
-        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-663/",
-        "date": "2026-05-20",
-        "stocks": [
+                "current_price": 208.65,
+                "change": "-0.97%"
+            },
             {
                 "name": "Google",
                 "ticker": "GOOGL",
-                "current_price": 368.03,
-                "change": "1.17%"
+                "current_price": 349.68,
+                "change": "-4.99%"
             },
             {
                 "name": "聯發科",
@@ -204,17 +649,98 @@
                 "change": "1.71%"
             },
             {
-                "name": "蘋果",
-                "ticker": "AAPL",
-                "current_price": 298.01,
-                "change": "0.7%"
+                "name": "Tesla",
+                "ticker": "TSLA",
+                "current_price": 405.05,
+                "change": "1.14%"
             },
             {
-                "name": "輝達",
-                "ticker": "NVDA",
-                "current_price": 210.69,
-                "change": "2.95%"
+                "name": "AMD",
+                "ticker": "AMD",
+                "current_price": 551.63,
+                "change": "2.65%"
+            },
+            {
+                "name": "Microsoft",
+                "ticker": "MSFT",
+                "current_price": 367.34,
+                "change": "-3.18%"
+            },
+            {
+                "name": "Intel",
+                "ticker": "INTC",
+                "current_price": 140.94,
+                "change": "5.19%"
             }
+        ],
+        "sources": [
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
+            "https://digitalgarden-five-azure.vercel.app/gooaye-notes/ep664/"
+        ]
+    },
+    {
+        "episode": "股癌筆記EP663",
+        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-663/",
+        "date": "2026-05-20",
+        "stocks": [
+            {
+                "name": "聯發科",
+                "ticker": "2454.TW",
+                "current_price": 4465.0,
+                "change": "1.71%"
+            },
+            {
+                "name": "國巨",
+                "ticker": "2327.TW",
+                "current_price": 1065.0,
+                "change": "-1.39%"
+            },
+            {
+                "name": "健策",
+                "ticker": "3653.TW",
+                "current_price": 3840.0,
+                "change": "-3.15%"
+            },
+            {
+                "name": "Nvidia",
+                "ticker": "NVDA",
+                "current_price": 208.65,
+                "change": "-0.97%"
+            },
+            {
+                "name": "蘋果",
+                "ticker": "AAPL",
+                "current_price": 297.01,
+                "change": "-0.34%"
+            },
+            {
+                "name": "Google",
+                "ticker": "GOOGL",
+                "current_price": 349.68,
+                "change": "-4.99%"
+            },
+            {
+                "name": "Broadcom",
+                "ticker": "AVGO",
+                "current_price": 392.13,
+                "change": "-4.67%"
+            },
+            {
+                "name": "TSMC",
+                "ticker": "2330.TW",
+                "current_price": 2510.0,
+                "change": "4.15%"
+            },
+            {
+                "name": "欣興",
+                "ticker": "3037.TW",
+                "current_price": 1005.0,
+                "change": "3.82%"
+            }
+        ],
+        "sources": [
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-663/",
+            "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-663/"
         ]
     }
 ]

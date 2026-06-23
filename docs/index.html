@@ -542,6 +542,24 @@
           stocksHtml = '<p class="text-muted">本集筆記未偵測到資料庫匹配之股票。</p>';
         }
 
+        let sourcesHtml = '';
+        if (ep.sources && ep.sources.length > 0) {
+          sourcesHtml = `
+            <div class="card-sources-container">
+              <span class="sources-label"><i class="fa-solid fa-magnifying-glass"></i> 多源爬網分析來源：</span>
+              <div class="sources-links">
+                ${ep.sources.map(src => {
+                  let domain = src;
+                  try {
+                    domain = new URL(src).hostname.replace('www.', '');
+                  } catch (e) {}
+                  return `<a href="${src}" target="_blank" class="source-link-item" title="${src}">${domain}</a>`;
+                }).join('')}
+              </div>
+            </div>
+          `;
+        }
+
         card.innerHTML = `
           <div class="episode-card-header">
             <div>
@@ -556,6 +574,7 @@
             <div class="mentioned-stocks-list">
               ${stocksHtml}
             </div>
+            ${sourcesHtml}
           </div>
         `;
         container.appendChild(card);
