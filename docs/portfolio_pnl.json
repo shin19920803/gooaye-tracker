@@ -1,12 +1,12 @@
 {
     "summary": {
         "total_cost": 962000.0,
-        "total_value": 2530865.0,
-        "total_pnl": 1568865.0,
-        "total_pnl_pct": "163.08%",
-        "total_daily_pnl": -204.0,
-        "total_daily_change_pct": "-0.02%",
-        "update_time": "2026-06-23 03:34:14"
+        "total_value": 2510865.0,
+        "total_pnl": 1548865.0,
+        "total_pnl_pct": "161.0%",
+        "total_daily_pnl": -20204.0,
+        "total_daily_change_pct": "-2.1%",
+        "update_time": "2026-06-23 14:05:37"
     },
     "assets": [
         {
@@ -14,14 +14,14 @@
             "name": "台積電",
             "buy_price": 950.0,
             "shares": 1000.0,
-            "current_price": 2510.0,
+            "current_price": 2490.0,
             "previous_close": 2510.0,
             "cost": 950000.0,
-            "value": 2510000.0,
-            "pnl": 1560000.0,
-            "pnl_pct": "164.21%",
-            "daily_pnl": 0.0,
-            "daily_change_pct": "0.0%"
+            "value": 2490000.0,
+            "pnl": 1540000.0,
+            "pnl_pct": "162.11%",
+            "daily_pnl": -20000.0,
+            "daily_change_pct": "-0.8%"
         },
         {
             "symbol": "NVDA",

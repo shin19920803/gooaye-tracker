@@ -518,13 +518,48 @@
             const isNegative = stock.change.startsWith('-');
             const badgeClass = isNegative ? 'badge-danger' : 'badge-success';
             const iconClass = isNegative ? 'fa-caret-down' : 'fa-caret-up';
-            const isUS = !stock.ticker.endsWith('.TW');
+            const isUS = !stock.ticker.endsWith('.TW') && !stock.ticker.endsWith('.TWO');
+            
+            let mentionsHtml = '';
+            if (stock.mentions && stock.mentions.length > 0) {
+              mentionsHtml = `
+                <div class="stock-mentions-container">
+                  ${stock.mentions.map(m => {
+                    let badgeClass = 'source-badge-generic';
+                    const name = m.name;
+                    if (name.includes('PTT')) badgeClass = 'source-badge-ptt';
+                    else if (name.includes('Substack')) badgeClass = 'source-badge-substack';
+                    else if (name.includes('官方')) badgeClass = 'source-badge-official';
+                    else if (name.includes('麻瓜')) badgeClass = 'source-badge-muggle';
+                    
+                    const reasonHtml = m.reason ? `<div class="source-reason-text">「${m.reason}」</div>` : '';
+                    return `
+                      <div class="source-mention-block">
+                        <a href="${m.url}" target="_blank" class="stock-source-badge ${badgeClass}" title="前往閱讀網友討論原文">${name}</a>
+                        ${reasonHtml}
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+              `;
+            } else {
+              mentionsHtml = `
+                <div class="stock-mentions-container">
+                  <div class="source-mention-block">
+                    <a href="${ep.url}" target="_blank" class="stock-source-badge source-badge-official" title="前往閱讀官方原筆記">官方原筆記</a>
+                  </div>
+                </div>
+              `;
+            }
             
             stocksHtml += `
-              <div class="mention-item">
+              <div class="mention-item animate-fade-in">
                 <div class="mention-info">
-                  <span class="mention-name">${stock.name}</span>
-                  <span class="mention-ticker">${stock.ticker}</span>
+                  <div class="mention-meta-row">
+                    <span class="mention-name">${stock.name}</span>
+                    <span class="mention-ticker">${stock.ticker}</span>
+                  </div>
+                  ${mentionsHtml}
                 </div>
                 <div class="mention-actions-flex">
                   <div class="mention-financials">
@@ -618,7 +653,7 @@
       tbody.innerHTML = '';
       
       defaultPortfolioData.assets.forEach(asset => {
-        const isUS = !asset.symbol.endsWith('.TW');
+        const isUS = !asset.symbol.endsWith('.TW') && !asset.symbol.endsWith('.TWO');
         const pnl = parseFloat(asset.pnl);
         const pnlClass = pnl >= 0 ? 'text-success' : 'text-danger';
         const pnlSign = pnl >= 0 ? '+' : '';
@@ -669,7 +704,7 @@
       const processedAssets = [];
 
       customPortfolio.forEach(stock => {
-        const isUS = !stock.symbol.endsWith('.TW');
+        const isUS = !stock.symbol.endsWith('.TW') && !stock.symbol.endsWith('.TWO');
         let currentPrice = stock.buy_price;
         let isEstimated = true;
 

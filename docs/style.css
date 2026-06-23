@@ -1326,4 +1326,93 @@ input:checked + .slider:before {
   transform: translateY(-1px);
 }
 
+/* ==========================================================================
+   Stock-level Source Badges CSS Styles
+   ========================================================================== */
+.mention-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.stock-mentions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.source-mention-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.source-reason-text {
+  font-size: 0.76rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  border-left: 2px solid var(--accent-blue);
+  padding-left: 8px;
+  margin-left: 2px;
+  line-height: 1.4;
+  word-break: break-all;
+  transition: color var(--transition-speed) ease;
+}
+
+.source-mention-block:hover .source-reason-text {
+  color: var(--color-text-primary);
+}
+
+.stock-source-badge {
+  font-size: 0.68rem;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  font-family: var(--font-display);
+}
+
+.stock-source-badge:hover {
+  transform: translateY(-1px) scale(1.02);
+  filter: brightness(1.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Specific Badge Types with Glassy Tailored HSL Colors */
+.source-badge-official {
+  background: hsla(270, 85%, 55%, 0.15);
+  border: 1px solid hsla(270, 85%, 55%, 0.3);
+  color: hsl(270, 85%, 70%);
+}
+
+.source-badge-ptt {
+  background: hsla(210, 85%, 45%, 0.15);
+  border: 1px solid hsla(210, 85%, 45%, 0.3);
+  color: hsl(210, 85%, 70%);
+}
+
+.source-badge-substack {
+  background: hsla(25, 90%, 50%, 0.15);
+  border: 1px solid hsla(25, 90%, 50%, 0.3);
+  color: hsl(25, 90%, 70%);
+}
+
+.source-badge-muggle {
+  background: hsla(160, 85%, 40%, 0.15);
+  border: 1px solid hsla(160, 85%, 40%, 0.3);
+  color: hsl(160, 85%, 70%);
+}
+
+.source-badge-generic {
+  background: hsla(200, 15%, 50%, 0.12);
+  border: 1px solid hsla(200, 15%, 50%, 0.25);
+  color: hsl(200, 15%, 80%);
+}
+
 
