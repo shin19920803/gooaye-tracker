@@ -1,5 +1,171 @@
 [
     {
+        "episode": "股癌筆記EP674",
+        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+        "date": "2026-06-27",
+        "stocks": [
+            {
+                "name": "蘋果",
+                "ticker": "AAPL",
+                "current_price": NaN,
+                "change": "nan%",
+                "mentions": [
+                    {
+                        "name": "股癌官方筆記",
+                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+                        "reason": "11.相信蘋果在edge端會持續成為領導地位的公司"
+                    }
+                ]
+            },
+            {
+                "name": "特斯拉",
+                "ticker": "TSLA",
+                "current_price": NaN,
+                "change": "nan%",
+                "mentions": [
+                    {
+                        "name": "股癌官方筆記",
+                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+                        "reason": "5.美股：近期挪錢出來買SpaceX，砍表現不好的，跟減碼特斯拉"
+                    }
+                ]
+            },
+            {
+                "name": "微軟",
+                "ticker": "MSFT",
+                "current_price": NaN,
+                "change": "nan%",
+                "mentions": [
+                    {
+                        "name": "股癌官方筆記",
+                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+                        "reason": "12.週五在大家都很不好的時間點，蘋果和微軟跳起來了，若持續上漲會挪錢過去"
+                    }
+                ]
+            },
+            {
+                "name": "谷歌",
+                "ticker": "GOOGL",
+                "current_price": NaN,
+                "change": "nan%",
+                "mentions": [
+                    {
+                        "name": "股癌官方筆記",
+                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+                        "reason": "10.Google在降本增效方面做得很好，不管是晶片開發或模型應用都調整到很好"
+                    }
+                ]
+            },
+            {
+                "name": "谷歌",
+                "ticker": "GOOG",
+                "current_price": NaN,
+                "change": "nan%",
+                "mentions": [
+                    {
+                        "name": "股癌官方筆記",
+                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+                        "reason": "10.Google在降本增效方面做得很好，不管是晶片開發或模型應用都調整到很好"
+                    }
+                ]
+            },
+            {
+                "name": "邁威爾",
+                "ticker": "MRVL",
+                "current_price": NaN,
+                "change": "nan%",
+                "mentions": [
+                    {
+                        "name": "股癌官方筆記",
+                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+                        "reason": "6.美股有押到CPU、MRVL，最近都去調節"
+                    }
+                ]
+            },
+            {
+                "name": "美光",
+                "ticker": "MU",
+                "current_price": NaN,
+                "change": "nan%",
+                "mentions": [
+                    {
+                        "name": "股癌官方筆記",
+                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+                        "reason": "1.美光毛利率越來越誇張，而付錢的巨頭將AI導入大家生活之中，股價表現得非常不好，甚至現金流快變負值"
+                    }
+                ]
+            },
+            {
+                "name": "CrowdStrike",
+                "ticker": "CRWD",
+                "current_price": NaN,
+                "change": "nan%",
+                "mentions": [
+                    {
+                        "name": "股癌官方筆記",
+                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+                        "reason": "8.Crowdstrike走得比較好有繼續加碼"
+                    }
+                ]
+            },
+            {
+                "name": "聯電",
+                "ticker": "2303.TW",
+                "current_price": 164.0,
+                "change": "-8.12%",
+                "mentions": [
+                    {
+                        "name": "股癌官方筆記",
+                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+                        "reason": "一、聯電：試單打進去"
+                    }
+                ]
+            },
+            {
+                "name": "台達電",
+                "ticker": "2308.TW",
+                "current_price": 1810.0,
+                "change": "-8.59%",
+                "mentions": [
+                    {
+                        "name": "股癌官方筆記",
+                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+                        "reason": "(二)、若要做曾經強勢股但跌深搶反彈的，可以參考健策型態，碰到大均線有守住並出現下影線，就可以試單看看，停損好抓，反彈上看上面的均線再來獲利了結，自己猜台達電再跌下去就可以採用搶反彈策略了"
+                    }
+                ]
+            },
+            {
+                "name": "健策",
+                "ticker": "3653.TW",
+                "current_price": 3405.0,
+                "change": "0.44%",
+                "mentions": [
+                    {
+                        "name": "股癌官方筆記",
+                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+                        "reason": "(二)、若要做曾經強勢股但跌深搶反彈的，可以參考健策型態，碰到大均線有守住並出現下影線，就可以試單看看，停損好抓，反彈上看上面的均線再來獲利了結，自己猜台達電再跌下去就可以採用搶反彈策略了"
+                    }
+                ]
+            },
+            {
+                "name": "數字",
+                "ticker": "5287.TWO",
+                "current_price": 147.0,
+                "change": "-1.01%",
+                "mentions": [
+                    {
+                        "name": "股癌官方筆記",
+                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
+                        "reason": "3.巨頭買AI伺服器的數字看起來沒問題，無法判斷是否為殺估值"
+                    }
+                ]
+            }
+        ],
+        "sources": [
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-674/"
+        ]
+    },
+    {
         "episode": "股癌筆記EP672",
         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-672/",
         "date": "2026-06-21",
@@ -7,8 +173,8 @@
             {
                 "name": "德州儀器",
                 "ticker": "TXN",
-                "current_price": 285.42,
-                "change": "-8.46%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -20,8 +186,8 @@
             {
                 "name": "安森美",
                 "ticker": "ON",
-                "current_price": 90.65,
-                "change": "-23.66%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -56,8 +222,8 @@
             {
                 "name": "蘋果",
                 "ticker": "AAPL",
-                "current_price": 283.78,
-                "change": "3.14%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -69,8 +235,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOGL",
-                "current_price": 337.39,
-                "change": "-1.84%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -82,8 +248,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOG",
-                "current_price": 334.69,
-                "change": "-2.19%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -95,8 +261,8 @@
             {
                 "name": "博通",
                 "ticker": "AVGO",
-                "current_price": 365.02,
-                "change": "-3.67%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -108,8 +274,8 @@
             {
                 "name": "邁威爾",
                 "ticker": "MRVL",
-                "current_price": 266.77,
-                "change": "-5.15%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -121,8 +287,8 @@
             {
                 "name": "科休",
                 "ticker": "COHR",
-                "current_price": 380.56,
-                "change": "-6.55%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -134,8 +300,8 @@
             {
                 "name": "Cloudflare",
                 "ticker": "NET",
-                "current_price": 237.24,
-                "change": "4.67%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -235,8 +401,8 @@
             {
                 "name": "德州儀器",
                 "ticker": "TXN",
-                "current_price": 285.42,
-                "change": "-8.46%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -248,8 +414,8 @@
             {
                 "name": "安森美",
                 "ticker": "ON",
-                "current_price": 90.65,
-                "change": "-23.66%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -372,8 +538,8 @@
             {
                 "name": "蘋果",
                 "ticker": "AAPL",
-                "current_price": 283.78,
-                "change": "3.14%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -385,8 +551,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOGL",
-                "current_price": 337.39,
-                "change": "-1.84%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -398,8 +564,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOG",
-                "current_price": 334.69,
-                "change": "-2.19%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -473,8 +639,8 @@
             {
                 "name": "輝達",
                 "ticker": "NVDA",
-                "current_price": 192.53,
-                "change": "-1.64%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -486,8 +652,8 @@
             {
                 "name": "蘋果",
                 "ticker": "AAPL",
-                "current_price": 283.78,
-                "change": "3.14%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -499,8 +665,8 @@
             {
                 "name": "高通",
                 "ticker": "QCOM",
-                "current_price": 189.39,
-                "change": "-7.57%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -587,8 +753,8 @@
             {
                 "name": "輝達",
                 "ticker": "NVDA",
-                "current_price": 192.53,
-                "change": "-1.64%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -600,8 +766,8 @@
             {
                 "name": "博通",
                 "ticker": "AVGO",
-                "current_price": 365.02,
-                "change": "-3.67%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -613,8 +779,8 @@
             {
                 "name": "邁威爾",
                 "ticker": "MRVL",
-                "current_price": 266.77,
-                "change": "-5.15%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -701,8 +867,8 @@
             {
                 "name": "蘋果",
                 "ticker": "AAPL",
-                "current_price": 283.78,
-                "change": "3.14%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -714,8 +880,8 @@
             {
                 "name": "微軟",
                 "ticker": "MSFT",
-                "current_price": 372.97,
-                "change": "5.71%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -727,8 +893,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOGL",
-                "current_price": 337.39,
-                "change": "-1.84%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -740,8 +906,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOG",
-                "current_price": 334.69,
-                "change": "-2.19%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -753,8 +919,8 @@
             {
                 "name": "亞馬遜",
                 "ticker": "AMZN",
-                "current_price": 232.69,
-                "change": "2.5%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -766,8 +932,8 @@
             {
                 "name": "Palantir",
                 "ticker": "PLTR",
-                "current_price": 112.93,
-                "change": "5.28%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -792,8 +958,8 @@
             {
                 "name": "CrowdStrike",
                 "ticker": "CRWD",
-                "current_price": 701.09,
-                "change": "3.31%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -805,8 +971,8 @@
             {
                 "name": "Cloudflare",
                 "ticker": "NET",
-                "current_price": 237.24,
-                "change": "4.67%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -818,8 +984,8 @@
             {
                 "name": "Snowflake",
                 "ticker": "SNOW",
-                "current_price": 248.96,
-                "change": "9.65%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -854,8 +1020,8 @@
             {
                 "name": "特斯拉",
                 "ticker": "TSLA",
-                "current_price": 379.71,
-                "change": "1.22%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -867,8 +1033,8 @@
             {
                 "name": "Palantir",
                 "ticker": "PLTR",
-                "current_price": 112.93,
-                "change": "5.28%",
+                "current_price": NaN,
+                "change": "nan%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -919,159 +1085,6 @@
         ],
         "sources": [
             "https://socialworkerdaily.com/notes-of-gooaye-ep-665/"
-        ]
-    },
-    {
-        "episode": "股癌筆記EP664",
-        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
-        "date": "2026-05-23",
-        "stocks": [
-            {
-                "name": "輝達",
-                "ticker": "NVDA",
-                "current_price": 192.53,
-                "change": "-1.64%",
-                "mentions": [
-                    {
-                        "name": "股癌官方筆記",
-                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
-                        "reason": "7.假設台積電大擴廠的話，輝達營收數字會好更多，但會讓AI泡泡加速破滅"
-                    }
-                ]
-            },
-            {
-                "name": "谷歌",
-                "ticker": "GOOGL",
-                "current_price": 337.39,
-                "change": "-1.84%",
-                "mentions": [
-                    {
-                        "name": "股癌官方筆記",
-                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
-                        "reason": "(三)、Google和Blackstone合作搞TPU Cloud"
-                    }
-                ]
-            },
-            {
-                "name": "谷歌",
-                "ticker": "GOOG",
-                "current_price": 334.69,
-                "change": "-2.19%",
-                "mentions": [
-                    {
-                        "name": "股癌官方筆記",
-                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
-                        "reason": "(三)、Google和Blackstone合作搞TPU Cloud"
-                    }
-                ]
-            },
-            {
-                "name": "力山",
-                "ticker": "1515.TW",
-                "current_price": 30.5,
-                "change": "2.69%",
-                "mentions": [
-                    {
-                        "name": "股癌官方筆記",
-                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
-                        "reason": "9.晶圓代工業者壓力山大：給你錢趕快做"
-                    }
-                ]
-            },
-            {
-                "name": "光寶科",
-                "ticker": "2301.TW",
-                "current_price": 201.5,
-                "change": "-6.28%",
-                "mentions": [
-                    {
-                        "name": "股癌官方筆記",
-                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
-                        "reason": "(四)、今天再次提到電源櫃的機會，搭配5/11的貼文，估計是有在盯這相關的東西，看台達或光寶科"
-                    }
-                ]
-            },
-            {
-                "name": "台積電",
-                "ticker": "2330.TW",
-                "current_price": 2340.0,
-                "change": "-2.09%",
-                "mentions": [
-                    {
-                        "name": "股癌官方筆記",
-                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
-                        "reason": "7.假設台積電大擴廠的話，輝達營收數字會好更多，但會讓AI泡泡加速破滅"
-                    }
-                ]
-            },
-            {
-                "name": "健策",
-                "ticker": "3653.TW",
-                "current_price": 3405.0,
-                "change": "0.44%",
-                "mentions": [
-                    {
-                        "name": "股癌官方筆記",
-                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
-                        "reason": "一、健策：抄一點"
-                    }
-                ]
-            },
-            {
-                "name": "傳奇",
-                "ticker": "4994.TW",
-                "current_price": 89.1,
-                "change": "-2.52%",
-                "mentions": [
-                    {
-                        "name": "股癌官方筆記",
-                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
-                        "reason": "4.有些傳奇的酒，可以在Star Wine List上找到有些餐廳用相對便宜的價格賣你"
-                    }
-                ]
-            },
-            {
-                "name": "數字",
-                "ticker": "5287.TWO",
-                "current_price": 147.0,
-                "change": "-1.01%",
-                "mentions": [
-                    {
-                        "name": "股癌官方筆記",
-                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
-                        "reason": "1.可能是為了上市把數字做得很漂亮，但基本上全世界盯著看的公司，就算有美化的行為，也是紙包不住火"
-                    }
-                ]
-            },
-            {
-                "name": "信昌電",
-                "ticker": "6173.TWO",
-                "current_price": 276.0,
-                "change": "-9.95%",
-                "mentions": [
-                    {
-                        "name": "股癌官方筆記",
-                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
-                        "reason": "2.手上被動元件甚至出現跌停，既然賣不掉，知道大家恐慌亂砍，就加碼了(應該就是信昌電了)"
-                    }
-                ]
-            },
-            {
-                "name": "金山電",
-                "ticker": "8042.TWO",
-                "current_price": 180.5,
-                "change": "-9.98%",
-                "mentions": [
-                    {
-                        "name": "股癌官方筆記",
-                        "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-664/",
-                        "reason": "(三)、被動元件現在第一波先看線型去搞，等回檔後第二波、第三波看瓶頸，也就是高壓MLCC、鋁電容、牛角電容，先猜國巨、信昌電、金山電最硬頸"
-                    }
-                ]
-            }
-        ],
-        "sources": [
-            "https://socialworkerdaily.com/notes-of-gooaye-ep-664/"
         ]
     }
 ]

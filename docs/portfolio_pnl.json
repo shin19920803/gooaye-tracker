@@ -1,12 +1,12 @@
 {
     "summary": {
         "total_cost": 962000.0,
-        "total_value": 2359253.0,
-        "total_pnl": 1397253.0,
-        "total_pnl_pct": "145.24%",
-        "total_daily_pnl": -50321.0,
-        "total_daily_change_pct": "-5.23%",
-        "update_time": "2026-06-27 03:28:14"
+        "total_value": NaN,
+        "total_pnl": NaN,
+        "total_pnl_pct": "nan%",
+        "total_daily_pnl": NaN,
+        "total_daily_change_pct": "nan%",
+        "update_time": "2026-06-28 03:51:14"
     },
     "assets": [
         {
@@ -28,14 +28,14 @@
             "name": "輝達",
             "buy_price": 120.0,
             "shares": 100.0,
-            "current_price": 192.53,
+            "current_price": NaN,
             "previous_close": 195.74,
             "cost": 12000.0,
-            "value": 19253.0,
-            "pnl": 7253.0,
-            "pnl_pct": "60.44%",
-            "daily_pnl": -321.0,
-            "daily_change_pct": "-1.64%"
+            "value": NaN,
+            "pnl": NaN,
+            "pnl_pct": "nan%",
+            "daily_pnl": NaN,
+            "daily_change_pct": "nan%"
         }
     ]
 }
