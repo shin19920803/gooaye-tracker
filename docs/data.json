@@ -25,8 +25,8 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2435.0,
-                "change": "-1.22%",
+                "current_price": 2445.0,
+                "change": "-0.81%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -43,8 +43,8 @@
             {
                 "name": "創意",
                 "ticker": "3443.TW",
-                "current_price": 5085.0,
-                "change": "-4.6%",
+                "current_price": 5040.0,
+                "change": "-5.44%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -61,8 +61,8 @@
             {
                 "name": "世芯",
                 "ticker": "3661.TW",
-                "current_price": 4720.0,
-                "change": "-3.58%",
+                "current_price": 4650.0,
+                "change": "-5.01%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -79,8 +79,8 @@
             {
                 "name": "南電",
                 "ticker": "8046.TW",
-                "current_price": 1150.0,
-                "change": "0.44%",
+                "current_price": 1185.0,
+                "change": "3.49%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -97,8 +97,8 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 151.5,
-                "change": "-1.3%",
+                "current_price": 152.0,
+                "change": "-0.98%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -310,8 +310,8 @@
             {
                 "name": "華新",
                 "ticker": "1605.TW",
-                "current_price": 36.45,
-                "change": "2.53%",
+                "current_price": 36.25,
+                "change": "1.97%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -323,8 +323,8 @@
             {
                 "name": "凱美",
                 "ticker": "2375.TW",
-                "current_price": 221.5,
-                "change": "2.07%",
+                "current_price": 216.0,
+                "change": "-0.46%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -336,8 +336,8 @@
             {
                 "name": "瑞昱",
                 "ticker": "2379.TW",
-                "current_price": 792.0,
-                "change": "-2.34%",
+                "current_price": 783.0,
+                "change": "-3.45%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -349,8 +349,8 @@
             {
                 "name": "聯發科",
                 "ticker": "2454.TW",
-                "current_price": 4140.0,
-                "change": "-4.72%",
+                "current_price": 4195.0,
+                "change": "-3.45%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -362,8 +362,8 @@
             {
                 "name": "義隆",
                 "ticker": "2458.TW",
-                "current_price": 186.0,
-                "change": "0.27%",
+                "current_price": 184.0,
+                "change": "-0.81%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -375,8 +375,8 @@
             {
                 "name": "立隆電",
                 "ticker": "2472.TW",
-                "current_price": 435.0,
-                "change": "1.64%",
+                "current_price": 425.0,
+                "change": "-0.7%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -388,8 +388,8 @@
             {
                 "name": "大毅",
                 "ticker": "2478.TW",
-                "current_price": 237.5,
-                "change": "4.17%",
+                "current_price": 238.0,
+                "change": "4.39%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -401,8 +401,8 @@
             {
                 "name": "強茂",
                 "ticker": "2481.TW",
-                "current_price": 212.0,
-                "change": "-0.7%",
+                "current_price": 207.0,
+                "change": "-3.04%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -414,8 +414,8 @@
             {
                 "name": "華新科",
                 "ticker": "2492.TW",
-                "current_price": 584.0,
-                "change": "4.1%",
+                "current_price": 563.0,
+                "change": "0.36%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -453,8 +453,8 @@
             {
                 "name": "嘉晶",
                 "ticker": "3016.TW",
-                "current_price": 131.0,
-                "change": "-2.24%",
+                "current_price": 135.5,
+                "change": "1.12%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -479,8 +479,8 @@
             {
                 "name": "聯詠",
                 "ticker": "3034.TW",
-                "current_price": 540.0,
-                "change": "-0.18%",
+                "current_price": 538.0,
+                "change": "-0.55%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -492,8 +492,8 @@
             {
                 "name": "智原",
                 "ticker": "3035.TW",
-                "current_price": 223.0,
-                "change": "-0.45%",
+                "current_price": 222.5,
+                "change": "-0.67%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -505,8 +505,8 @@
             {
                 "name": "欣興",
                 "ticker": "3037.TW",
-                "current_price": 966.0,
-                "change": "-1.33%",
+                "current_price": 969.0,
+                "change": "-1.02%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -531,8 +531,8 @@
             {
                 "name": "景碩",
                 "ticker": "3189.TW",
-                "current_price": 813.0,
-                "change": "-2.05%",
+                "current_price": 833.0,
+                "change": "0.36%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -544,8 +544,8 @@
             {
                 "name": "台勝科",
                 "ticker": "3532.TW",
-                "current_price": 408.5,
-                "change": "0.37%",
+                "current_price": 440.0,
+                "change": "8.11%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -557,8 +557,8 @@
             {
                 "name": "敦泰",
                 "ticker": "3545.TW",
-                "current_price": 57.5,
-                "change": "0.35%",
+                "current_price": 57.1,
+                "change": "-0.35%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -570,8 +570,8 @@
             {
                 "name": "瑞鼎",
                 "ticker": "3592.TW",
-                "current_price": 273.0,
-                "change": "-0.55%",
+                "current_price": 270.0,
+                "change": "-1.64%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -583,8 +583,8 @@
             {
                 "name": "新唐",
                 "ticker": "4919.TW",
-                "current_price": 185.5,
-                "change": "0.27%",
+                "current_price": 176.5,
+                "change": "-4.59%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -596,8 +596,8 @@
             {
                 "name": "臻鼎",
                 "ticker": "4958.TW",
-                "current_price": 596.0,
-                "change": "-0.33%",
+                "current_price": 613.0,
+                "change": "2.51%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -609,8 +609,8 @@
             {
                 "name": "天鈺",
                 "ticker": "4961.TW",
-                "current_price": 171.0,
-                "change": "3.01%",
+                "current_price": 173.0,
+                "change": "4.22%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -622,8 +622,8 @@
             {
                 "name": "鈺邦",
                 "ticker": "6449.TW",
-                "current_price": 363.0,
-                "change": "7.88%",
+                "current_price": 351.0,
+                "change": "4.31%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -648,8 +648,8 @@
             {
                 "name": "緯穎",
                 "ticker": "6669.TW",
-                "current_price": 5200.0,
-                "change": "0.0%",
+                "current_price": 5265.0,
+                "change": "1.25%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -661,8 +661,8 @@
             {
                 "name": "力智",
                 "ticker": "6719.TW",
-                "current_price": 292.5,
-                "change": "-2.5%",
+                "current_price": 289.0,
+                "change": "-3.67%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -674,8 +674,8 @@
             {
                 "name": "矽創",
                 "ticker": "8016.TW",
-                "current_price": 330.0,
-                "change": "0.76%",
+                "current_price": 334.0,
+                "change": "1.98%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -687,8 +687,8 @@
             {
                 "name": "富鼎",
                 "ticker": "8261.TW",
-                "current_price": 329.5,
-                "change": "0.76%",
+                "current_price": 320.0,
+                "change": "-2.14%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -700,8 +700,8 @@
             {
                 "name": "晶宏",
                 "ticker": "3141.TWO",
-                "current_price": 81.9,
-                "change": "5.0%",
+                "current_price": 82.7,
+                "change": "6.03%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -713,8 +713,8 @@
             {
                 "name": "原相",
                 "ticker": "3227.TWO",
-                "current_price": 238.0,
-                "change": "1.28%",
+                "current_price": 235.0,
+                "change": "0.0%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -726,8 +726,8 @@
             {
                 "name": "力旺",
                 "ticker": "3529.TWO",
-                "current_price": 2860.0,
-                "change": "-3.87%",
+                "current_price": 2770.0,
+                "change": "-6.89%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -739,8 +739,8 @@
             {
                 "name": "德微",
                 "ticker": "3675.TWO",
-                "current_price": 415.0,
-                "change": "1.97%",
+                "current_price": 417.5,
+                "change": "2.58%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -765,8 +765,8 @@
             {
                 "name": "信驊",
                 "ticker": "5274.TWO",
-                "current_price": 17600.0,
-                "change": "-0.85%",
+                "current_price": 17265.0,
+                "change": "-2.73%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -778,8 +778,8 @@
             {
                 "name": "杰力",
                 "ticker": "5299.TWO",
-                "current_price": 131.5,
-                "change": "-3.31%",
+                "current_price": 129.0,
+                "change": "-5.15%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -791,8 +791,8 @@
             {
                 "name": "能率",
                 "ticker": "5392.TWO",
-                "current_price": 48.6,
-                "change": "0.21%",
+                "current_price": 48.55,
+                "change": "0.1%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -804,8 +804,8 @@
             {
                 "name": "台半",
                 "ticker": "5425.TWO",
-                "current_price": 130.0,
-                "change": "-2.62%",
+                "current_price": 131.0,
+                "change": "-1.87%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -817,8 +817,8 @@
             {
                 "name": "中美晶",
                 "ticker": "5483.TWO",
-                "current_price": 201.0,
-                "change": "0.0%",
+                "current_price": 210.5,
+                "change": "4.73%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -830,8 +830,8 @@
             {
                 "name": "茂達",
                 "ticker": "6138.TWO",
-                "current_price": 416.0,
-                "change": "-0.6%",
+                "current_price": 400.0,
+                "change": "-4.42%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -856,8 +856,8 @@
             {
                 "name": "合晶",
                 "ticker": "6182.TWO",
-                "current_price": 151.5,
-                "change": "2.02%",
+                "current_price": 163.0,
+                "change": "9.76%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -869,8 +869,8 @@
             {
                 "name": "大中",
                 "ticker": "6435.TWO",
-                "current_price": 387.5,
-                "change": "-1.27%",
+                "current_price": 382.0,
+                "change": "-2.68%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -882,8 +882,8 @@
             {
                 "name": "環球晶",
                 "ticker": "6488.TWO",
-                "current_price": 1200.0,
-                "change": "-0.41%",
+                "current_price": 1255.0,
+                "change": "4.15%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -895,8 +895,8 @@
             {
                 "name": "M31",
                 "ticker": "6643.TWO",
-                "current_price": 528.0,
-                "change": "5.92%",
+                "current_price": 511.0,
+                "change": "2.51%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -908,8 +908,8 @@
             {
                 "name": "金山電",
                 "ticker": "8042.TWO",
-                "current_price": 227.0,
-                "change": "9.93%",
+                "current_price": 210.5,
+                "change": "1.94%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -921,8 +921,8 @@
             {
                 "name": "朋程",
                 "ticker": "8255.TWO",
-                "current_price": 188.5,
-                "change": "-1.57%",
+                "current_price": 186.5,
+                "change": "-2.61%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1089,8 +1089,8 @@
             {
                 "name": "聯電",
                 "ticker": "2303.TW",
-                "current_price": 167.5,
-                "change": "1.21%",
+                "current_price": 170.5,
+                "change": "3.02%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1102,8 +1102,8 @@
             {
                 "name": "台達電",
                 "ticker": "2308.TW",
-                "current_price": 2005.0,
-                "change": "1.78%",
+                "current_price": 2075.0,
+                "change": "5.33%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1115,8 +1115,8 @@
             {
                 "name": "健策",
                 "ticker": "3653.TW",
-                "current_price": 3415.0,
-                "change": "-1.73%",
+                "current_price": 3420.0,
+                "change": "-1.58%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1128,8 +1128,8 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 151.5,
-                "change": "-1.3%",
+                "current_price": 152.0,
+                "change": "-0.98%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1323,8 +1323,8 @@
             {
                 "name": "士電",
                 "ticker": "1503.TW",
-                "current_price": 238.5,
-                "change": "0.21%",
+                "current_price": 238.0,
+                "change": "0.0%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1336,8 +1336,8 @@
             {
                 "name": "聯電",
                 "ticker": "2303.TW",
-                "current_price": 167.5,
-                "change": "1.21%",
+                "current_price": 170.5,
+                "change": "3.02%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1362,8 +1362,8 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2435.0,
-                "change": "-1.22%",
+                "current_price": 2445.0,
+                "change": "-0.81%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1388,8 +1388,8 @@
             {
                 "name": "京元電子",
                 "ticker": "2449.TW",
-                "current_price": 329.5,
-                "change": "-5.18%",
+                "current_price": 335.0,
+                "change": "-3.6%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1401,8 +1401,8 @@
             {
                 "name": "強茂",
                 "ticker": "2481.TW",
-                "current_price": 212.0,
-                "change": "-0.7%",
+                "current_price": 207.0,
+                "change": "-3.04%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1414,8 +1414,8 @@
             {
                 "name": "日月光投控",
                 "ticker": "3711.TW",
-                "current_price": 674.0,
-                "change": "-6.44%",
+                "current_price": 682.0,
+                "change": "-5.33%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1427,8 +1427,8 @@
             {
                 "name": "新唐",
                 "ticker": "4919.TW",
-                "current_price": 185.5,
-                "change": "0.27%",
+                "current_price": 176.5,
+                "change": "-4.59%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1440,8 +1440,8 @@
             {
                 "name": "盛群",
                 "ticker": "6202.TW",
-                "current_price": 67.7,
-                "change": "-3.15%",
+                "current_price": 67.0,
+                "change": "-4.15%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1453,8 +1453,8 @@
             {
                 "name": "力成",
                 "ticker": "6239.TW",
-                "current_price": 333.5,
-                "change": "0.0%",
+                "current_price": 338.0,
+                "change": "1.35%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1466,8 +1466,8 @@
             {
                 "name": "矽格",
                 "ticker": "6257.TW",
-                "current_price": 250.5,
-                "change": "-0.2%",
+                "current_price": 254.5,
+                "change": "1.39%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1479,8 +1479,8 @@
             {
                 "name": "力積電",
                 "ticker": "6770.TW",
-                "current_price": 74.8,
-                "change": "0.13%",
+                "current_price": 73.4,
+                "change": "-1.74%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1492,8 +1492,8 @@
             {
                 "name": "富鼎",
                 "ticker": "8261.TW",
-                "current_price": 329.5,
-                "change": "0.76%",
+                "current_price": 320.0,
+                "change": "-2.14%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1505,8 +1505,8 @@
             {
                 "name": "尼克森",
                 "ticker": "3317.TWO",
-                "current_price": 94.3,
-                "change": "-3.08%",
+                "current_price": 96.2,
+                "change": "-1.13%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1518,8 +1518,8 @@
             {
                 "name": "世界",
                 "ticker": "5347.TWO",
-                "current_price": 195.5,
-                "change": "-1.26%",
+                "current_price": 193.5,
+                "change": "-2.27%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1531,8 +1531,8 @@
             {
                 "name": "台半",
                 "ticker": "5425.TWO",
-                "current_price": 130.0,
-                "change": "-2.62%",
+                "current_price": 131.0,
+                "change": "-1.87%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1544,8 +1544,8 @@
             {
                 "name": "茂達",
                 "ticker": "6138.TWO",
-                "current_price": 416.0,
-                "change": "-0.6%",
+                "current_price": 400.0,
+                "change": "-4.42%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1557,8 +1557,8 @@
             {
                 "name": "頎邦",
                 "ticker": "6147.TWO",
-                "current_price": 211.5,
-                "change": "0.0%",
+                "current_price": 215.5,
+                "change": "1.89%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1570,8 +1570,8 @@
             {
                 "name": "大中",
                 "ticker": "6435.TWO",
-                "current_price": 387.5,
-                "change": "-1.27%",
+                "current_price": 382.0,
+                "change": "-2.68%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1743,8 +1743,8 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2435.0,
-                "change": "-1.22%",
+                "current_price": 2445.0,
+                "change": "-0.81%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1766,8 +1766,8 @@
             {
                 "name": "聯發科",
                 "ticker": "2454.TW",
-                "current_price": 4140.0,
-                "change": "-4.72%",
+                "current_price": 4195.0,
+                "change": "-3.45%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1784,8 +1784,8 @@
             {
                 "name": "全新",
                 "ticker": "2455.TW",
-                "current_price": 355.0,
-                "change": "2.01%",
+                "current_price": 358.0,
+                "change": "2.87%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1825,8 +1825,8 @@
             {
                 "name": "巨大",
                 "ticker": "9921.TW",
-                "current_price": 76.8,
-                "change": "1.72%",
+                "current_price": 76.2,
+                "change": "0.93%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1890,8 +1890,8 @@
             {
                 "name": "動力",
                 "ticker": "6591.TW",
-                "current_price": 55.2,
-                "change": "0.55%",
+                "current_price": 55.3,
+                "change": "0.73%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1903,8 +1903,8 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 151.5,
-                "change": "-1.3%",
+                "current_price": 152.0,
+                "change": "-0.98%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -1916,8 +1916,8 @@
             {
                 "name": "華新",
                 "ticker": "1605.TW",
-                "current_price": 36.45,
-                "change": "2.53%",
+                "current_price": 36.25,
+                "change": "1.97%",
                 "mentions": [
                     {
                         "name": "cmoney.tw",
@@ -1929,8 +1929,8 @@
             {
                 "name": "國巨*",
                 "ticker": "2327.TW",
-                "current_price": 1065.0,
-                "change": "0.95%",
+                "current_price": 1045.0,
+                "change": "-0.95%",
                 "mentions": [
                     {
                         "name": "cmoney.tw",
@@ -1942,8 +1942,8 @@
             {
                 "name": "凱美",
                 "ticker": "2375.TW",
-                "current_price": 221.5,
-                "change": "2.07%",
+                "current_price": 216.0,
+                "change": "-0.46%",
                 "mentions": [
                     {
                         "name": "cmoney.tw",
@@ -1955,8 +1955,8 @@
             {
                 "name": "大毅",
                 "ticker": "2478.TW",
-                "current_price": 237.5,
-                "change": "4.17%",
+                "current_price": 238.0,
+                "change": "4.39%",
                 "mentions": [
                     {
                         "name": "cmoney.tw",
@@ -1968,8 +1968,8 @@
             {
                 "name": "華新科",
                 "ticker": "2492.TW",
-                "current_price": 584.0,
-                "change": "4.1%",
+                "current_price": 563.0,
+                "change": "0.36%",
                 "mentions": [
                     {
                         "name": "cmoney.tw",
@@ -2007,8 +2007,8 @@
             {
                 "name": "佳邦",
                 "ticker": "6284.TWO",
-                "current_price": 106.5,
-                "change": "0.0%",
+                "current_price": 108.0,
+                "change": "1.41%",
                 "mentions": [
                     {
                         "name": "cmoney.tw",
@@ -2063,8 +2063,8 @@
             {
                 "name": "大將",
                 "ticker": "1453.TW",
-                "current_price": 11.4,
-                "change": "1.79%",
+                "current_price": 11.55,
+                "change": "3.13%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -2076,8 +2076,8 @@
             {
                 "name": "台達電",
                 "ticker": "2308.TW",
-                "current_price": 2005.0,
-                "change": "1.78%",
+                "current_price": 2075.0,
+                "change": "5.33%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -2089,8 +2089,8 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2435.0,
-                "change": "-1.22%",
+                "current_price": 2445.0,
+                "change": "-0.81%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -2107,8 +2107,8 @@
             {
                 "name": "新興",
                 "ticker": "2605.TW",
-                "current_price": 30.55,
-                "change": "5.16%",
+                "current_price": 30.8,
+                "change": "6.02%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -2125,8 +2125,8 @@
             {
                 "name": "富邦金",
                 "ticker": "2881.TW",
-                "current_price": 120.5,
-                "change": "0.84%",
+                "current_price": 121.0,
+                "change": "1.26%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -2143,8 +2143,8 @@
             {
                 "name": "健策",
                 "ticker": "3653.TW",
-                "current_price": 3415.0,
-                "change": "-1.73%",
+                "current_price": 3420.0,
+                "change": "-1.58%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -2195,8 +2195,8 @@
             {
                 "name": "順德",
                 "ticker": "2351.TW",
-                "current_price": 206.5,
-                "change": "-3.05%",
+                "current_price": 207.5,
+                "change": "-2.58%",
                 "mentions": [
                     {
                         "name": "vocus.cc",
@@ -2221,8 +2221,8 @@
             {
                 "name": "精華",
                 "ticker": "1565.TWO",
-                "current_price": 99.1,
-                "change": "2.91%",
+                "current_price": 98.2,
+                "change": "1.97%",
                 "mentions": [
                     {
                         "name": "vocus.cc",
@@ -2245,8 +2245,8 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 151.5,
-                "change": "-1.3%",
+                "current_price": 152.0,
+                "change": "-0.98%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -2257,6 +2257,11 @@
                         "name": "麻瓜投資",
                         "url": "https://mugglestock.com/articles/209",
                         "reason": "這類公司不適合只用傳統估值拆解，因為市場買的不只是財報數字，而是太空、衛星、火箭、AI 與通訊基礎建設結合後的長期想像"
+                    },
+                    {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "四、成長股與價值股：便宜不代表會漲他的核心觀點：同樣財務數字，紡織公司與衛星公司可能享有完全不同的本益比"
                     },
                     {
                         "name": "vocus.cc",
@@ -2303,6 +2308,11 @@
                         "reason": "這種部位比較像持有 Tesla，帶有支持長期夢想與題材的成分，不會一直針對短期估值做太多精算"
                     },
                     {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "持有邏輯有點像特斯拉：既是投資，也是支持長期夢想，但最終仍希望賺錢"
+                    },
+                    {
                         "name": "vocus.cc",
                         "url": "https://vocus.cc/article/6a2d1fe3fd897800010560f4",
                         "reason": "1. SpaceX 上市：孟恭申購並在次級市場約 160 幾買進，當太空夢想長抱 SpaceX 上市首日次級市場一度 delay，孟恭以申購價＋約 160 幾買進、未來幾天會持續點一點，定位成像持有特斯拉那樣「相挺＋題材酷」的長抱"
@@ -2332,6 +2342,11 @@
                         "name": "麻瓜投資",
                         "url": "https://mugglestock.com/articles/209",
                         "reason": "GOOGL"
+                    },
+                    {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "加入Google偏好"
                     }
                 ]
             },
@@ -2345,6 +2360,11 @@
                         "name": "麻瓜投資",
                         "url": "https://mugglestock.com/articles/209",
                         "reason": "GOOGL"
+                    },
+                    {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "加入Google偏好"
                     }
                 ]
             },
@@ -2586,6 +2606,11 @@
                         "reason": "市場上也開始有越來越多券商報告投入，包括 Citi、J.P. Morgan、Goldman Sachs，後面可能還會有其他券商加入"
                     },
                     {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "七、券商可能持續上調目標價隨著被動元件漲價成功，花旗、摩根大通、高盛等券商開始撰寫相關報告，他預期之後可能看到更多券商上調產業及個股目標價"
+                    },
+                    {
                         "name": "vocus.cc",
                         "url": "https://vocus.cc/article/6a2d1fe3fd897800010560f4",
                         "reason": "5. 被動元件漲價超出預期，可能只需兩次漲價達 terminal、且循環較長 大型 ODM/EMS 漲價成功，花旗、JP、GS 陸續上修目標價（聯發科、台積電、國巨等）"
@@ -2630,6 +2655,11 @@
                         "reason": "其中有一家券商常見的目標價梗，例如聯發科目標價可能用 2454、台積電可能用 2330、國巨則可能出現 2327 這類有記憶點的數字"
                     },
                     {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "節目也用代號開玩笑：聯發科目標價「2454」台積電目標價「2330」國際目標價「2327」重點不是這些數字真的代表合理價，而是券商對產業獲利預期可能正在轉向上修"
+                    },
+                    {
                         "name": "vocus.cc",
                         "url": "https://vocus.cc/article/6a2d1fe3fd897800010560f4",
                         "reason": "5. 被動元件漲價超出預期，可能只需兩次漲價達 terminal、且循環較長 大型 ODM/EMS 漲價成功，花旗、JP、GS 陸續上修目標價（聯發科、台積電、國巨等）"
@@ -2639,8 +2669,8 @@
             {
                 "name": "川湖",
                 "ticker": "2059.TW",
-                "current_price": 8075.0,
-                "change": "2.47%",
+                "current_price": 8000.0,
+                "change": "1.52%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2652,8 +2682,8 @@
             {
                 "name": "光寶科",
                 "ticker": "2301.TW",
-                "current_price": 218.0,
-                "change": "-1.58%",
+                "current_price": 219.0,
+                "change": "-1.13%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2665,13 +2695,18 @@
             {
                 "name": "台達電",
                 "ticker": "2308.TW",
-                "current_price": 2005.0,
-                "change": "1.78%",
+                "current_price": 2075.0,
+                "change": "5.33%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
                         "url": "https://mugglestock.com/articles/209",
                         "reason": "台達電目前主力仍在 400V，理論上不一定是壞事，但市場修正時常常不會細分受惠或受害，而是整個族群一起被賣"
+                    },
+                    {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "十一、800V HVDC、台達電與貿聯聽眾提問：SemiAnalysis 指出 800V HVDC 延後"
                     },
                     {
                         "name": "vocus.cc",
@@ -2683,8 +2718,8 @@
             {
                 "name": "華通",
                 "ticker": "2313.TW",
-                "current_price": 227.5,
-                "change": "-0.44%",
+                "current_price": 229.5,
+                "change": "0.44%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2696,8 +2731,8 @@
             {
                 "name": "仁寶",
                 "ticker": "2324.TW",
-                "current_price": 34.6,
-                "change": "-0.57%",
+                "current_price": 34.95,
+                "change": "0.43%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2709,13 +2744,18 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2435.0,
-                "change": "-1.22%",
+                "current_price": 2445.0,
+                "change": "-0.81%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
                         "url": "https://mugglestock.com/articles/209",
                         "reason": "其中有一家券商常見的目標價梗，例如聯發科目標價可能用 2454、台積電可能用 2330、國巨則可能出現 2327 這類有記憶點的數字"
+                    },
+                    {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "節目也用代號開玩笑：聯發科目標價「2454」台積電目標價「2330」國際目標價「2327」重點不是這些數字真的代表合理價，而是券商對產業獲利預期可能正在轉向上修"
                     },
                     {
                         "name": "vocus.cc",
@@ -2727,8 +2767,8 @@
             {
                 "name": "友訊",
                 "ticker": "2332.TW",
-                "current_price": 18.3,
-                "change": "0.55%",
+                "current_price": 20.0,
+                "change": "9.89%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2753,8 +2793,8 @@
             {
                 "name": "華碩",
                 "ticker": "2357.TW",
-                "current_price": 666.0,
-                "change": "-0.15%",
+                "current_price": 675.0,
+                "change": "1.2%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2766,8 +2806,8 @@
             {
                 "name": "金像電",
                 "ticker": "2368.TW",
-                "current_price": 1285.0,
-                "change": "4.05%",
+                "current_price": 1305.0,
+                "change": "5.67%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2779,8 +2819,8 @@
             {
                 "name": "技嘉",
                 "ticker": "2376.TW",
-                "current_price": 340.0,
-                "change": "0.44%",
+                "current_price": 338.5,
+                "change": "0.0%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2792,8 +2832,8 @@
             {
                 "name": "微星",
                 "ticker": "2377.TW",
-                "current_price": 144.0,
-                "change": "0.7%",
+                "current_price": 143.0,
+                "change": "0.0%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2805,8 +2845,8 @@
             {
                 "name": "廣達",
                 "ticker": "2382.TW",
-                "current_price": 372.5,
-                "change": "0.95%",
+                "current_price": 377.0,
+                "change": "2.17%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2818,8 +2858,8 @@
             {
                 "name": "台光電",
                 "ticker": "2383.TW",
-                "current_price": 5970.0,
-                "change": "5.57%",
+                "current_price": 6080.0,
+                "change": "7.52%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2831,8 +2871,8 @@
             {
                 "name": "研華",
                 "ticker": "2395.TW",
-                "current_price": 514.0,
-                "change": "0.78%",
+                "current_price": 521.0,
+                "change": "2.16%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2844,13 +2884,18 @@
             {
                 "name": "聯發科",
                 "ticker": "2454.TW",
-                "current_price": 4140.0,
-                "change": "-4.72%",
+                "current_price": 4195.0,
+                "change": "-3.45%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
                         "url": "https://mugglestock.com/articles/209",
                         "reason": "其中有一家券商常見的目標價梗，例如聯發科目標價可能用 2454、台積電可能用 2330、國巨則可能出現 2327 這類有記憶點的數字"
+                    },
+                    {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "節目也用代號開玩笑：聯發科目標價「2454」台積電目標價「2330」國際目標價「2327」重點不是這些數字真的代表合理價，而是券商對產業獲利預期可能正在轉向上修"
                     },
                     {
                         "name": "vocus.cc",
@@ -2862,8 +2907,8 @@
             {
                 "name": "強茂",
                 "ticker": "2481.TW",
-                "current_price": 212.0,
-                "change": "-0.7%",
+                "current_price": 207.0,
+                "change": "-3.04%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2888,8 +2933,8 @@
             {
                 "name": "全漢",
                 "ticker": "3015.TW",
-                "current_price": 67.3,
-                "change": "-0.3%",
+                "current_price": 68.0,
+                "change": "0.74%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2901,8 +2946,8 @@
             {
                 "name": "奇鋐",
                 "ticker": "3017.TW",
-                "current_price": 2670.0,
-                "change": "-2.55%",
+                "current_price": 2760.0,
+                "change": "0.73%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2932,8 +2977,8 @@
             {
                 "name": "智原",
                 "ticker": "3035.TW",
-                "current_price": 223.0,
-                "change": "-0.45%",
+                "current_price": 222.5,
+                "change": "-0.67%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2945,8 +2990,8 @@
             {
                 "name": "欣興",
                 "ticker": "3037.TW",
-                "current_price": 966.0,
-                "change": "-1.33%",
+                "current_price": 969.0,
+                "change": "-1.02%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2958,8 +3003,8 @@
             {
                 "name": "健鼎",
                 "ticker": "3044.TW",
-                "current_price": 513.0,
-                "change": "1.38%",
+                "current_price": 520.0,
+                "change": "2.77%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2978,14 +3023,19 @@
                         "name": "麻瓜投資",
                         "url": "https://mugglestock.com/articles/209",
                         "reason": "第二層是一般使用者與大量商業場景，用相對便宜、低階但已經夠用的模型來滿足需求"
+                    },
+                    {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "主持人認為這可能是典型的「利多實現」：投資人早在 SpaceX 上市前就埋伏衛星股，等真正上市、媒體大量報導後，趁散戶開始找衛星股時出貨"
                     }
                 ]
             },
             {
                 "name": "緯創",
                 "ticker": "3231.TW",
-                "current_price": 160.0,
-                "change": "0.95%",
+                "current_price": 159.0,
+                "change": "0.32%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -2997,8 +3047,8 @@
             {
                 "name": "創意",
                 "ticker": "3443.TW",
-                "current_price": 5085.0,
-                "change": "-4.6%",
+                "current_price": 5040.0,
+                "change": "-5.44%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3023,8 +3073,8 @@
             {
                 "name": "智易",
                 "ticker": "3596.TW",
-                "current_price": 192.5,
-                "change": "0.52%",
+                "current_price": 197.5,
+                "change": "3.13%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3036,8 +3086,8 @@
             {
                 "name": "健策",
                 "ticker": "3653.TW",
-                "current_price": 3415.0,
-                "change": "-1.73%",
+                "current_price": 3420.0,
+                "change": "-1.58%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3049,21 +3099,26 @@
             {
                 "name": "貿聯",
                 "ticker": "3665.TW",
-                "current_price": 1945.0,
-                "change": "-4.66%",
+                "current_price": 1995.0,
+                "change": "-2.21%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
                         "url": "https://mugglestock.com/articles/209",
                         "reason": "2. 貿聯-KY 與 AI rack 零組件"
+                    },
+                    {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "十一、800V HVDC、台達電與貿聯聽眾提問：SemiAnalysis 指出 800V HVDC 延後"
                     }
                 ]
             },
             {
                 "name": "日月光投控",
                 "ticker": "3711.TW",
-                "current_price": 674.0,
-                "change": "-6.44%",
+                "current_price": 682.0,
+                "change": "-5.33%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3075,8 +3130,8 @@
             {
                 "name": "定穎投控",
                 "ticker": "3715.TW",
-                "current_price": 174.0,
-                "change": "-0.85%",
+                "current_price": 172.0,
+                "change": "-1.99%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3088,8 +3143,8 @@
             {
                 "name": "正文",
                 "ticker": "4906.TW",
-                "current_price": 42.2,
-                "change": "-0.24%",
+                "current_price": 43.7,
+                "change": "3.31%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3101,8 +3156,8 @@
             {
                 "name": "台郡",
                 "ticker": "6269.TW",
-                "current_price": 66.5,
-                "change": "1.22%",
+                "current_price": 66.8,
+                "change": "1.67%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3114,8 +3169,8 @@
             {
                 "name": "康舒",
                 "ticker": "6282.TW",
-                "current_price": 57.9,
-                "change": "-0.34%",
+                "current_price": 58.3,
+                "change": "0.34%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3127,8 +3182,8 @@
             {
                 "name": "群電",
                 "ticker": "6412.TW",
-                "current_price": 99.4,
-                "change": "2.47%",
+                "current_price": 98.0,
+                "change": "1.03%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3140,8 +3195,8 @@
             {
                 "name": "樺漢",
                 "ticker": "6414.TW",
-                "current_price": 373.0,
-                "change": "-0.13%",
+                "current_price": 375.5,
+                "change": "0.54%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3153,8 +3208,8 @@
             {
                 "name": "矽力*",
                 "ticker": "6415.TW",
-                "current_price": 602.0,
-                "change": "-3.53%",
+                "current_price": 605.0,
+                "change": "-3.04%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3166,8 +3221,8 @@
             {
                 "name": "研揚",
                 "ticker": "6579.TW",
-                "current_price": 164.5,
-                "change": "1.86%",
+                "current_price": 165.5,
+                "change": "2.48%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3179,8 +3234,8 @@
             {
                 "name": "ABC",
                 "ticker": "6598.TW",
-                "current_price": 23.2,
-                "change": "1.98%",
+                "current_price": 23.05,
+                "change": "1.32%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3192,8 +3247,8 @@
             {
                 "name": "緯穎",
                 "ticker": "6669.TW",
-                "current_price": 5200.0,
-                "change": "0.0%",
+                "current_price": 5265.0,
+                "change": "1.25%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3205,8 +3260,8 @@
             {
                 "name": "力智",
                 "ticker": "6719.TW",
-                "current_price": 292.5,
-                "change": "-2.5%",
+                "current_price": 289.0,
+                "change": "-3.67%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3218,8 +3273,8 @@
             {
                 "name": "勤誠",
                 "ticker": "8210.TW",
-                "current_price": 1285.0,
-                "change": "-1.91%",
+                "current_price": 1305.0,
+                "change": "-0.38%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3231,8 +3286,8 @@
             {
                 "name": "高力",
                 "ticker": "8996.TW",
-                "current_price": 1330.0,
-                "change": "-6.01%",
+                "current_price": 1380.0,
+                "change": "-2.47%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3257,8 +3312,8 @@
             {
                 "name": "優群",
                 "ticker": "3217.TWO",
-                "current_price": 179.5,
-                "change": "-0.28%",
+                "current_price": 179.0,
+                "change": "-0.56%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3270,8 +3325,8 @@
             {
                 "name": "尼克森",
                 "ticker": "3317.TWO",
-                "current_price": 94.3,
-                "change": "-3.08%",
+                "current_price": 96.2,
+                "change": "-1.13%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3296,8 +3351,8 @@
             {
                 "name": "昇達科",
                 "ticker": "3491.TWO",
-                "current_price": 1305.0,
-                "change": "3.16%",
+                "current_price": 1340.0,
+                "change": "5.93%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3309,8 +3364,8 @@
             {
                 "name": "聚積",
                 "ticker": "3527.TWO",
-                "current_price": 64.5,
-                "change": "0.94%",
+                "current_price": 65.3,
+                "change": "2.19%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3322,8 +3377,8 @@
             {
                 "name": "杰力",
                 "ticker": "5299.TWO",
-                "current_price": 131.5,
-                "change": "-3.31%",
+                "current_price": 129.0,
+                "change": "-5.15%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3335,8 +3390,8 @@
             {
                 "name": "台半",
                 "ticker": "5425.TWO",
-                "current_price": 130.0,
-                "change": "-2.62%",
+                "current_price": 131.0,
+                "change": "-1.87%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3348,8 +3403,8 @@
             {
                 "name": "茂達",
                 "ticker": "6138.TWO",
-                "current_price": 416.0,
-                "change": "-0.6%",
+                "current_price": 400.0,
+                "change": "-4.42%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3361,8 +3416,8 @@
             {
                 "name": "良維",
                 "ticker": "6290.TWO",
-                "current_price": 312.5,
-                "change": "0.16%",
+                "current_price": 316.0,
+                "change": "1.28%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3374,8 +3429,8 @@
             {
                 "name": "大中",
                 "ticker": "6435.TWO",
-                "current_price": 387.5,
-                "change": "-1.27%",
+                "current_price": 382.0,
+                "change": "-2.68%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3387,8 +3442,8 @@
             {
                 "name": "南俊國際",
                 "ticker": "6584.TWO",
-                "current_price": 726.0,
-                "change": "-2.29%",
+                "current_price": 707.0,
+                "change": "-4.85%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3400,8 +3455,8 @@
             {
                 "name": "朋程",
                 "ticker": "8255.TWO",
-                "current_price": 188.5,
-                "change": "-1.57%",
+                "current_price": 186.5,
+                "change": "-2.61%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -3409,11 +3464,51 @@
                         "reason": "朋程"
                     }
                 ]
+            },
+            {
+                "name": "摩根大通",
+                "ticker": "JPM",
+                "current_price": 334.47,
+                "change": "0.12%",
+                "mentions": [
+                    {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "七、券商可能持續上調目標價隨著被動元件漲價成功，花旗、摩根大通、高盛等券商開始撰寫相關報告，他預期之後可能看到更多券商上調產業及個股目標價"
+                    }
+                ]
+            },
+            {
+                "name": "國巨*",
+                "ticker": "2327.TW",
+                "current_price": 1045.0,
+                "change": "-0.95%",
+                "mentions": [
+                    {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "國巨*"
+                    }
+                ]
+            },
+            {
+                "name": "精確",
+                "ticker": "3162.TWO",
+                "current_price": 85.1,
+                "change": "0.35%",
+                "mentions": [
+                    {
+                        "name": "cmoney.tw",
+                        "url": "https://www.cmoney.tw/forum/article/179854570",
+                        "reason": "主持人認為，這波比較像市場情緒通殺，而不是市場真的精確反映 800V 延後"
+                    }
+                ]
             }
         ],
         "sources": [
             "https://socialworkerdaily.com/notes-of-gooaye-ep-670/",
             "https://mugglestock.com/articles/209",
+            "https://www.cmoney.tw/forum/article/179854570",
             "https://vocus.cc/article/6a2d1fe3fd897800010560f4"
         ]
     },
@@ -3434,14 +3529,9 @@
                         "reason": "(四)、Apple WWDC"
                     },
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "Apple WWDC 走自研模型加 Google 合作的折衷 AI 路線，螢幕感知與個人化 AI 可能是後續亮點"
-                    },
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a294d2dfd8978000113471a",
-                        "reason": "6. Apple WWDC 走折中路線：自建伺服器＋與 Google 合作，螢幕感知是殺手鐧 Apple 未走純收過路費模式，而是一部分用自家模型（桃園航空城自建精品級伺服器）、一部分跟 Google 合作的折中路線，犧牲部分利潤換市場信心"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "股癌 EP669：市場修正、TSMC 漲價、CPO reality check 與 Apple Onscreen Context"
                     }
                 ]
             },
@@ -3455,16 +3545,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-669/",
                         "reason": "3.跟Google合作做模型應用"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "Apple WWDC 走自研模型加 Google 合作的折衷 AI 路線，螢幕感知與個人化 AI 可能是後續亮點"
-                    },
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a294d2dfd8978000113471a",
-                        "reason": "6. Apple WWDC 走折中路線：自建伺服器＋與 Google 合作，螢幕感知是殺手鐧 Apple 未走純收過路費模式，而是一部分用自家模型（桃園航空城自建精品級伺服器）、一部分跟 Google 合作的折中路線，犧牲部分利潤換市場信心"
                     }
                 ]
             },
@@ -3478,24 +3558,14 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-669/",
                         "reason": "3.跟Google合作做模型應用"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "Apple WWDC 走自研模型加 Google 合作的折衷 AI 路線，螢幕感知與個人化 AI 可能是後續亮點"
-                    },
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a294d2dfd8978000113471a",
-                        "reason": "6. Apple WWDC 走折中路線：自建伺服器＋與 Google 合作，螢幕感知是殺手鐧 Apple 未走純收過路費模式，而是一部分用自家模型（桃園航空城自建精品級伺服器）、一部分跟 Google 合作的折中路線，犧牲部分利潤換市場信心"
                     }
                 ]
             },
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2435.0,
-                "change": "-1.22%",
+                "current_price": 2445.0,
+                "change": "-0.81%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -3503,22 +3573,17 @@
                         "reason": "6.週三族群強弱：被動元件強勢、光通轉弱、台積電意外轉弱、發哥稍微往下、避風港的廠務也沒有拉出去"
                     },
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "被動元件相對強，光通、台積電、聯發科轉弱"
-                    },
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a294d2dfd8978000113471a",
-                        "reason": "5. 台積電鬆口合理漲價，是產業無敗筆的利多 台積電本月營收佳，CFO（魏哲家）表示可能漲價但不會用「幾倍」的暴力方式，要維持與生意夥伴的長期關係"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "台積電 / TSMC2330.TW / TSM月營收、合理漲價、AI supply chain anchor偏正向觀察Primary + secondary + TSMC official revenue2026-06/07 營收、Q..."
                     }
                 ]
             },
             {
                 "name": "大立光",
                 "ticker": "3008.TW",
-                "current_price": 4285.0,
-                "change": "-0.23%",
+                "current_price": 4230.0,
+                "change": "-1.51%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -3526,9 +3591,9 @@
                         "reason": "1.這三天好像沒發生什麼事情：周一重摔，週二一堆漲停，週三一堆東西新高後壓回，只剩下大立光有共識"
                     },
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "盤中比較有共識的標的只剩大立光相對撐住，其他不少標的往下灌"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "大立光 / Largan3008.TW光學元件、修正中相對共識只被提及 / 相對強弱觀察Primary + secondaryiPhone lens spec、月營收、毛利率"
                     }
                 ]
             },
@@ -3544,22 +3609,17 @@
                         "reason": "5.最好再破一次，最好把前低也都再破一次，然後一堆人殺出來，看到大量的資減，到時候立刻反彈的族群就是想追蹤的族群"
                     },
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "融資、質押雖然有修正壓力，但沒有看到明顯額度釋放，代表還不像全面恐慌或大量斷頭"
-                    },
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a294d2dfd8978000113471a",
-                        "reason": "對投資策略含義：修正走長走短沒人知道，最好再破一次前低、看到大量融資殺出後，能立刻反彈走出去的族群就是下一波追蹤重點"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "「融資額度還是沒放出來」、「最好再破一次看到大量資減」"
                     }
                 ]
             },
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 151.5,
-                "change": "-1.3%",
+                "current_price": 152.0,
+                "change": "-0.98%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -3567,14 +3627,9 @@
                         "reason": "7.避風港或下波領頭羊：反覆漲跌讓大家嚇到，會讓資金偏好相對大型且流動性好，同時又有數字低估值的公司"
                     },
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "CPU / CPO 題材方向不一定錯，但投資圈可能把時程與數字喊太前面"
-                    },
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a294d2dfd8978000113471a",
-                        "reason": "4. 資金可能轉向「大型、流動性好、近期有數字」的標的避風 反覆殺彈會改變資金 allocation：興櫃大崩、櫃買關門股出不掉，使大家更重視流動性"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "主持人偏向觀察有流動性、有成績、老牌名牌的標的，而不是短期難看到數字的衛星、機器人等夢想股"
                     }
                 ]
             },
@@ -3585,71 +3640,9 @@
                 "change": "-1.39%",
                 "mentions": [
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "SemiAnalysis 對 CPO、800V DC、NVIDIA Vera Rubin 記憶體配置的說法，在修正時被市場放大"
-                    },
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a294d2dfd8978000113471a",
-                        "reason": "但有人在 Computex 訪到 NVIDIA 光通主管證實「後面就要 shipment」，只是量沒投資圈假設那麼大"
-                    }
-                ]
-            },
-            {
-                "name": "博通",
-                "ticker": "AVGO",
-                "current_price": 360.45,
-                "change": "-2.41%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "Broadcom"
-                    }
-                ]
-            },
-            {
-                "name": "邁威爾",
-                "ticker": "MRVL",
-                "current_price": 245.29,
-                "change": "-9.84%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "Marvell"
-                    }
-                ]
-            },
-            {
-                "name": "美光",
-                "ticker": "MU",
-                "current_price": 975.56,
-                "change": "-5.49%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "MU"
-                    },
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a294d2dfd8978000113471a",
-                        "reason": "真正要警戒的訊號是大家都去買衛星、AI data center、尤其機器人類股成市場主軸時——那些是短期看不到數字的東西（已有人拿美光機器人會議 PDF 看好但落地要三五年）"
-                    }
-                ]
-            },
-            {
-                "name": "安謀",
-                "ticker": "ARM",
-                "current_price": 315.28,
-                "change": "-6.58%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "Arm"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "NVIDIANVDACPO / Rubin / AI hardware roadmap 背景中立觀察"
                     }
                 ]
             },
@@ -3660,22 +3653,9 @@
                 "change": "-5.25%",
                 "mentions": [
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "3. Apple AI / Visual Intelligence / On-screen Awareness"
-                    }
-                ]
-            },
-            {
-                "name": "高通",
-                "ticker": "QCOM",
-                "current_price": 176.25,
-                "change": "-3.12%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "Qualcomm"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "Apple 官方支持 Apple Intelligence 能理解螢幕內容並跨 app 行動"
                     }
                 ]
             },
@@ -3686,22 +3666,9 @@
                 "change": "-2.27%",
                 "mentions": [
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "TSMC 原本被認為有機會成為下一波領跑族群，但目前也轉弱"
-                    }
-                ]
-            },
-            {
-                "name": "德州儀器",
-                "ticker": "TXN",
-                "current_price": 293.08,
-                "change": "-1.79%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "TXN"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "股癌 EP669：市場修正、TSMC 漲價、CPO reality check 與 Apple Onscreen Context"
                     }
                 ]
             },
@@ -3712,74 +3679,22 @@
                 "change": "-3.04%",
                 "mentions": [
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "ADI"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "筆記作者國巨操作日記是買賣建議ContradictedSecondary note 明確寫「無推薦買賣之建議」不可轉成主持人 stance 或投資建議"
                     }
                 ]
             },
             {
-                "name": "安森美",
-                "ticker": "ON",
-                "current_price": 91.22,
-                "change": "-3.6%",
+                "name": "美國銀行",
+                "ticker": "BAC",
+                "current_price": 58.73,
+                "change": "0.63%",
                 "mentions": [
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "量化朋友提到，這波殺、彈、再殺後，資金 allocation 可能開始改變"
-                    }
-                ]
-            },
-            {
-                "name": "科休",
-                "ticker": "COHR",
-                "current_price": 333.36,
-                "change": "-9.57%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "Coherent"
-                    }
-                ]
-            },
-            {
-                "name": "新思科技",
-                "ticker": "SNPS",
-                "current_price": 437.16,
-                "change": "-3.82%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "Synopsys"
-                    }
-                ]
-            },
-            {
-                "name": "益華電腦",
-                "ticker": "CDNS",
-                "current_price": 373.14,
-                "change": "-1.22%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "Cadence"
-                    }
-                ]
-            },
-            {
-                "name": "Cloudflare",
-                "ticker": "NET",
-                "current_price": 242.41,
-                "change": "-1.58%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "CPO Switch / AI Networking"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "AppleAAPLWWDC、onscreen context、Apple Intelligence中立偏正向觀察Primary + secondary + Apple officialiOS beta feedback、iPhone ..."
                     }
                 ]
             },
@@ -3790,9 +3705,9 @@
                 "change": "3.96%",
                 "mentions": [
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "Power Distribution / Data Center Electrical Infrastructure"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "可形成 watchlist discipline：流動性、月營收、相對強勢優先"
                     }
                 ]
             },
@@ -3803,420 +3718,42 @@
                 "change": "2.13%",
                 "mentions": [
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "被動元件相對強，光通、台積電、聯發科轉弱"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "聯發科 / MediaTek2454.TW權值股強弱觀察只被提及 / 觀察Secondary source旗艦晶片、AI PC / edge AI roadmap"
                     }
                 ]
             },
             {
-                "name": "士電",
-                "ticker": "1503.TW",
-                "current_price": 238.5,
-                "change": "0.21%",
+                "name": "佳大",
+                "ticker": "2033.TW",
+                "current_price": 16.55,
+                "change": "2.48%",
                 "mentions": [
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "士電"
-                    }
-                ]
-            },
-            {
-                "name": "中興電",
-                "ticker": "1513.TW",
-                "current_price": 177.5,
-                "change": "0.57%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "中興電"
-                    }
-                ]
-            },
-            {
-                "name": "華城",
-                "ticker": "1519.TW",
-                "current_price": 771.0,
-                "change": "0.13%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "華城"
-                    }
-                ]
-            },
-            {
-                "name": "光寶科",
-                "ticker": "2301.TW",
-                "current_price": 218.0,
-                "change": "-1.58%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "光寶科"
-                    }
-                ]
-            },
-            {
-                "name": "台達電",
-                "ticker": "2308.TW",
-                "current_price": 2005.0,
-                "change": "1.78%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "台達電"
-                    }
-                ]
-            },
-            {
-                "name": "鴻海",
-                "ticker": "2317.TW",
-                "current_price": 239.5,
-                "change": "0.21%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "鴻海"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "流動性佳大型股偏正向觀察回檔中偏好有數字、有流動性、老牌名牌"
                     }
                 ]
             },
             {
                 "name": "聯發科",
                 "ticker": "2454.TW",
-                "current_price": 4140.0,
-                "change": "-4.72%",
+                "current_price": 4195.0,
+                "change": "-3.45%",
                 "mentions": [
                     {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "被動元件相對強，光通、台積電、聯發科轉弱"
-                    }
-                ]
-            },
-            {
-                "name": "健和興",
-                "ticker": "3003.TW",
-                "current_price": 65.2,
-                "change": "-0.46%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "健和興"
-                    }
-                ]
-            },
-            {
-                "name": "欣興",
-                "ticker": "3037.TW",
-                "current_price": 966.0,
-                "change": "-1.33%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "欣興"
-                    }
-                ]
-            },
-            {
-                "name": "景碩",
-                "ticker": "3189.TW",
-                "current_price": 813.0,
-                "change": "-2.05%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "景碩"
-                    }
-                ]
-            },
-            {
-                "name": "玉晶光",
-                "ticker": "3406.TW",
-                "current_price": 646.0,
-                "change": "0.31%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "玉晶光"
-                    }
-                ]
-            },
-            {
-                "name": "聯鈞",
-                "ticker": "3450.TW",
-                "current_price": 523.0,
-                "change": "4.39%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "聯鈞"
-                    }
-                ]
-            },
-            {
-                "name": "世芯",
-                "ticker": "3661.TW",
-                "current_price": 4720.0,
-                "change": "-3.58%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "世芯-KY"
-                    }
-                ]
-            },
-            {
-                "name": "貿聯",
-                "ticker": "3665.TW",
-                "current_price": 1945.0,
-                "change": "-4.66%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "貿聯-KY"
-                    }
-                ]
-            },
-            {
-                "name": "日月光投控",
-                "ticker": "3711.TW",
-                "current_price": 674.0,
-                "change": "-6.44%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "日月光投控"
-                    }
-                ]
-            },
-            {
-                "name": "臻鼎",
-                "ticker": "4958.TW",
-                "current_price": 596.0,
-                "change": "-0.33%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "臻鼎-KY"
-                    }
-                ]
-            },
-            {
-                "name": "眾達",
-                "ticker": "4977.TW",
-                "current_price": 163.0,
-                "change": "1.56%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "眾達-KY"
-                    }
-                ]
-            },
-            {
-                "name": "台郡",
-                "ticker": "6269.TW",
-                "current_price": 66.5,
-                "change": "1.22%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "台郡"
-                    }
-                ]
-            },
-            {
-                "name": "康舒",
-                "ticker": "6282.TW",
-                "current_price": 57.9,
-                "change": "-0.34%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "康舒"
-                    }
-                ]
-            },
-            {
-                "name": "群電",
-                "ticker": "6412.TW",
-                "current_price": 99.4,
-                "change": "2.47%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "群電"
-                    }
-                ]
-            },
-            {
-                "name": "光聖",
-                "ticker": "6442.TW",
-                "current_price": 1635.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "光聖"
-                    }
-                ]
-            },
-            {
-                "name": "南電",
-                "ticker": "8046.TW",
-                "current_price": 1150.0,
-                "change": "0.44%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "南電"
-                    }
-                ]
-            },
-            {
-                "name": "巨大",
-                "ticker": "9921.TW",
-                "current_price": 76.8,
-                "change": "1.72%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "原本曾想過，如果 Apple 走抽過路費模式，應該會是不錯的做法，因為可以賺很多錢，也不用扛巨大 capex"
-                    }
-                ]
-            },
-            {
-                "name": "安心",
-                "ticker": "1259.TWO",
-                "current_price": 56.7,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "如果 Apple 投入伺服器與自己的模型，可以讓市場稍微安心，並降低純過路費模式，這對市場信心可能是好的"
-                    }
-                ]
-            },
-            {
-                "name": "聯亞",
-                "ticker": "3081.TWO",
-                "current_price": 2060.0,
-                "change": "6.19%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "聯亞"
-                    }
-                ]
-            },
-            {
-                "name": "波若威",
-                "ticker": "3163.TWO",
-                "current_price": 819.0,
-                "change": "5.68%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "波若威"
-                    }
-                ]
-            },
-            {
-                "name": "上詮",
-                "ticker": "3363.TWO",
-                "current_price": 581.0,
-                "change": "9.83%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "上詮"
-                    }
-                ]
-            },
-            {
-                "name": "華星光",
-                "ticker": "4979.TWO",
-                "current_price": 473.0,
-                "change": "6.29%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "華星光"
-                    }
-                ]
-            },
-            {
-                "name": "能率",
-                "ticker": "5392.TWO",
-                "current_price": 48.6,
-                "change": "0.21%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "如果後面再破一次底，反而可能洗出更多籌碼，讓下一波能率先反彈的族群浮現"
-                    }
-                ]
-            },
-            {
-                "name": "萬潤",
-                "ticker": "6187.TWO",
-                "current_price": 1040.0,
-                "change": "3.48%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "萬潤"
-                    }
-                ]
-            },
-            {
-                "name": "良維",
-                "ticker": "6290.TWO",
-                "current_price": 312.5,
-                "change": "0.16%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/208",
-                        "reason": "良維"
+                        "name": "weitingslobster-max.github.io",
+                        "url": "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/",
+                        "reason": "聯發科 / MediaTek2454.TW權值股強弱觀察只被提及 / 觀察Secondary source旗艦晶片、AI PC / edge AI roadmap"
                     }
                 ]
             }
         ],
         "sources": [
             "https://socialworkerdaily.com/notes-of-gooaye-ep-669/",
-            "https://mugglestock.com/articles/208",
-            "https://vocus.cc/article/6a294d2dfd8978000113471a"
+            "https://weitingslobster-max.github.io/shuangshuang-gooaye-notes/ep-669/"
         ]
     },
     {
@@ -4234,11 +3771,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-668/",
                         "reason": "2.輝達跟Adobe合作：硬體去迎合Adobe的應用，而Adobe軟體去做符合RTX spark的設計"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "Computex 從空泛 AI 想像轉向實際應用，NVIDIA Enterprise、LPU、CPU rack、agentic workflow、RTX Spark、Adobe 合作、MediaTek N1X／N1、ASUS ROG ..."
                     }
                 ]
             },
@@ -4252,11 +3784,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-668/",
                         "reason": "3.眼鏡：有點像是輕量化的Apple vision Pro，畫面跟流暢度都很好"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "ROG 眼鏡像輕量化 Apple Vision Pro，AR／眼鏡題材開始接近日常使用"
                     }
                 ]
             },
@@ -4270,11 +3797,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-668/",
                         "reason": "4.高通之前的AI PC推出的時間點，AI PC的時機尚未成熟"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "高通之前推 AI PC 有點失敗，不是產品一定不好，而是時間還沒到"
                     }
                 ]
             },
@@ -4288,19 +3810,14 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-668/",
                         "reason": "(三)、聯發科"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "網路上有些是說AVGO的財報不好所以大跌，那就會想可能跟前幾集提到google這一代沒有AVGO有關，可能會是下一代又回來，那如果是這樣，聯發科應該是很穩，就算星期一下跌也可以很安心，說不定還可以加碼???那LPU查到的說明，有個SR..."
                     }
                 ]
             },
             {
                 "name": "南港",
                 "ticker": "2101.TW",
-                "current_price": 33.55,
-                "change": "3.87%",
+                "current_price": 33.4,
+                "change": "3.41%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -4312,8 +3829,8 @@
             {
                 "name": "光寶科",
                 "ticker": "2301.TW",
-                "current_price": 218.0,
-                "change": "-1.58%",
+                "current_price": 219.0,
+                "change": "-1.13%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -4325,18 +3842,13 @@
             {
                 "name": "聯發科",
                 "ticker": "2454.TW",
-                "current_price": 4140.0,
-                "change": "-4.72%",
+                "current_price": 4195.0,
+                "change": "-3.45%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-668/",
                         "reason": "(三)、聯發科"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "網路上有些是說AVGO的財報不好所以大跌，那就會想可能跟前幾集提到google這一代沒有AVGO有關，可能會是下一代又回來，那如果是這樣，聯發科應該是很穩，就算星期一下跌也可以很安心，說不定還可以加碼???那LPU查到的說明，有個SR..."
                     }
                 ]
             },
@@ -4350,447 +3862,12 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-668/",
                         "reason": "3.LPU約一萬到一萬五千個Rack，是新的東西，不會放大量"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "一般民眾與追星族大量進場，代表 AI、伺服器、PC、硬體平台已經出圈"
-                    }
-                ]
-            },
-            {
-                "name": "特斯拉",
-                "ticker": "TSLA",
-                "current_price": 393.45,
-                "change": "-7.49%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "TSLA"
-                    }
-                ]
-            },
-            {
-                "name": "谷歌",
-                "ticker": "GOOGL",
-                "current_price": 359.91,
-                "change": "-0.36%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "網路上有些是說AVGO的財報不好所以大跌，那就會想可能跟前幾集提到google這一代沒有AVGO有關，可能會是下一代又回來，那如果是這樣，聯發科應該是很穩，就算星期一下跌也可以很安心，說不定還可以加碼???那LPU查到的說明，有個SR..."
-                    }
-                ]
-            },
-            {
-                "name": "谷歌",
-                "ticker": "GOOG",
-                "current_price": 356.18,
-                "change": "-0.48%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "網路上有些是說AVGO的財報不好所以大跌，那就會想可能跟前幾集提到google這一代沒有AVGO有關，可能會是下一代又回來，那如果是這樣，聯發科應該是很穩，就算星期一下跌也可以很安心，說不定還可以加碼???那LPU查到的說明，有個SR..."
-                    }
-                ]
-            },
-            {
-                "name": "亞馬遜",
-                "ticker": "AMZN",
-                "current_price": 242.67,
-                "change": "0.4%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "AMZN"
-                    }
-                ]
-            },
-            {
-                "name": "博通",
-                "ticker": "AVGO",
-                "current_price": 360.45,
-                "change": "-2.41%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "網路上有些是說AVGO的財報不好所以大跌，那就會想可能跟前幾集提到google這一代沒有AVGO有關，可能會是下一代又回來，那如果是這樣，聯發科應該是很穩，就算星期一下跌也可以很安心，說不定還可以加碼???那LPU查到的說明，有個SR..."
-                    }
-                ]
-            },
-            {
-                "name": "邁威爾",
-                "ticker": "MRVL",
-                "current_price": 245.29,
-                "change": "-9.84%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "MRVL"
-                    }
-                ]
-            },
-            {
-                "name": "威世",
-                "ticker": "VSH",
-                "current_price": 45.92,
-                "change": "-10.33%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "VSH"
-                    }
-                ]
-            },
-            {
-                "name": "安謀",
-                "ticker": "ARM",
-                "current_price": 315.28,
-                "change": "-6.58%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "ARM"
-                    }
-                ]
-            },
-            {
-                "name": "台積電ADR",
-                "ticker": "TSM",
-                "current_price": 434.16,
-                "change": "-2.27%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "TSMC"
-                    }
-                ]
-            },
-            {
-                "name": "新思科技",
-                "ticker": "SNPS",
-                "current_price": 437.16,
-                "change": "-3.82%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "SNPS"
-                    }
-                ]
-            },
-            {
-                "name": "益華電腦",
-                "ticker": "CDNS",
-                "current_price": 373.14,
-                "change": "-1.22%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "CDNS"
-                    }
-                ]
-            },
-            {
-                "name": "Cloudflare",
-                "ticker": "NET",
-                "current_price": 242.41,
-                "change": "-1.58%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "高階 PCB／data center／networking board"
-                    }
-                ]
-            },
-            {
-                "name": "美國銀行",
-                "ticker": "BAC",
-                "current_price": 58.73,
-                "change": "0.63%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "工業電腦／工業 backplane／系統平台"
-                    }
-                ]
-            },
-            {
-                "name": "華新",
-                "ticker": "1605.TW",
-                "current_price": 36.45,
-                "change": "2.53%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "華新科"
-                    }
-                ]
-            },
-            {
-                "name": "華通",
-                "ticker": "2313.TW",
-                "current_price": 227.5,
-                "change": "-0.44%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "華通"
-                    }
-                ]
-            },
-            {
-                "name": "台積電",
-                "ticker": "2330.TW",
-                "current_price": 2435.0,
-                "change": "-1.22%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "用台積電舉例，早期看十幾塊、幾十塊的人，後來看到一兩百塊可能覺得太高，但後面仍走到更高"
-                    }
-                ]
-            },
-            {
-                "name": "華邦電",
-                "ticker": "2344.TW",
-                "current_price": 186.5,
-                "change": "1.63%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "華邦電"
-                    }
-                ]
-            },
-            {
-                "name": "金像電",
-                "ticker": "2368.TW",
-                "current_price": 1285.0,
-                "change": "4.05%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "金像電"
-                    }
-                ]
-            },
-            {
-                "name": "凱美",
-                "ticker": "2375.TW",
-                "current_price": 221.5,
-                "change": "2.07%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "凱美"
-                    }
-                ]
-            },
-            {
-                "name": "台光電",
-                "ticker": "2383.TW",
-                "current_price": 5970.0,
-                "change": "5.57%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "台光電"
-                    }
-                ]
-            },
-            {
-                "name": "研華",
-                "ticker": "2395.TW",
-                "current_price": 514.0,
-                "change": "0.78%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "研華"
-                    }
-                ]
-            },
-            {
-                "name": "友通",
-                "ticker": "2397.TW",
-                "current_price": 61.1,
-                "change": "4.09%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "友通"
-                    }
-                ]
-            },
-            {
-                "name": "立隆電",
-                "ticker": "2472.TW",
-                "current_price": 435.0,
-                "change": "1.64%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "立隆電"
-                    }
-                ]
-            },
-            {
-                "name": "華新科",
-                "ticker": "2492.TW",
-                "current_price": 584.0,
-                "change": "4.1%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "華新科"
-                    }
-                ]
-            },
-            {
-                "name": "欣興",
-                "ticker": "3037.TW",
-                "current_price": 966.0,
-                "change": "-1.33%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "欣興"
-                    }
-                ]
-            },
-            {
-                "name": "健鼎",
-                "ticker": "3044.TW",
-                "current_price": 513.0,
-                "change": "1.38%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "健鼎"
-                    }
-                ]
-            },
-            {
-                "name": "創意",
-                "ticker": "3443.TW",
-                "current_price": 5085.0,
-                "change": "-4.6%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "創意"
-                    }
-                ]
-            },
-            {
-                "name": "世芯",
-                "ticker": "3661.TW",
-                "current_price": 4720.0,
-                "change": "-3.58%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "世芯-KY"
-                    }
-                ]
-            },
-            {
-                "name": "三星",
-                "ticker": "5007.TW",
-                "current_price": 55.5,
-                "change": "-0.18%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "三星電子"
-                    }
-                ]
-            },
-            {
-                "name": "凌華",
-                "ticker": "6166.TW",
-                "current_price": 133.0,
-                "change": "-1.48%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "凌華"
-                    }
-                ]
-            },
-            {
-                "name": "安心",
-                "ticker": "1259.TWO",
-                "current_price": 56.7,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "網路上有些是說AVGO的財報不好所以大跌，那就會想可能跟前幾集提到google這一代沒有AVGO有關，可能會是下一代又回來，那如果是這樣，聯發科應該是很穩，就算星期一下跌也可以很安心，說不定還可以加碼???那LPU查到的說明，有個SR..."
-                    }
-                ]
-            },
-            {
-                "name": "高技",
-                "ticker": "5439.TWO",
-                "current_price": 353.5,
-                "change": "1.58%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "Kyber 工藝複雜度高，可能進一步遞延，因此推進上可能會折衷，不會一次跳到最高技術門檻"
-                    }
-                ]
-            },
-            {
-                "name": "金山電",
-                "ticker": "8042.TWO",
-                "current_price": 227.0,
-                "change": "9.93%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/207",
-                        "reason": "金山電"
                     }
                 ]
             }
         ],
         "sources": [
-            "https://socialworkerdaily.com/notes-of-gooaye-ep-668/",
-            "https://mugglestock.com/articles/207"
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-668/"
         ]
     },
     {
@@ -4873,8 +3950,8 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2435.0,
-                "change": "-1.22%",
+                "current_price": 2445.0,
+                "change": "-0.81%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -4891,8 +3968,8 @@
             {
                 "name": "聯發科",
                 "ticker": "2454.TW",
-                "current_price": 4140.0,
-                "change": "-4.72%",
+                "current_price": 4195.0,
+                "change": "-3.45%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -4927,8 +4004,8 @@
             {
                 "name": "巨大",
                 "ticker": "9921.TW",
-                "current_price": 76.8,
-                "change": "1.72%",
+                "current_price": 76.2,
+                "change": "0.93%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -5122,8 +4199,8 @@
             {
                 "name": "南亞",
                 "ticker": "1303.TW",
-                "current_price": 187.0,
-                "change": "-5.08%",
+                "current_price": 197.0,
+                "change": "0.0%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5135,8 +4212,8 @@
             {
                 "name": "士電",
                 "ticker": "1503.TW",
-                "current_price": 238.5,
-                "change": "0.21%",
+                "current_price": 238.0,
+                "change": "0.0%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5148,8 +4225,8 @@
             {
                 "name": "中興電",
                 "ticker": "1513.TW",
-                "current_price": 177.5,
-                "change": "0.57%",
+                "current_price": 176.5,
+                "change": "0.0%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5161,8 +4238,8 @@
             {
                 "name": "亞力",
                 "ticker": "1514.TW",
-                "current_price": 123.5,
-                "change": "1.65%",
+                "current_price": 123.0,
+                "change": "1.23%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5174,8 +4251,8 @@
             {
                 "name": "華城",
                 "ticker": "1519.TW",
-                "current_price": 771.0,
-                "change": "0.13%",
+                "current_price": 773.0,
+                "change": "0.39%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5187,8 +4264,8 @@
             {
                 "name": "台玻",
                 "ticker": "1802.TW",
-                "current_price": 69.2,
-                "change": "-1.7%",
+                "current_price": 68.8,
+                "change": "-2.27%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5200,8 +4277,8 @@
             {
                 "name": "上銀",
                 "ticker": "2049.TW",
-                "current_price": 345.5,
-                "change": "-1.85%",
+                "current_price": 350.0,
+                "change": "-0.57%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5213,8 +4290,8 @@
             {
                 "name": "正新",
                 "ticker": "2105.TW",
-                "current_price": 32.35,
-                "change": "2.05%",
+                "current_price": 32.15,
+                "change": "1.42%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5226,8 +4303,8 @@
             {
                 "name": "光寶科",
                 "ticker": "2301.TW",
-                "current_price": 218.0,
-                "change": "-1.58%",
+                "current_price": 219.0,
+                "change": "-1.13%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5239,8 +4316,8 @@
             {
                 "name": "台達電",
                 "ticker": "2308.TW",
-                "current_price": 2005.0,
-                "change": "1.78%",
+                "current_price": 2075.0,
+                "change": "5.33%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5252,8 +4329,8 @@
             {
                 "name": "鴻海",
                 "ticker": "2317.TW",
-                "current_price": 239.5,
-                "change": "0.21%",
+                "current_price": 240.5,
+                "change": "0.63%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5265,8 +4342,8 @@
             {
                 "name": "仁寶",
                 "ticker": "2324.TW",
-                "current_price": 34.6,
-                "change": "-0.57%",
+                "current_price": 34.95,
+                "change": "0.43%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5291,8 +4368,8 @@
             {
                 "name": "華邦電",
                 "ticker": "2344.TW",
-                "current_price": 186.5,
-                "change": "1.63%",
+                "current_price": 184.5,
+                "change": "0.54%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5317,8 +4394,8 @@
             {
                 "name": "順德",
                 "ticker": "2351.TW",
-                "current_price": 206.5,
-                "change": "-3.05%",
+                "current_price": 207.5,
+                "change": "-2.58%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5330,8 +4407,8 @@
             {
                 "name": "英業達",
                 "ticker": "2356.TW",
-                "current_price": 67.9,
-                "change": "1.04%",
+                "current_price": 67.6,
+                "change": "0.6%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5343,8 +4420,8 @@
             {
                 "name": "華碩",
                 "ticker": "2357.TW",
-                "current_price": 666.0,
-                "change": "-0.15%",
+                "current_price": 675.0,
+                "change": "1.2%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5356,8 +4433,8 @@
             {
                 "name": "金像電",
                 "ticker": "2368.TW",
-                "current_price": 1285.0,
-                "change": "4.05%",
+                "current_price": 1305.0,
+                "change": "5.67%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5369,8 +4446,8 @@
             {
                 "name": "大同",
                 "ticker": "2371.TW",
-                "current_price": 28.2,
-                "change": "2.73%",
+                "current_price": 28.0,
+                "change": "2.0%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5382,8 +4459,8 @@
             {
                 "name": "技嘉",
                 "ticker": "2376.TW",
-                "current_price": 340.0,
-                "change": "0.44%",
+                "current_price": 338.5,
+                "change": "0.0%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5395,8 +4472,8 @@
             {
                 "name": "微星",
                 "ticker": "2377.TW",
-                "current_price": 144.0,
-                "change": "0.7%",
+                "current_price": 143.0,
+                "change": "0.0%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5408,8 +4485,8 @@
             {
                 "name": "瑞昱",
                 "ticker": "2379.TW",
-                "current_price": 792.0,
-                "change": "-2.34%",
+                "current_price": 783.0,
+                "change": "-3.45%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5421,8 +4498,8 @@
             {
                 "name": "廣達",
                 "ticker": "2382.TW",
-                "current_price": 372.5,
-                "change": "0.95%",
+                "current_price": 377.0,
+                "change": "2.17%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5434,8 +4511,8 @@
             {
                 "name": "台光電",
                 "ticker": "2383.TW",
-                "current_price": 5970.0,
-                "change": "5.57%",
+                "current_price": 6080.0,
+                "change": "7.52%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5447,8 +4524,8 @@
             {
                 "name": "南亞科",
                 "ticker": "2408.TW",
-                "current_price": 417.0,
-                "change": "2.46%",
+                "current_price": 409.5,
+                "change": "0.61%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5460,8 +4537,8 @@
             {
                 "name": "全新",
                 "ticker": "2455.TW",
-                "current_price": 355.0,
-                "change": "2.01%",
+                "current_price": 358.0,
+                "change": "2.87%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5473,8 +4550,8 @@
             {
                 "name": "義隆",
                 "ticker": "2458.TW",
-                "current_price": 186.0,
-                "change": "0.27%",
+                "current_price": 184.0,
+                "change": "-0.81%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5486,8 +4563,8 @@
             {
                 "name": "盟立",
                 "ticker": "2464.TW",
-                "current_price": 175.0,
-                "change": "-4.63%",
+                "current_price": 172.5,
+                "change": "-5.99%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5499,8 +4576,8 @@
             {
                 "name": "強茂",
                 "ticker": "2481.TW",
-                "current_price": 212.0,
-                "change": "-0.7%",
+                "current_price": 207.0,
+                "change": "-3.04%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5512,8 +4589,8 @@
             {
                 "name": "嘉晶",
                 "ticker": "3016.TW",
-                "current_price": 131.0,
-                "change": "-2.24%",
+                "current_price": 135.5,
+                "change": "1.12%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5525,8 +4602,8 @@
             {
                 "name": "奇鋐",
                 "ticker": "3017.TW",
-                "current_price": 2670.0,
-                "change": "-2.55%",
+                "current_price": 2760.0,
+                "change": "0.73%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5538,8 +4615,8 @@
             {
                 "name": "信邦",
                 "ticker": "3023.TW",
-                "current_price": 341.0,
-                "change": "3.33%",
+                "current_price": 336.5,
+                "change": "1.97%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5551,8 +4628,8 @@
             {
                 "name": "聯詠",
                 "ticker": "3034.TW",
-                "current_price": 540.0,
-                "change": "-0.18%",
+                "current_price": 538.0,
+                "change": "-0.55%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5564,8 +4641,8 @@
             {
                 "name": "智原",
                 "ticker": "3035.TW",
-                "current_price": 223.0,
-                "change": "-0.45%",
+                "current_price": 222.5,
+                "change": "-0.67%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5577,8 +4654,8 @@
             {
                 "name": "欣興",
                 "ticker": "3037.TW",
-                "current_price": 966.0,
-                "change": "-1.33%",
+                "current_price": 969.0,
+                "change": "-1.02%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5590,8 +4667,8 @@
             {
                 "name": "緯創",
                 "ticker": "3231.TW",
-                "current_price": 160.0,
-                "change": "0.95%",
+                "current_price": 159.0,
+                "change": "0.32%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5603,8 +4680,8 @@
             {
                 "name": "明泰",
                 "ticker": "3380.TW",
-                "current_price": 34.65,
-                "change": "1.76%",
+                "current_price": 36.0,
+                "change": "5.73%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5616,8 +4693,8 @@
             {
                 "name": "創意",
                 "ticker": "3443.TW",
-                "current_price": 5085.0,
-                "change": "-4.6%",
+                "current_price": 5040.0,
+                "change": "-5.44%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5629,8 +4706,8 @@
             {
                 "name": "聯鈞",
                 "ticker": "3450.TW",
-                "current_price": 523.0,
-                "change": "4.39%",
+                "current_price": 530.0,
+                "change": "5.79%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5642,8 +4719,8 @@
             {
                 "name": "群創",
                 "ticker": "3481.TW",
-                "current_price": 67.1,
-                "change": "-0.74%",
+                "current_price": 66.0,
+                "change": "-2.37%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5655,8 +4732,8 @@
             {
                 "name": "牧德",
                 "ticker": "3563.TW",
-                "current_price": 802.0,
-                "change": "-0.87%",
+                "current_price": 787.0,
+                "change": "-2.72%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5668,8 +4745,8 @@
             {
                 "name": "辛耘",
                 "ticker": "3583.TW",
-                "current_price": 869.0,
-                "change": "-4.3%",
+                "current_price": 851.0,
+                "change": "-6.28%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5681,8 +4758,8 @@
             {
                 "name": "世芯",
                 "ticker": "3661.TW",
-                "current_price": 4720.0,
-                "change": "-3.58%",
+                "current_price": 4650.0,
+                "change": "-5.01%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5694,8 +4771,8 @@
             {
                 "name": "貿聯",
                 "ticker": "3665.TW",
-                "current_price": 1945.0,
-                "change": "-4.66%",
+                "current_price": 1995.0,
+                "change": "-2.21%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5707,8 +4784,8 @@
             {
                 "name": "達能",
                 "ticker": "3686.TW",
-                "current_price": 17.25,
-                "change": "1.17%",
+                "current_price": 17.3,
+                "change": "1.47%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5720,8 +4797,8 @@
             {
                 "name": "神達",
                 "ticker": "3706.TW",
-                "current_price": 92.4,
-                "change": "-0.96%",
+                "current_price": 91.0,
+                "change": "-2.47%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5733,8 +4810,8 @@
             {
                 "name": "日月光投控",
                 "ticker": "3711.TW",
-                "current_price": 674.0,
-                "change": "-6.44%",
+                "current_price": 682.0,
+                "change": "-5.33%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5746,8 +4823,8 @@
             {
                 "name": "新唐",
                 "ticker": "4919.TW",
-                "current_price": 185.5,
-                "change": "0.27%",
+                "current_price": 176.5,
+                "change": "-4.59%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5759,8 +4836,8 @@
             {
                 "name": "和碩",
                 "ticker": "4938.TW",
-                "current_price": 83.2,
-                "change": "0.0%",
+                "current_price": 83.6,
+                "change": "0.48%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5772,8 +4849,8 @@
             {
                 "name": "臻鼎",
                 "ticker": "4958.TW",
-                "current_price": 596.0,
-                "change": "-0.33%",
+                "current_price": 613.0,
+                "change": "2.51%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5785,8 +4862,8 @@
             {
                 "name": "眾達",
                 "ticker": "4977.TW",
-                "current_price": 163.0,
-                "change": "1.56%",
+                "current_price": 162.0,
+                "change": "0.93%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5798,8 +4875,8 @@
             {
                 "name": "祥碩",
                 "ticker": "5269.TW",
-                "current_price": 1550.0,
-                "change": "1.97%",
+                "current_price": 1530.0,
+                "change": "0.66%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5811,8 +4888,8 @@
             {
                 "name": "界霖",
                 "ticker": "5285.TW",
-                "current_price": 97.6,
-                "change": "-1.81%",
+                "current_price": 96.9,
+                "change": "-2.52%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5824,8 +4901,8 @@
             {
                 "name": "力成",
                 "ticker": "6239.TW",
-                "current_price": 333.5,
-                "change": "0.0%",
+                "current_price": 338.0,
+                "change": "1.35%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5837,8 +4914,8 @@
             {
                 "name": "矽格",
                 "ticker": "6257.TW",
-                "current_price": 250.5,
-                "change": "-0.2%",
+                "current_price": 254.5,
+                "change": "1.39%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5850,8 +4927,8 @@
             {
                 "name": "康舒",
                 "ticker": "6282.TW",
-                "current_price": 57.9,
-                "change": "-0.34%",
+                "current_price": 58.3,
+                "change": "0.34%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5863,8 +4940,8 @@
             {
                 "name": "悅城",
                 "ticker": "6405.TW",
-                "current_price": 60.2,
-                "change": "-0.82%",
+                "current_price": 62.0,
+                "change": "2.14%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5876,8 +4953,8 @@
             {
                 "name": "群電",
                 "ticker": "6412.TW",
-                "current_price": 99.4,
-                "change": "2.47%",
+                "current_price": 98.0,
+                "change": "1.03%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5889,8 +4966,8 @@
             {
                 "name": "矽力*",
                 "ticker": "6415.TW",
-                "current_price": 602.0,
-                "change": "-3.53%",
+                "current_price": 605.0,
+                "change": "-3.04%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5902,8 +4979,8 @@
             {
                 "name": "統新",
                 "ticker": "6426.TW",
-                "current_price": 200.5,
-                "change": "4.16%",
+                "current_price": 201.0,
+                "change": "4.42%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5915,8 +4992,8 @@
             {
                 "name": "光聖",
                 "ticker": "6442.TW",
-                "current_price": 1635.0,
-                "change": "0.0%",
+                "current_price": 1640.0,
+                "change": "0.31%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5928,8 +5005,8 @@
             {
                 "name": "訊芯",
                 "ticker": "6451.TW",
-                "current_price": 539.0,
-                "change": "3.26%",
+                "current_price": 543.0,
+                "change": "4.02%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5941,8 +5018,8 @@
             {
                 "name": "穎崴",
                 "ticker": "6515.TW",
-                "current_price": 9895.0,
-                "change": "6.28%",
+                "current_price": 9900.0,
+                "change": "6.34%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5954,8 +5031,8 @@
             {
                 "name": "虹揚",
                 "ticker": "6573.TW",
-                "current_price": 25.4,
-                "change": "9.96%",
+                "current_price": 25.1,
+                "change": "8.66%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5967,8 +5044,8 @@
             {
                 "name": "緯穎",
                 "ticker": "6669.TW",
-                "current_price": 5200.0,
-                "change": "0.0%",
+                "current_price": 5265.0,
+                "change": "1.25%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5980,8 +5057,8 @@
             {
                 "name": "芯鼎",
                 "ticker": "6695.TW",
-                "current_price": 59.0,
-                "change": "0.51%",
+                "current_price": 58.1,
+                "change": "-1.02%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -5993,8 +5070,8 @@
             {
                 "name": "AES",
                 "ticker": "6781.TW",
-                "current_price": 1230.0,
-                "change": "2.07%",
+                "current_price": 1225.0,
+                "change": "1.66%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6006,8 +5083,8 @@
             {
                 "name": "富世達",
                 "ticker": "6805.TW",
-                "current_price": 1615.0,
-                "change": "-3.29%",
+                "current_price": 1630.0,
+                "change": "-2.4%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6019,8 +5096,8 @@
             {
                 "name": "天虹",
                 "ticker": "6937.TW",
-                "current_price": 299.0,
-                "change": "2.57%",
+                "current_price": 287.0,
+                "change": "-1.54%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6032,8 +5109,8 @@
             {
                 "name": "南電",
                 "ticker": "8046.TW",
-                "current_price": 1150.0,
-                "change": "0.44%",
+                "current_price": 1185.0,
+                "change": "3.49%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6045,8 +5122,8 @@
             {
                 "name": "勤誠",
                 "ticker": "8210.TW",
-                "current_price": 1285.0,
-                "change": "-1.91%",
+                "current_price": 1305.0,
+                "change": "-0.38%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6058,8 +5135,8 @@
             {
                 "name": "富鼎",
                 "ticker": "8261.TW",
-                "current_price": 329.5,
-                "change": "0.76%",
+                "current_price": 320.0,
+                "change": "-2.14%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6071,8 +5148,8 @@
             {
                 "name": "羅昇",
                 "ticker": "8374.TW",
-                "current_price": 93.0,
-                "change": "-1.17%",
+                "current_price": 92.7,
+                "change": "-1.49%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6084,8 +5161,8 @@
             {
                 "name": "聯亞",
                 "ticker": "3081.TWO",
-                "current_price": 2060.0,
-                "change": "6.19%",
+                "current_price": 2100.0,
+                "change": "8.25%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6097,8 +5174,8 @@
             {
                 "name": "弘塑",
                 "ticker": "3131.TWO",
-                "current_price": 3875.0,
-                "change": "-0.77%",
+                "current_price": 3785.0,
+                "change": "-3.07%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6110,8 +5187,8 @@
             {
                 "name": "波若威",
                 "ticker": "3163.TWO",
-                "current_price": 819.0,
-                "change": "5.68%",
+                "current_price": 818.0,
+                "change": "5.55%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6123,8 +5200,8 @@
             {
                 "name": "順達",
                 "ticker": "3211.TWO",
-                "current_price": 404.5,
-                "change": "-0.49%",
+                "current_price": 401.0,
+                "change": "-1.35%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6136,8 +5213,8 @@
             {
                 "name": "光環",
                 "ticker": "3234.TWO",
-                "current_price": 129.5,
-                "change": "1.57%",
+                "current_price": 128.0,
+                "change": "0.39%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6149,8 +5226,8 @@
             {
                 "name": "威剛",
                 "ticker": "3260.TWO",
-                "current_price": 409.0,
-                "change": "0.25%",
+                "current_price": 411.5,
+                "change": "0.86%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6162,8 +5239,8 @@
             {
                 "name": "台星科",
                 "ticker": "3265.TWO",
-                "current_price": 184.5,
-                "change": "0.05%",
+                "current_price": 185.0,
+                "change": "0.33%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6175,8 +5252,8 @@
             {
                 "name": "尼克森",
                 "ticker": "3317.TWO",
-                "current_price": 94.3,
-                "change": "-3.08%",
+                "current_price": 96.2,
+                "change": "-1.13%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6214,8 +5291,8 @@
             {
                 "name": "德微",
                 "ticker": "3675.TWO",
-                "current_price": 415.0,
-                "change": "1.97%",
+                "current_price": 417.5,
+                "change": "2.58%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6227,8 +5304,8 @@
             {
                 "name": "漢磊",
                 "ticker": "3707.TWO",
-                "current_price": 84.8,
-                "change": "-3.31%",
+                "current_price": 91.0,
+                "change": "3.76%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6240,8 +5317,8 @@
             {
                 "name": "台特化",
                 "ticker": "4772.TWO",
-                "current_price": 282.0,
-                "change": "2.17%",
+                "current_price": 281.0,
+                "change": "1.81%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6253,8 +5330,8 @@
             {
                 "name": "聯光通",
                 "ticker": "4903.TWO",
-                "current_price": 41.85,
-                "change": "4.49%",
+                "current_price": 41.8,
+                "change": "4.37%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6266,8 +5343,8 @@
             {
                 "name": "前鼎",
                 "ticker": "4908.TWO",
-                "current_price": 182.0,
-                "change": "5.51%",
+                "current_price": 181.0,
+                "change": "4.93%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6279,8 +5356,8 @@
             {
                 "name": "新盛力",
                 "ticker": "4931.TWO",
-                "current_price": 239.0,
-                "change": "1.06%",
+                "current_price": 237.5,
+                "change": "0.42%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6292,8 +5369,8 @@
             {
                 "name": "譜瑞",
                 "ticker": "4966.TWO",
-                "current_price": 661.0,
-                "change": "0.76%",
+                "current_price": 654.0,
+                "change": "-0.3%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6305,8 +5382,8 @@
             {
                 "name": "華星光",
                 "ticker": "4979.TWO",
-                "current_price": 473.0,
-                "change": "6.29%",
+                "current_price": 468.5,
+                "change": "5.28%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6318,8 +5395,8 @@
             {
                 "name": "信驊",
                 "ticker": "5274.TWO",
-                "current_price": 17600.0,
-                "change": "-0.85%",
+                "current_price": 17265.0,
+                "change": "-2.73%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6331,8 +5408,8 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 151.5,
-                "change": "-1.3%",
+                "current_price": 152.0,
+                "change": "-0.98%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6344,8 +5421,8 @@
             {
                 "name": "杰力",
                 "ticker": "5299.TWO",
-                "current_price": 131.5,
-                "change": "-3.31%",
+                "current_price": 129.0,
+                "change": "-5.15%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6357,8 +5434,8 @@
             {
                 "name": "台半",
                 "ticker": "5425.TWO",
-                "current_price": 130.0,
-                "change": "-2.62%",
+                "current_price": 131.0,
+                "change": "-1.87%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6370,8 +5447,8 @@
             {
                 "name": "中美晶",
                 "ticker": "5483.TWO",
-                "current_price": 201.0,
-                "change": "0.0%",
+                "current_price": 210.5,
+                "change": "4.73%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6383,8 +5460,8 @@
             {
                 "name": "茂達",
                 "ticker": "6138.TWO",
-                "current_price": 416.0,
-                "change": "-0.6%",
+                "current_price": 400.0,
+                "change": "-4.42%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6396,8 +5473,8 @@
             {
                 "name": "旺矽",
                 "ticker": "6223.TWO",
-                "current_price": 7270.0,
-                "change": "0.21%",
+                "current_price": 7380.0,
+                "change": "1.72%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6409,8 +5486,8 @@
             {
                 "name": "台燿",
                 "ticker": "6274.TWO",
-                "current_price": 1800.0,
-                "change": "6.51%",
+                "current_price": 1790.0,
+                "change": "5.92%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6422,8 +5499,8 @@
             {
                 "name": "晶焱",
                 "ticker": "6411.TWO",
-                "current_price": 101.0,
-                "change": "-0.98%",
+                "current_price": 99.7,
+                "change": "-2.25%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6435,8 +5512,8 @@
             {
                 "name": "大中",
                 "ticker": "6435.TWO",
-                "current_price": 387.5,
-                "change": "-1.27%",
+                "current_price": 382.0,
+                "change": "-2.68%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6448,8 +5525,8 @@
             {
                 "name": "神盾",
                 "ticker": "6462.TWO",
-                "current_price": 118.5,
-                "change": "0.42%",
+                "current_price": 117.5,
+                "change": "-0.42%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6461,8 +5538,8 @@
             {
                 "name": "環球晶",
                 "ticker": "6488.TWO",
-                "current_price": 1200.0,
-                "change": "-0.41%",
+                "current_price": 1255.0,
+                "change": "4.15%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6474,8 +5551,8 @@
             {
                 "name": "創威",
                 "ticker": "6530.TWO",
-                "current_price": 88.0,
-                "change": "4.14%",
+                "current_price": 87.8,
+                "change": "3.91%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6487,8 +5564,8 @@
             {
                 "name": "長科*",
                 "ticker": "6548.TWO",
-                "current_price": 89.4,
-                "change": "-1.32%",
+                "current_price": 91.6,
+                "change": "1.1%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6500,8 +5577,8 @@
             {
                 "name": "東典光電",
                 "ticker": "6588.TWO",
-                "current_price": 89.6,
-                "change": "5.16%",
+                "current_price": 89.1,
+                "change": "4.58%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6513,8 +5590,8 @@
             {
                 "name": "M31",
                 "ticker": "6643.TWO",
-                "current_price": 528.0,
-                "change": "5.92%",
+                "current_price": 511.0,
+                "change": "2.51%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6526,8 +5603,8 @@
             {
                 "name": "群翊",
                 "ticker": "6664.TWO",
-                "current_price": 401.5,
-                "change": "-1.59%",
+                "current_price": 395.5,
+                "change": "-3.06%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6539,8 +5616,8 @@
             {
                 "name": "廣閎科",
                 "ticker": "6693.TWO",
-                "current_price": 252.5,
-                "change": "-0.98%",
+                "current_price": 251.5,
+                "change": "-1.37%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6552,8 +5629,8 @@
             {
                 "name": "鈦昇",
                 "ticker": "8027.TWO",
-                "current_price": 251.5,
-                "change": "4.57%",
+                "current_price": 249.0,
+                "change": "3.53%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6565,8 +5642,8 @@
             {
                 "name": "安國",
                 "ticker": "8054.TWO",
-                "current_price": 112.5,
-                "change": "0.0%",
+                "current_price": 113.5,
+                "change": "0.89%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6578,8 +5655,8 @@
             {
                 "name": "東捷",
                 "ticker": "8064.TWO",
-                "current_price": 146.0,
-                "change": "-0.34%",
+                "current_price": 145.5,
+                "change": "-0.68%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6591,8 +5668,8 @@
             {
                 "name": "宏捷科",
                 "ticker": "8086.TWO",
-                "current_price": 145.5,
-                "change": "0.34%",
+                "current_price": 144.0,
+                "change": "-0.69%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6604,8 +5681,8 @@
             {
                 "name": "朋程",
                 "ticker": "8255.TWO",
-                "current_price": 188.5,
-                "change": "-1.57%",
+                "current_price": 186.5,
+                "change": "-2.61%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6617,8 +5694,8 @@
             {
                 "name": "群聯",
                 "ticker": "8299.TWO",
-                "current_price": 2290.0,
-                "change": "2.23%",
+                "current_price": 2295.0,
+                "change": "2.46%",
                 "mentions": [
                     {
                         "name": "麻瓜投資",
@@ -6836,8 +5913,8 @@
             {
                 "name": "新興",
                 "ticker": "2605.TW",
-                "current_price": 30.55,
-                "change": "5.16%",
+                "current_price": 30.8,
+                "change": "6.02%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -6867,8 +5944,8 @@
             {
                 "name": "新建",
                 "ticker": "2516.TW",
-                "current_price": 13.9,
-                "change": "-0.36%",
+                "current_price": 14.1,
+                "change": "1.08%",
                 "mentions": [
                     {
                         "name": "vocus.cc",
@@ -6906,8 +5983,8 @@
             {
                 "name": "華新",
                 "ticker": "1605.TW",
-                "current_price": 36.45,
-                "change": "2.53%",
+                "current_price": 36.25,
+                "change": "1.97%",
                 "mentions": [
                     {
                         "name": "weitingslobster-max.github.io",
@@ -6919,8 +5996,8 @@
             {
                 "name": "鴻海",
                 "ticker": "2317.TW",
-                "current_price": 239.5,
-                "change": "0.21%",
+                "current_price": 240.5,
+                "change": "0.63%",
                 "mentions": [
                     {
                         "name": "weitingslobster-max.github.io",
@@ -6932,8 +6009,8 @@
             {
                 "name": "廣達",
                 "ticker": "2382.TW",
-                "current_price": 372.5,
-                "change": "0.95%",
+                "current_price": 377.0,
+                "change": "2.17%",
                 "mentions": [
                     {
                         "name": "weitingslobster-max.github.io",
@@ -6945,8 +6022,8 @@
             {
                 "name": "華新科",
                 "ticker": "2492.TW",
-                "current_price": 584.0,
-                "change": "4.1%",
+                "current_price": 563.0,
+                "change": "0.36%",
                 "mentions": [
                     {
                         "name": "weitingslobster-max.github.io",
@@ -6958,8 +6035,8 @@
             {
                 "name": "緯創",
                 "ticker": "3231.TW",
-                "current_price": 160.0,
-                "change": "0.95%",
+                "current_price": 159.0,
+                "change": "0.32%",
                 "mentions": [
                     {
                         "name": "weitingslobster-max.github.io",
@@ -6971,8 +6048,8 @@
             {
                 "name": "精確",
                 "ticker": "3162.TWO",
-                "current_price": 86.5,
-                "change": "2.0%",
+                "current_price": 85.1,
+                "change": "0.35%",
                 "mentions": [
                     {
                         "name": "weitingslobster-max.github.io",
@@ -6984,8 +6061,8 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 151.5,
-                "change": "-1.3%",
+                "current_price": 152.0,
+                "change": "-0.98%",
                 "mentions": [
                     {
                         "name": "weitingslobster-max.github.io",
