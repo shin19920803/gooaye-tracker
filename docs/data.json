@@ -7,8 +7,8 @@
             {
                 "name": "輝達",
                 "ticker": "NVDA",
-                "current_price": 195.55,
-                "change": "0.37%",
+                "current_price": 196.93,
+                "change": "0.71%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -20,8 +20,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOGL",
-                "current_price": 366.46,
-                "change": "1.82%",
+                "current_price": 367.03,
+                "change": "0.16%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -33,8 +33,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOG",
-                "current_price": 364.9,
-                "change": "2.45%",
+                "current_price": 363.62,
+                "change": "-0.35%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -46,8 +46,8 @@
             {
                 "name": "Meta",
                 "ticker": "META",
-                "current_price": 600.29,
-                "change": "2.98%",
+                "current_price": 615.58,
+                "change": "2.55%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -59,8 +59,8 @@
             {
                 "name": "南亞",
                 "ticker": "1303.TW",
-                "current_price": 185.0,
-                "change": "0.0%",
+                "current_price": 178.0,
+                "change": "7.42%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -72,8 +72,8 @@
             {
                 "name": "光寶科",
                 "ticker": "2301.TW",
-                "current_price": 219.0,
-                "change": "-2.23%",
+                "current_price": 210.0,
+                "change": "-1.41%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -85,8 +85,8 @@
             {
                 "name": "南亞科",
                 "ticker": "2408.TW",
-                "current_price": 424.0,
-                "change": "1.16%",
+                "current_price": 401.5,
+                "change": "-0.37%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -98,8 +98,8 @@
             {
                 "name": "強茂",
                 "ticker": "2481.TW",
-                "current_price": 226.0,
-                "change": "-0.66%",
+                "current_price": 208.0,
+                "change": "-3.7%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -111,8 +111,8 @@
             {
                 "name": "大量",
                 "ticker": "3167.TW",
-                "current_price": 869.0,
-                "change": "-3.98%",
+                "current_price": 821.0,
+                "change": "-1.56%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -124,8 +124,8 @@
             {
                 "name": "富鼎",
                 "ticker": "8261.TW",
-                "current_price": 346.0,
-                "change": "-1.7%",
+                "current_price": 337.0,
+                "change": "-1.46%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -137,8 +137,8 @@
             {
                 "name": "點晶",
                 "ticker": "3288.TWO",
-                "current_price": 19.8,
-                "change": "-1.98%",
+                "current_price": 17.65,
+                "change": "-3.55%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -150,7 +150,7 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 151.0,
+                "current_price": 150.5,
                 "change": "-0.33%",
                 "mentions": [
                     {
@@ -173,8 +173,8 @@
             {
                 "name": "美光",
                 "ticker": "MU",
-                "current_price": 984.75,
-                "change": "0.96%",
+                "current_price": 938.38,
+                "change": "-4.71%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -186,8 +186,8 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2490.0,
-                "change": "1.22%",
+                "current_price": 2435.0,
+                "change": "-0.2%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -199,8 +199,8 @@
             {
                 "name": "創意",
                 "ticker": "3443.TW",
-                "current_price": 4610.0,
-                "change": "0.11%",
+                "current_price": 4405.0,
+                "change": "-1.67%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -212,8 +212,8 @@
             {
                 "name": "世芯",
                 "ticker": "3661.TW",
-                "current_price": 4210.0,
-                "change": "-0.12%",
+                "current_price": 3995.0,
+                "change": "-0.99%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -225,8 +225,8 @@
             {
                 "name": "南電",
                 "ticker": "8046.TW",
-                "current_price": 1100.0,
-                "change": "2.33%",
+                "current_price": 1080.0,
+                "change": "4.85%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -238,7 +238,7 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 151.0,
+                "current_price": 150.5,
                 "change": "-0.33%",
                 "mentions": [
                     {
@@ -261,8 +261,8 @@
             {
                 "name": "蘋果",
                 "ticker": "AAPL",
-                "current_price": 312.66,
-                "change": "1.31%",
+                "current_price": 310.66,
+                "change": "-0.64%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -274,8 +274,8 @@
             {
                 "name": "特斯拉",
                 "ticker": "TSLA",
-                "current_price": 419.77,
-                "change": "6.69%",
+                "current_price": 402.9,
+                "change": "-4.02%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -287,8 +287,8 @@
             {
                 "name": "微軟",
                 "ticker": "MSFT",
-                "current_price": 386.74,
-                "change": "-0.96%",
+                "current_price": 388.84,
+                "change": "0.54%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -300,8 +300,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOGL",
-                "current_price": 366.46,
-                "change": "1.82%",
+                "current_price": 367.03,
+                "change": "0.16%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -313,8 +313,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOG",
-                "current_price": 364.9,
-                "change": "2.45%",
+                "current_price": 363.62,
+                "change": "-0.35%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -326,8 +326,8 @@
             {
                 "name": "邁威爾",
                 "ticker": "MRVL",
-                "current_price": 249.27,
-                "change": "1.62%",
+                "current_price": 230.7,
+                "change": "-7.45%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -339,8 +339,8 @@
             {
                 "name": "美光",
                 "ticker": "MU",
-                "current_price": 984.75,
-                "change": "0.96%",
+                "current_price": 938.38,
+                "change": "-4.71%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -352,8 +352,8 @@
             {
                 "name": "CrowdStrike",
                 "ticker": "CRWD",
-                "current_price": 199.38,
-                "change": "2.78%",
+                "current_price": 194.62,
+                "change": "-2.39%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -365,8 +365,8 @@
             {
                 "name": "聯電",
                 "ticker": "2303.TW",
-                "current_price": 163.0,
-                "change": "-1.81%",
+                "current_price": 151.0,
+                "change": "-0.91%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -378,8 +378,8 @@
             {
                 "name": "台達電",
                 "ticker": "2308.TW",
-                "current_price": 1960.0,
-                "change": "-1.75%",
+                "current_price": 1850.0,
+                "change": "-2.12%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -391,8 +391,8 @@
             {
                 "name": "健策",
                 "ticker": "3653.TW",
-                "current_price": 3260.0,
-                "change": "-1.81%",
+                "current_price": 3135.0,
+                "change": "-1.88%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -404,7 +404,7 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 151.0,
+                "current_price": 150.5,
                 "change": "-0.33%",
                 "mentions": [
                     {
@@ -427,8 +427,8 @@
             {
                 "name": "德州儀器",
                 "ticker": "TXN",
-                "current_price": 303.5,
-                "change": "3.56%",
+                "current_price": 293.3,
+                "change": "-3.36%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -440,8 +440,8 @@
             {
                 "name": "安森美",
                 "ticker": "ON",
-                "current_price": 94.69,
-                "change": "3.8%",
+                "current_price": 91.1,
+                "change": "-3.79%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -453,8 +453,8 @@
             {
                 "name": "進階",
                 "ticker": "3118.TWO",
-                "current_price": 32.05,
-                "change": "0.16%",
+                "current_price": 32.0,
+                "change": "0.0%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -476,8 +476,8 @@
             {
                 "name": "蘋果",
                 "ticker": "AAPL",
-                "current_price": 312.66,
-                "change": "1.31%",
+                "current_price": 310.66,
+                "change": "-0.64%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -489,8 +489,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOGL",
-                "current_price": 366.46,
-                "change": "1.82%",
+                "current_price": 367.03,
+                "change": "0.16%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -502,8 +502,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOG",
-                "current_price": 364.9,
-                "change": "2.45%",
+                "current_price": 363.62,
+                "change": "-0.35%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -515,8 +515,8 @@
             {
                 "name": "博通",
                 "ticker": "AVGO",
-                "current_price": 373.9,
-                "change": "3.73%",
+                "current_price": 370.78,
+                "change": "-0.83%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -528,8 +528,8 @@
             {
                 "name": "邁威爾",
                 "ticker": "MRVL",
-                "current_price": 249.27,
-                "change": "1.62%",
+                "current_price": 230.7,
+                "change": "-7.45%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -541,8 +541,8 @@
             {
                 "name": "科休",
                 "ticker": "COHR",
-                "current_price": 335.7,
-                "change": "0.7%",
+                "current_price": 314.13,
+                "change": "-6.43%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -554,8 +554,8 @@
             {
                 "name": "Cloudflare",
                 "ticker": "NET",
-                "current_price": 247.55,
-                "change": "2.12%",
+                "current_price": 268.83,
+                "change": "8.6%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -567,8 +567,8 @@
             {
                 "name": "聯發",
                 "ticker": "1459.TW",
-                "current_price": 12.05,
-                "change": "-0.82%",
+                "current_price": 11.9,
+                "change": "-0.83%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -580,8 +580,8 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2490.0,
-                "change": "1.22%",
+                "current_price": 2435.0,
+                "change": "-0.2%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -593,8 +593,8 @@
             {
                 "name": "聯發科",
                 "ticker": "2454.TW",
-                "current_price": 4125.0,
-                "change": "0.6%",
+                "current_price": 3995.0,
+                "change": "-0.87%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -606,8 +606,8 @@
             {
                 "name": "全新",
                 "ticker": "2455.TW",
-                "current_price": 328.0,
-                "change": "-2.96%",
+                "current_price": 327.5,
+                "change": "2.83%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -619,8 +619,8 @@
             {
                 "name": "大量",
                 "ticker": "3167.TW",
-                "current_price": 869.0,
-                "change": "-3.98%",
+                "current_price": 821.0,
+                "change": "-1.56%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -632,8 +632,8 @@
             {
                 "name": "巨大",
                 "ticker": "9921.TW",
-                "current_price": 75.2,
-                "change": "-2.46%",
+                "current_price": 74.8,
+                "change": "-1.19%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -655,8 +655,8 @@
             {
                 "name": "德州儀器",
                 "ticker": "TXN",
-                "current_price": 303.5,
-                "change": "3.56%",
+                "current_price": 293.3,
+                "change": "-3.36%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -668,8 +668,8 @@
             {
                 "name": "安森美",
                 "ticker": "ON",
-                "current_price": 94.69,
-                "change": "3.8%",
+                "current_price": 91.1,
+                "change": "-3.79%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -681,8 +681,8 @@
             {
                 "name": "大將",
                 "ticker": "1453.TW",
-                "current_price": 11.6,
-                "change": "0.43%",
+                "current_price": 11.3,
+                "change": "-0.88%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -694,8 +694,8 @@
             {
                 "name": "台達電",
                 "ticker": "2308.TW",
-                "current_price": 1960.0,
-                "change": "-1.75%",
+                "current_price": 1850.0,
+                "change": "-2.12%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -707,8 +707,8 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2490.0,
-                "change": "1.22%",
+                "current_price": 2435.0,
+                "change": "-0.2%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -720,8 +720,8 @@
             {
                 "name": "新興",
                 "ticker": "2605.TW",
-                "current_price": 30.1,
-                "change": "-2.27%",
+                "current_price": 30.0,
+                "change": "0.5%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -733,8 +733,8 @@
             {
                 "name": "富邦金",
                 "ticker": "2881.TW",
-                "current_price": 123.0,
-                "change": "1.23%",
+                "current_price": 124.0,
+                "change": "0.81%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -746,8 +746,8 @@
             {
                 "name": "健策",
                 "ticker": "3653.TW",
-                "current_price": 3260.0,
-                "change": "-1.81%",
+                "current_price": 3135.0,
+                "change": "-1.88%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -769,7 +769,7 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 151.0,
+                "current_price": 150.5,
                 "change": "-0.33%",
                 "mentions": [
                     {
@@ -792,8 +792,8 @@
             {
                 "name": "蘋果",
                 "ticker": "AAPL",
-                "current_price": 312.66,
-                "change": "1.31%",
+                "current_price": 310.66,
+                "change": "-0.64%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -805,8 +805,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOGL",
-                "current_price": 366.46,
-                "change": "1.82%",
+                "current_price": 367.03,
+                "change": "0.16%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -818,8 +818,8 @@
             {
                 "name": "谷歌",
                 "ticker": "GOOG",
-                "current_price": 364.9,
-                "change": "2.45%",
+                "current_price": 363.62,
+                "change": "-0.35%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -831,8 +831,8 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2490.0,
-                "change": "1.22%",
+                "current_price": 2435.0,
+                "change": "-0.2%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -844,8 +844,8 @@
             {
                 "name": "大立光",
                 "ticker": "3008.TW",
-                "current_price": 3960.0,
-                "change": "-4.23%",
+                "current_price": 3890.0,
+                "change": "0.0%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -857,8 +857,8 @@
             {
                 "name": "大量",
                 "ticker": "3167.TW",
-                "current_price": 869.0,
-                "change": "-3.98%",
+                "current_price": 821.0,
+                "change": "-1.56%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -870,7 +870,7 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 151.0,
+                "current_price": 150.5,
                 "change": "-0.33%",
                 "mentions": [
                     {
@@ -893,8 +893,8 @@
             {
                 "name": "輝達",
                 "ticker": "NVDA",
-                "current_price": 195.55,
-                "change": "0.37%",
+                "current_price": 196.93,
+                "change": "0.71%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -906,8 +906,8 @@
             {
                 "name": "蘋果",
                 "ticker": "AAPL",
-                "current_price": 312.66,
-                "change": "1.31%",
+                "current_price": 310.66,
+                "change": "-0.64%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -919,8 +919,8 @@
             {
                 "name": "高通",
                 "ticker": "QCOM",
-                "current_price": 186.48,
-                "change": "5.8%",
+                "current_price": 182.97,
+                "change": "-1.88%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -932,8 +932,8 @@
             {
                 "name": "聯發",
                 "ticker": "1459.TW",
-                "current_price": 12.05,
-                "change": "-0.82%",
+                "current_price": 11.9,
+                "change": "-0.83%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -945,8 +945,8 @@
             {
                 "name": "南港",
                 "ticker": "2101.TW",
-                "current_price": 34.25,
-                "change": "0.29%",
+                "current_price": 33.7,
+                "change": "-1.17%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -958,8 +958,8 @@
             {
                 "name": "光寶科",
                 "ticker": "2301.TW",
-                "current_price": 219.0,
-                "change": "-2.23%",
+                "current_price": 210.0,
+                "change": "-1.41%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -971,8 +971,8 @@
             {
                 "name": "聯發科",
                 "ticker": "2454.TW",
-                "current_price": 4125.0,
-                "change": "0.6%",
+                "current_price": 3995.0,
+                "change": "-0.87%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -984,8 +984,8 @@
             {
                 "name": "大量",
                 "ticker": "3167.TW",
-                "current_price": 869.0,
-                "change": "-3.98%",
+                "current_price": 821.0,
+                "change": "-1.56%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1007,8 +1007,8 @@
             {
                 "name": "輝達",
                 "ticker": "NVDA",
-                "current_price": 195.55,
-                "change": "0.37%",
+                "current_price": 196.93,
+                "change": "0.71%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1020,8 +1020,8 @@
             {
                 "name": "博通",
                 "ticker": "AVGO",
-                "current_price": 373.9,
-                "change": "3.73%",
+                "current_price": 370.78,
+                "change": "-0.83%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1033,8 +1033,8 @@
             {
                 "name": "邁威爾",
                 "ticker": "MRVL",
-                "current_price": 249.27,
-                "change": "1.62%",
+                "current_price": 230.7,
+                "change": "-7.45%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1046,8 +1046,8 @@
             {
                 "name": "聯發",
                 "ticker": "1459.TW",
-                "current_price": 12.05,
-                "change": "-0.82%",
+                "current_price": 11.9,
+                "change": "-0.83%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1059,8 +1059,8 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2490.0,
-                "change": "1.22%",
+                "current_price": 2435.0,
+                "change": "-0.2%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1072,8 +1072,8 @@
             {
                 "name": "聯發科",
                 "ticker": "2454.TW",
-                "current_price": 4125.0,
-                "change": "0.6%",
+                "current_price": 3995.0,
+                "change": "-0.87%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1085,8 +1085,8 @@
             {
                 "name": "大量",
                 "ticker": "3167.TW",
-                "current_price": 869.0,
-                "change": "-3.98%",
+                "current_price": 821.0,
+                "change": "-1.56%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1098,8 +1098,8 @@
             {
                 "name": "巨大",
                 "ticker": "9921.TW",
-                "current_price": 75.2,
-                "change": "-2.46%",
+                "current_price": 74.8,
+                "change": "-1.19%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
