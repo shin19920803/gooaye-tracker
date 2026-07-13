@@ -59,8 +59,8 @@
             {
                 "name": "全台",
                 "ticker": "3038.TW",
-                "current_price": 21.85,
-                "change": "0.0%",
+                "current_price": 21.5,
+                "change": "-1.6%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -72,8 +72,8 @@
             {
                 "name": "捷敏",
                 "ticker": "6525.TW",
-                "current_price": 199.5,
-                "change": "0.0%",
+                "current_price": 193.0,
+                "change": "-3.26%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -85,8 +85,8 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 150.0,
-                "change": "0.0%",
+                "current_price": 149.5,
+                "change": "-0.33%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -98,8 +98,8 @@
             {
                 "name": "群聯",
                 "ticker": "8299.TWO",
-                "current_price": 2220.0,
-                "change": "0.0%",
+                "current_price": 2225.0,
+                "change": "0.23%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -121,8 +121,8 @@
             {
                 "name": "捷敏",
                 "ticker": "6525.TW",
-                "current_price": 199.5,
-                "change": "0.0%",
+                "current_price": 193.0,
+                "change": "-3.26%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -134,8 +134,8 @@
             {
                 "name": "全家",
                 "ticker": "5903.TWO",
-                "current_price": 189.0,
-                "change": "0.0%",
+                "current_price": 187.5,
+                "change": "-0.79%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -147,8 +147,8 @@
             {
                 "name": "大中",
                 "ticker": "6435.TWO",
-                "current_price": 375.0,
-                "change": "0.0%",
+                "current_price": 346.0,
+                "change": "-7.73%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -160,8 +160,8 @@
             {
                 "name": "群聯",
                 "ticker": "8299.TWO",
-                "current_price": 2220.0,
-                "change": "0.0%",
+                "current_price": 2225.0,
+                "change": "0.23%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -190,11 +190,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-676/",
                         "reason": "(五)、金句：你說輝達好不好?好啊!不會漲阿!不會漲沒有用阿，你知道嗎?我們去看市場的東西時，不是只是單純去看產業相關的東西，也會去看市場資金有沒有在這裡，法人有沒有在這裡"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 capssan     : 他有噴爛前的TSLA跟NVDA12/15 20:15"
                     }
                 ]
             },
@@ -208,11 +203,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-676/",
                         "reason": "2.若查答案會用Google search，他的AI overview可以快速抓到重點"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 GooglePixel : 大方向來看是這樣 但不可能每個個股都通 07/19 12:51"
                     }
                 ]
             },
@@ -226,11 +216,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-676/",
                         "reason": "2.若查答案會用Google search，他的AI overview可以快速抓到重點"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 GooglePixel : 大方向來看是這樣 但不可能每個個股都通 07/19 12:51"
                     }
                 ]
             },
@@ -244,24 +229,14 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-676/",
                         "reason": "(五)、Meta投入Neocloud的建置"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 metallolly  : 一回頭山頂只剩我一人 07/19 13:17"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "推 metawopa    : 績效可以輸 嘴巴不能輸 台灣股民嘻嘻 12/16 11:49"
                     }
                 ]
             },
             {
                 "name": "南亞",
                 "ticker": "1303.TW",
-                "current_price": 181.5,
-                "change": "0.0%",
+                "current_price": 199.5,
+                "change": "9.92%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -273,8 +248,8 @@
             {
                 "name": "光寶科",
                 "ticker": "2301.TW",
-                "current_price": 213.5,
-                "change": "0.0%",
+                "current_price": 226.0,
+                "change": "5.85%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -286,8 +261,8 @@
             {
                 "name": "南亞科",
                 "ticker": "2408.TW",
-                "current_price": 435.5,
-                "change": "0.0%",
+                "current_price": 446.0,
+                "change": "2.41%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -299,8 +274,8 @@
             {
                 "name": "強茂",
                 "ticker": "2481.TW",
-                "current_price": 213.0,
-                "change": "0.0%",
+                "current_price": 192.0,
+                "change": "-9.86%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -312,8 +287,8 @@
             {
                 "name": "大量",
                 "ticker": "3167.TW",
-                "current_price": 775.0,
-                "change": "0.0%",
+                "current_price": 745.0,
+                "change": "-3.87%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -325,8 +300,8 @@
             {
                 "name": "富鼎",
                 "ticker": "8261.TW",
-                "current_price": 325.0,
-                "change": "0.0%",
+                "current_price": 296.0,
+                "change": "-8.92%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -351,524 +326,19 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 150.0,
-                "change": "0.0%",
+                "current_price": 149.5,
+                "change": "-0.33%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-676/",
                         "reason": "7.醞釀正準備發生中，毛利都可能會到一個滿高的數字，科技巨頭真有錢把大家毛利拉起來"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "現在大家覺得通膨數字可能下不來，但股價應該會早於實體經濟開始出問題時，率先"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 GimO        : 酸500的真的很好笑 給你500你也翻不到這個數字 12/16 00:49"
-                    }
-                ]
-            },
-            {
-                "name": "蘋果",
-                "ticker": "AAPL",
-                "current_price": 315.32,
-                "change": "-0.28%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 loveapple33 : 本多終勝，持續有資金投入，現在投資什麼都賠爛，不 07/19 13:41"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 dapple      : 噓文的酸民 那股窮酸氣味都隔著螢幕飄出來了 12/15 20:53"
-                    }
-                ]
-            },
-            {
-                "name": "特斯拉",
-                "ticker": "TSLA",
-                "current_price": 407.76,
-                "change": "0.3%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 towierc     : 癌大推~ 特斯拉買在成本拆股前800塊的真男人 07/19 12:23"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rooberte    : 幫各位畫重點：1.家裡拿500 2.他有特斯拉12/15 20:12"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "→ isred0722   : 他也在特斯拉下跌時幫我注入更多信仰 12/16 11:52"
-                    }
-                ]
-            },
-            {
-                "name": "超微",
-                "ticker": "AMD",
-                "current_price": 557.89,
-                "change": "2.04%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 MIT5566     : 他nv tsla amd套一堆啊 現在也不用跑了吧 07/19 12:34"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rizman28    : AMD沒救了，不砍嗎 12/16 08:06"
-                    }
-                ]
-            },
-            {
-                "name": "安謀",
-                "ticker": "ARM",
-                "current_price": 323.39,
-                "change": "-1.37%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "噓 arm370x     : 好險聯發科888賣給存股族了 07/19 12:33"
-                    }
-                ]
-            },
-            {
-                "name": "亞德諾",
-                "ticker": "ADI",
-                "current_price": 395.65,
-                "change": "0.51%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 Vladivostok : 凹單攤平，本多終勝"
-                    }
-                ]
-            },
-            {
-                "name": "科磊",
-                "ticker": "KLAC",
-                "current_price": 231.52,
-                "change": "0.87%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "噓 kklarinet   : 股市賠爛，靠葉配爽賺 07/19 15:53"
-                    }
-                ]
-            },
-            {
-                "name": "ServiceNow",
-                "ticker": "NOW",
-                "current_price": 107.71,
-                "change": "-1.04%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 ppnow       : 買gg跟0050，抱著不賣沒錯，你要是知道高低點去玩 07/20 18:39"
-                    }
-                ]
-            },
-            {
-                "name": "Cloudflare",
-                "ticker": "NET",
-                "current_price": 268.4,
-                "change": "-2.68%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "噓 kklarinet   : 股市賠爛，靠葉配爽賺 07/19 15:53"
-                    }
-                ]
-            },
-            {
-                "name": "禮來",
-                "ticker": "LLY",
-                "current_price": 1188.58,
-                "change": "-2.33%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 metallolly  : 一回頭山頂只剩我一人 07/19 13:17"
-                    }
-                ]
-            },
-            {
-                "name": "Nasdaq 100 ETF",
-                "ticker": "QQQ",
-                "current_price": 725.51,
-                "change": "0.31%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 r85270607   : 是 大 多多都嗆我還不賣SQQQ是想被嘎飛逆 07/19 12:19"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "→ breathair   : QQQ，7位國王與他的93位王儲"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "出社會後我也是都只有被動投資台灣的ETF，定期定額買入006208和00692，今年才開始做美股主動投資+被動投資VOO+QQQ(每個月投200美金)"
-                    }
-                ]
-            },
-            {
-                "name": "地球",
-                "ticker": "1324.TW",
-                "current_price": 10.45,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 AustinRivers: 曾經稱霸地球的恐龍表示 07/19 12:26"
-                    }
-                ]
-            },
-            {
-                "name": "聯發",
-                "ticker": "1459.TW",
-                "current_price": 11.65,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "但在消費電子上，我關注到像是台灣的消費電子大領頭羊聯發科，確實砍單滿嚴重"
-                    }
-                ]
-            },
-            {
-                "name": "正道",
-                "ticker": "1506.TW",
-                "current_price": 10.55,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 devidevi    : 無限攤平才是正道 07/19 12:19"
-                    }
-                ]
-            },
-            {
-                "name": "台積電",
-                "ticker": "2330.TW",
-                "current_price": 2415.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 aq2272353712: 美版謝金河，台積電謝金河，發哥謝金河 07/19 12:51"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "推 stlinman    : 這幾年聽崇拜教主存台積電不存0050也是能翻倍啊! 12/16 11:24"
-                    }
-                ]
-            },
-            {
-                "name": "聯發科",
-                "ticker": "2454.TW",
-                "current_price": 3925.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "但在消費電子上，我關注到像是台灣的消費電子大領頭羊聯發科，確實砍單滿嚴重"
-                    }
-                ]
-            },
-            {
-                "name": "宏達電",
-                "ticker": "2498.TW",
-                "current_price": 45.15,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "噓 northsoft   : 笑死 宏達電 國巨 800時叫你跑，過幾個3年"
-                    }
-                ]
-            },
-            {
-                "name": "長榮",
-                "ticker": "2603.TW",
-                "current_price": 194.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 zzzz0516    : 合理，看看長榮陽明還在2、30塊的時候 07/19 13:49"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rebel       : 分靈體自己的標的陽明 台化 中租 長榮航全賠錢 怎 12/15 21:00"
-                    }
-                ]
-            },
-            {
-                "name": "陽明",
-                "ticker": "2609.TW",
-                "current_price": 51.6,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 zzzz0516    : 合理，看看長榮陽明還在2、30塊的時候 07/19 13:49"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rebel       : 分靈體自己的標的陽明 台化 中租 長榮航全賠錢 怎 12/15 21:00"
-                    }
-                ]
-            },
-            {
-                "name": "富邦金",
-                "ticker": "2881.TW",
-                "current_price": 124.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "噓 a27783322   : 我沒跑結果富邦金套在76 07/19 12:43"
-                    }
-                ]
-            },
-            {
-                "name": "力積電",
-                "ticker": "6770.TW",
-                "current_price": 71.1,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "→ eipduolc    : 像力積電是不是資產? 07/19 13:16"
-                    }
-                ]
-            },
-            {
-                "name": "典範",
-                "ticker": "3372.TWO",
-                "current_price": 19.8,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 village0817 : 人家閒錢投資典範內 本業的業配一次就百萬了 07/19 12:47"
-                    }
-                ]
-            },
-            {
-                "name": "中美晶",
-                "ticker": "5483.TWO",
-                "current_price": 210.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 qwre9854    : 之前重壓第三代半導體， 宏捷科中美晶環球晶，球莖 07/19 18:17"
-                    }
-                ]
-            },
-            {
-                "name": "環球晶",
-                "ticker": "6488.TWO",
-                "current_price": 1350.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 qwre9854    : 之前重壓第三代半導體， 宏捷科中美晶環球晶，球莖 07/19 18:17"
-                    }
-                ]
-            },
-            {
-                "name": "宏捷科",
-                "ticker": "8086.TWO",
-                "current_price": 136.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-                        "reason": "推 qwre9854    : 之前重壓第三代半導體， 宏捷科中美晶環球晶，球莖 07/19 18:17"
-                    }
-                ]
-            },
-            {
-                "name": "Palantir",
-                "ticker": "PLTR",
-                "current_price": 126.79,
-                "change": "-1.74%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "→ Haerin520   : 下半年跟到軟體光是PLTR就賺了500 更不用講好幾年 12/15 21:10"
-                    }
-                ]
-            },
-            {
-                "name": "Nike",
-                "ticker": "NKE",
-                "current_price": 44.37,
-                "change": "3.72%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 curlymonkey : 感謝分享 12/15 21:29"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "推 iBanker     : 推"
-                    }
-                ]
-            },
-            {
-                "name": "台化",
-                "ticker": "1326.TW",
-                "current_price": 60.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rebel       : 分靈體自己的標的陽明 台化 中租 長榮航全賠錢 怎 12/15 21:00"
-                    }
-                ]
-            },
-            {
-                "name": "長榮航",
-                "ticker": "2618.TW",
-                "current_price": 39.6,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rebel       : 分靈體自己的標的陽明 台化 中租 長榮航全賠錢 怎 12/15 21:00"
-                    }
-                ]
-            },
-            {
-                "name": "中租",
-                "ticker": "5871.TW",
-                "current_price": 114.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rebel       : 分靈體自己的標的陽明 台化 中租 長榮航全賠錢 怎 12/15 21:00"
-                    }
-                ]
-            },
-            {
-                "name": "安心",
-                "ticker": "1259.TWO",
-                "current_price": 58.9,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 newaqua     : 我只聽他說話就能感到安心"
-                    }
-                ]
-            },
-            {
-                "name": "全家",
-                "ticker": "5903.TWO",
-                "current_price": 189.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 woodsaxo    : 分析正確  祝福癌大全家健健康康 愛您 12/16 10:27"
-                    }
-                ]
-            },
-            {
-                "name": "Vanguard S&P 500",
-                "ticker": "VOO",
-                "current_price": 693.86,
-                "change": "0.46%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "出社會後我也是都只有被動投資台灣的ETF，定期定額買入006208和00692，今年才開始做美股主動投資+被動投資VOO+QQQ(每個月投200美金)"
-                    }
-                ]
-            },
-            {
-                "name": "台南",
-                "ticker": "1473.TW",
-                "current_price": 20.2,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "作者isred0722 (台南小哈比)看板Stock標題Re: [請益] 股癌是不是證明被動投資是笑話"
-                    }
-                ]
-            },
-            {
-                "name": "台南",
-                "ticker": "5906.TW",
-                "current_price": 36.8,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "作者isred0722 (台南小哈比)看板Stock標題Re: [請益] 股癌是不是證明被動投資是笑話"
                     }
                 ]
             }
         ],
         "sources": [
-            "https://socialworkerdaily.com/notes-of-gooaye-ep-676/",
-            "https://www.ptt.cc/bbs/Stock/M.1658204081.A.A80.html",
-            "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-            "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html"
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-676/"
         ]
     },
     {
@@ -892,26 +362,21 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2415.0,
-                "change": "0.0%",
+                "current_price": 2475.0,
+                "change": "2.48%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-675/",
                         "reason": "8.觀察：接下來誰會帶領大盤往前衝，或要回去台積電的擁抱"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "推 stlinman    : 這幾年聽崇拜教主存台積電不存0050也是能翻倍啊! 12/16 11:24"
                     }
                 ]
             },
             {
                 "name": "創意",
                 "ticker": "3443.TW",
-                "current_price": 4340.0,
-                "change": "0.0%",
+                "current_price": 4405.0,
+                "change": "1.5%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -923,8 +388,8 @@
             {
                 "name": "世芯",
                 "ticker": "3661.TW",
-                "current_price": 4210.0,
-                "change": "0.0%",
+                "current_price": 4205.0,
+                "change": "-0.12%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -936,8 +401,8 @@
             {
                 "name": "南電",
                 "ticker": "8046.TW",
-                "current_price": 1215.0,
-                "change": "0.0%",
+                "current_price": 1335.0,
+                "change": "9.88%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -949,393 +414,19 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 150.0,
-                "change": "0.0%",
+                "current_price": 149.5,
+                "change": "-0.33%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-675/",
                         "reason": "7.資本額邁向一億，後面會往更高的數字邁進，預計會有三億"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734241145.A.994.html",
-                        "reason": "噓 william2001 : 若真有到這數字絕不可能才 50 12/15 16:41"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 GimO        : 酸500的真的很好笑 給你500你也翻不到這個數字 12/16 00:49"
-                    }
-                ]
-            },
-            {
-                "name": "輝達",
-                "ticker": "NVDA",
-                "current_price": 210.96,
-                "change": "4.03%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734241145.A.994.html",
-                        "reason": "推 chih5120    : 特斯拉 Nvda 100多時你敢重壓現在也財富自由了 12/15 13:43"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 capssan     : 他有噴爛前的TSLA跟NVDA12/15 20:15"
-                    }
-                ]
-            },
-            {
-                "name": "特斯拉",
-                "ticker": "TSLA",
-                "current_price": 407.76,
-                "change": "0.3%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734241145.A.994.html",
-                        "reason": "推 chih5120    : 特斯拉 Nvda 100多時你敢重壓現在也財富自由了 12/15 13:43"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "→ isred0722   : 他也在特斯拉下跌時幫我注入更多信仰 12/16 11:52"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rooberte    : 幫各位畫重點：1.家裡拿500 2.他有特斯拉12/15 20:12"
-                    }
-                ]
-            },
-            {
-                "name": "台積電ADR",
-                "ticker": "TSM",
-                "current_price": 434.11,
-                "change": "-0.65%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734241145.A.994.html",
-                        "reason": "→ TsmcEE      : ....他有本業可以這樣玩 12/15 13:45"
-                    }
-                ]
-            },
-            {
-                "name": "迪士尼",
-                "ticker": "DIS",
-                "current_price": 95.62,
-                "change": "-0.57%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734241145.A.994.html",
-                        "reason": "噓 deepdish    : 誰"
-                    }
-                ]
-            },
-            {
-                "name": "Nike",
-                "ticker": "NKE",
-                "current_price": 44.37,
-                "change": "3.72%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734241145.A.994.html",
-                        "reason": "→ curlymonkey : 很厲害 12/15 15:55"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "推 iBanker     : 推"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 curlymonkey : 感謝分享 12/15 21:29"
-                    }
-                ]
-            },
-            {
-                "name": "地球",
-                "ticker": "1324.TW",
-                "current_price": 10.45,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734241145.A.994.html",
-                        "reason": "噓 PTTpeter    : 幸存者偏差，全地球快80億人，只有股癌一人做到，還 12/16 09:56"
-                    }
-                ]
-            },
-            {
-                "name": "金像電",
-                "ticker": "2368.TW",
-                "current_price": 1075.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734241145.A.994.html",
-                        "reason": "推 Keo         : 金像電爽賺50塊下車了 12/16 10:12"
-                    }
-                ]
-            },
-            {
-                "name": "大同",
-                "ticker": "2371.TW",
-                "current_price": 27.7,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734241145.A.994.html",
-                        "reason": "→ myheartest  : 他節目講的東西說真的每個網紅大同小異啦 12/15 15:44"
-                    }
-                ]
-            },
-            {
-                "name": "穩懋",
-                "ticker": "3105.TWO",
-                "current_price": 406.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734241145.A.994.html",
-                        "reason": "穩懋（套）"
-                    }
-                ]
-            },
-            {
-                "name": "創業家",
-                "ticker": "8477.TWO",
-                "current_price": 16.15,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734241145.A.994.html",
-                        "reason": "噓 HisVol      : 照你這麼說，投資的人財富贏不了創業家，是不是代表 12/16 08:05"
-                    }
-                ]
-            },
-            {
-                "name": "Meta",
-                "ticker": "META",
-                "current_price": 669.21,
-                "change": "5.97%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "推 metawopa    : 績效可以輸 嘴巴不能輸 台灣股民嘻嘻 12/16 11:49"
-                    }
-                ]
-            },
-            {
-                "name": "Vanguard S&P 500",
-                "ticker": "VOO",
-                "current_price": 693.86,
-                "change": "0.46%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "出社會後我也是都只有被動投資台灣的ETF，定期定額買入006208和00692，今年才開始做美股主動投資+被動投資VOO+QQQ(每個月投200美金)"
-                    }
-                ]
-            },
-            {
-                "name": "Nasdaq 100 ETF",
-                "ticker": "QQQ",
-                "current_price": 725.51,
-                "change": "0.31%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "出社會後我也是都只有被動投資台灣的ETF，定期定額買入006208和00692，今年才開始做美股主動投資+被動投資VOO+QQQ(每個月投200美金)"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734278641.A.FC5.html",
-                        "reason": "把父母房子偷偷賣了，全部買進 TQQQ"
-                    },
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "→ breathair   : QQQ，7位國王與他的93位王儲"
-                    }
-                ]
-            },
-            {
-                "name": "台南",
-                "ticker": "1473.TW",
-                "current_price": 20.2,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "作者isred0722 (台南小哈比)看板Stock標題Re: [請益] 股癌是不是證明被動投資是笑話"
-                    }
-                ]
-            },
-            {
-                "name": "台南",
-                "ticker": "5906.TW",
-                "current_price": 36.8,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-                        "reason": "作者isred0722 (台南小哈比)看板Stock標題Re: [請益] 股癌是不是證明被動投資是笑話"
-                    }
-                ]
-            },
-            {
-                "name": "蘋果",
-                "ticker": "AAPL",
-                "current_price": 315.32,
-                "change": "-0.28%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 dapple      : 噓文的酸民 那股窮酸氣味都隔著螢幕飄出來了 12/15 20:53"
-                    }
-                ]
-            },
-            {
-                "name": "超微",
-                "ticker": "AMD",
-                "current_price": 557.89,
-                "change": "2.04%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rizman28    : AMD沒救了，不砍嗎 12/16 08:06"
-                    }
-                ]
-            },
-            {
-                "name": "Palantir",
-                "ticker": "PLTR",
-                "current_price": 126.79,
-                "change": "-1.74%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "→ Haerin520   : 下半年跟到軟體光是PLTR就賺了500 更不用講好幾年 12/15 21:10"
-                    }
-                ]
-            },
-            {
-                "name": "台化",
-                "ticker": "1326.TW",
-                "current_price": 60.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rebel       : 分靈體自己的標的陽明 台化 中租 長榮航全賠錢 怎 12/15 21:00"
-                    }
-                ]
-            },
-            {
-                "name": "長榮",
-                "ticker": "2603.TW",
-                "current_price": 194.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rebel       : 分靈體自己的標的陽明 台化 中租 長榮航全賠錢 怎 12/15 21:00"
-                    }
-                ]
-            },
-            {
-                "name": "陽明",
-                "ticker": "2609.TW",
-                "current_price": 51.6,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rebel       : 分靈體自己的標的陽明 台化 中租 長榮航全賠錢 怎 12/15 21:00"
-                    }
-                ]
-            },
-            {
-                "name": "長榮航",
-                "ticker": "2618.TW",
-                "current_price": 39.6,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rebel       : 分靈體自己的標的陽明 台化 中租 長榮航全賠錢 怎 12/15 21:00"
-                    }
-                ]
-            },
-            {
-                "name": "中租",
-                "ticker": "5871.TW",
-                "current_price": 114.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 rebel       : 分靈體自己的標的陽明 台化 中租 長榮航全賠錢 怎 12/15 21:00"
-                    }
-                ]
-            },
-            {
-                "name": "安心",
-                "ticker": "1259.TWO",
-                "current_price": 58.9,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 newaqua     : 我只聽他說話就能感到安心"
-                    }
-                ]
-            },
-            {
-                "name": "全家",
-                "ticker": "5903.TWO",
-                "current_price": 189.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "PTT 股板",
-                        "url": "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html",
-                        "reason": "推 woodsaxo    : 分析正確  祝福癌大全家健健康康 愛您 12/16 10:27"
                     }
                 ]
             }
         ],
         "sources": [
-            "https://socialworkerdaily.com/notes-of-gooaye-ep-675/",
-            "https://www.ptt.cc/bbs/Stock/M.1734241145.A.994.html",
-            "https://www.ptt.cc/bbs/Stock/M.1734319093.A.716.html",
-            "https://www.ptt.cc/bbs/Stock/M.1734278641.A.FC5.html",
-            "https://www.ptt.cc/bbs/Stock/M.1734264489.A.887.html"
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-675/"
         ]
     },
     {
@@ -1353,11 +444,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
                         "reason": "11.相信蘋果在edge端會持續成為領導地位的公司"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/213",
-                        "reason": "美股則觀察 Google、Apple、Microsoft 等科技巨頭是否轉強"
                     }
                 ]
             },
@@ -1371,11 +457,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
                         "reason": "5.美股：近期挪錢出來買SpaceX，砍表現不好的，跟減碼特斯拉"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/213",
-                        "reason": "1. 賣 Tesla 與部分弱勢股，換成 SpaceX"
                     }
                 ]
             },
@@ -1389,11 +470,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
                         "reason": "12.週五在大家都很不好的時間點，蘋果和微軟跳起來了，若持續上漲會挪錢過去"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/213",
-                        "reason": "美股則觀察 Google、Apple、Microsoft 等科技巨頭是否轉強"
                     }
                 ]
             },
@@ -1407,11 +483,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
                         "reason": "10.Google在降本增效方面做得很好，不管是晶片開發或模型應用都調整到很好"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/213",
-                        "reason": "美股則觀察 Google、Apple、Microsoft 等科技巨頭是否轉強"
                     }
                 ]
             },
@@ -1425,11 +496,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
                         "reason": "10.Google在降本增效方面做得很好，不管是晶片開發或模型應用都調整到很好"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/213",
-                        "reason": "美股則觀察 Google、Apple、Microsoft 等科技巨頭是否轉強"
                     }
                 ]
             },
@@ -1443,11 +509,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
                         "reason": "6.美股有押到CPU、MRVL，最近都去調節"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/213",
-                        "reason": "CPO、ASIC、Marvell 有壓到，但因美股分化，已開始調節"
                     }
                 ]
             },
@@ -1461,11 +522,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
                         "reason": "1.美光毛利率越來越誇張，而付錢的巨頭將AI導入大家生活之中，股價表現得非常不好，甚至現金流快變負值"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/213",
-                        "reason": "原本持有 Tesla 很大程度是為了押 Elon Musk，但現在有 SpaceX 可以更直接押馬斯克相關資產，因此賣掉部分 Tesla，也賣掉一些表現較弱的美股持股，換成 SpaceX"
                     }
                 ]
             },
@@ -1479,11 +535,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
                         "reason": "8.Crowdstrike走得比較好有繼續加碼"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/213",
-                        "reason": "3. 軟體股：Palantir 偏弱，CrowdStrike 較強"
                     }
                 ]
             },
@@ -1503,8 +554,8 @@
             {
                 "name": "台達電",
                 "ticker": "2308.TW",
-                "current_price": 1880.0,
-                "change": "0.0%",
+                "current_price": 1925.0,
+                "change": "2.39%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1516,8 +567,8 @@
             {
                 "name": "健策",
                 "ticker": "3653.TW",
-                "current_price": 3205.0,
-                "change": "0.0%",
+                "current_price": 3240.0,
+                "change": "1.09%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1529,130 +580,19 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 150.0,
-                "change": "0.0%",
+                "current_price": 149.5,
+                "change": "-0.33%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
                         "reason": "3.巨頭買AI伺服器的數字看起來沒問題，無法判斷是否為殺估值"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/213",
-                        "reason": "但目前從產業面來看，巨頭部署 AI server 的數字，以及台系供應鏈拉貨狀況，還沒有看到明顯問題"
-                    }
-                ]
-            },
-            {
-                "name": "輝達",
-                "ticker": "NVDA",
-                "current_price": 210.96,
-                "change": "4.03%",
-                "mentions": [
-                    {
-                        "name": "chuanyin1202.github.io",
-                        "url": "https://chuanyin1202.github.io/gooaye-notes/",
-                        "reason": "EP 678 · 07/11🎮 AI算力租賃與被動元件漲價Meta確認將加大AI算力投資，並將閒置GPU轉為租賃服務，對NVIDIA等供應鏈形成長期利七月十一日"
-                    }
-                ]
-            },
-            {
-                "name": "Meta",
-                "ticker": "META",
-                "current_price": 669.21,
-                "change": "5.97%",
-                "mentions": [
-                    {
-                        "name": "chuanyin1202.github.io",
-                        "url": "https://chuanyin1202.github.io/gooaye-notes/",
-                        "reason": "EP 678 · 07/11🎮 AI算力租賃與被動元件漲價Meta確認將加大AI算力投資，並將閒置GPU轉為租賃服務，對NVIDIA等供應鏈形成長期利七月十一日"
-                    }
-                ]
-            },
-            {
-                "name": "華新",
-                "ticker": "1605.TW",
-                "current_price": 34.4,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "chuanyin1202.github.io",
-                        "url": "https://chuanyin1202.github.io/gooaye-notes/",
-                        "reason": "華新科2492 · 台股被動元件漲價次要受益者，跟隨產業漲價趨勢看多觀點變化：… → 看多 → 中性 → 看多…"
-                    }
-                ]
-            },
-            {
-                "name": "台積電",
-                "ticker": "2330.TW",
-                "current_price": 2415.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "chuanyin1202.github.io",
-                        "url": "https://chuanyin1202.github.io/gooaye-notes/",
-                        "reason": "台積電2330 · 台股AI純度高標的但近期表現相對平穩，等待新催化劑中性觀點變化：… → 中性 → 看多 → 中性…"
-                    }
-                ]
-            },
-            {
-                "name": "華新科",
-                "ticker": "2492.TW",
-                "current_price": 465.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "chuanyin1202.github.io",
-                        "url": "https://chuanyin1202.github.io/gooaye-notes/",
-                        "reason": "華新科2492 · 台股被動元件漲價次要受益者，跟隨產業漲價趨勢看多觀點變化：… → 看多 → 中性 → 看多…"
-                    }
-                ]
-            },
-            {
-                "name": "Palantir",
-                "ticker": "PLTR",
-                "current_price": 126.79,
-                "change": "-1.74%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/213",
-                        "reason": "3. 軟體股：Palantir 偏弱，CrowdStrike 較強"
-                    }
-                ]
-            },
-            {
-                "name": "好市多",
-                "ticker": "COST",
-                "current_price": 916.25,
-                "change": "0.36%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/213",
-                        "reason": "原因是目前漲價壓力比較集中在 data center，像 AI server 的記憶體 BOM cost 已經可能到 30% 區間，但科技巨頭仍願意買單，因為它們太有錢，也必須參與 AI 競賽"
-                    }
-                ]
-            },
-            {
-                "name": "大量",
-                "ticker": "3167.TW",
-                "current_price": 775.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/213",
-                        "reason": "因此，近期很多漲多科技股被大量提款，可能是大資金太弱留強、季底再平衡造成的結果"
                     }
                 ]
             }
         ],
         "sources": [
-            "https://socialworkerdaily.com/notes-of-gooaye-ep-674/",
-            "https://chuanyin1202.github.io/gooaye-notes/",
-            "https://mugglestock.com/articles/213"
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-674/"
         ]
     },
     {
@@ -1670,11 +610,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-672/",
                         "reason": "1.前面數集就有提到了：看到IDM漲價，像是德州儀器、STM、安森美"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "TXN"
                     }
                 ]
             },
@@ -1688,19 +623,14 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-672/",
                         "reason": "1.前面數集就有提到了：看到IDM漲價，像是德州儀器、STM、安森美"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "一線 IDM 廠如 Infineon、STMicroelectronics、onsemi、ROHM、Texas Instruments 供給吃緊，AI 用料需求大、價格高、毛利好"
                     }
                 ]
             },
             {
                 "name": "進階",
                 "ticker": "3118.TWO",
-                "current_price": 31.7,
-                "change": "0.0%",
+                "current_price": 31.5,
+                "change": "-0.63%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -1708,349 +638,10 @@
                         "reason": "(二)、生技猛男：有些賺很多錢的標的，事後回頭看，最終都沒有辦法開出營收跟獲利，所以比較偏向更進階，預判別人的預判，交易一些消息之類的"
                     }
                 ]
-            },
-            {
-                "name": "輝達",
-                "ticker": "NVDA",
-                "current_price": 210.96,
-                "change": "4.03%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "TSM、NVIDIA 過去一陣子也曾經沒有動，有些人會覺得是不是買錯，但不一定，只是資金暫時還沒輪回去"
-                    }
-                ]
-            },
-            {
-                "name": "威世",
-                "ticker": "VSH",
-                "current_price": 44.67,
-                "change": "1.43%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "C. Vishay 與 AI 伺服器需求端"
-                    }
-                ]
-            },
-            {
-                "name": "美光",
-                "ticker": "MU",
-                "current_price": 979.3,
-                "change": "-1.24%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "這就像記憶體最旺的是韓系與美光，但台灣 DDR4、DDR3 廠商與模組廠，也會因產業拉動而受惠"
-                    }
-                ]
-            },
-            {
-                "name": "台積電ADR",
-                "ticker": "TSM",
-                "current_price": 434.11,
-                "change": "-0.65%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "TSM、NVIDIA 過去一陣子也曾經沒有動，有些人會覺得是不是買錯，但不一定，只是資金暫時還沒輪回去"
-                    }
-                ]
-            },
-            {
-                "name": "亞德諾",
-                "ticker": "ADI",
-                "current_price": 395.65,
-                "change": "0.51%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "ADI"
-                    }
-                ]
-            },
-            {
-                "name": "迪士尼",
-                "ticker": "DIS",
-                "current_price": 95.62,
-                "change": "-0.57%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "Power Discrete / PMIC / MOSFET / 6 吋 / 8 吋"
-                    }
-                ]
-            },
-            {
-                "name": "士電",
-                "ticker": "1503.TW",
-                "current_price": 221.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "富士電機"
-                    }
-                ]
-            },
-            {
-                "name": "聯電",
-                "ticker": "2303.TW",
-                "current_price": 156.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "過去也看過類似情況：IDM 釋出部分訂單給台灣 IDM 或供應元件廠，有些公司可能是 Fabless，再往外找成熟製程代工產能，例如聯電、華虹這類代工廠"
-                    }
-                ]
-            },
-            {
-                "name": "華泰",
-                "ticker": "2329.TW",
-                "current_price": 51.4,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "華泰"
-                    }
-                ]
-            },
-            {
-                "name": "台積電",
-                "ticker": "2330.TW",
-                "current_price": 2415.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "台積電產能沒有瘋狂大擴張，加上消費性與車用偏弱，像是限制器，讓 AI 硬體行情可能走得更遠、更長"
-                    }
-                ]
-            },
-            {
-                "name": "茂矽",
-                "ticker": "2342.TW",
-                "current_price": 49.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "茂矽"
-                    }
-                ]
-            },
-            {
-                "name": "京元電子",
-                "ticker": "2449.TW",
-                "current_price": 308.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "京元電子"
-                    }
-                ]
-            },
-            {
-                "name": "強茂",
-                "ticker": "2481.TW",
-                "current_price": 213.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "強茂"
-                    }
-                ]
-            },
-            {
-                "name": "日月光投控",
-                "ticker": "3711.TW",
-                "current_price": 677.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "日月光投控"
-                    }
-                ]
-            },
-            {
-                "name": "新唐",
-                "ticker": "4919.TW",
-                "current_price": 162.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "新唐"
-                    }
-                ]
-            },
-            {
-                "name": "盛群",
-                "ticker": "6202.TW",
-                "current_price": 73.3,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "盛群"
-                    }
-                ]
-            },
-            {
-                "name": "力成",
-                "ticker": "6239.TW",
-                "current_price": 320.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "力成"
-                    }
-                ]
-            },
-            {
-                "name": "矽格",
-                "ticker": "6257.TW",
-                "current_price": 244.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "矽格"
-                    }
-                ]
-            },
-            {
-                "name": "力積電",
-                "ticker": "6770.TW",
-                "current_price": 71.1,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "力積電"
-                    }
-                ]
-            },
-            {
-                "name": "富鼎",
-                "ticker": "8261.TW",
-                "current_price": 325.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "富鼎"
-                    }
-                ]
-            },
-            {
-                "name": "尼克森",
-                "ticker": "3317.TWO",
-                "current_price": 96.6,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "尼克森"
-                    }
-                ]
-            },
-            {
-                "name": "世界",
-                "ticker": "5347.TWO",
-                "current_price": 173.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "世界先進"
-                    }
-                ]
-            },
-            {
-                "name": "台半",
-                "ticker": "5425.TWO",
-                "current_price": 130.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "台半"
-                    }
-                ]
-            },
-            {
-                "name": "茂達",
-                "ticker": "6138.TWO",
-                "current_price": 376.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "茂達"
-                    }
-                ]
-            },
-            {
-                "name": "頎邦",
-                "ticker": "6147.TWO",
-                "current_price": 217.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "頎邦"
-                    }
-                ]
-            },
-            {
-                "name": "大中",
-                "ticker": "6435.TWO",
-                "current_price": 375.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/211",
-                        "reason": "大中"
-                    }
-                ]
             }
         ],
         "sources": [
-            "https://socialworkerdaily.com/notes-of-gooaye-ep-672/",
-            "https://mugglestock.com/articles/211"
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-672/"
         ]
     },
     {
@@ -2081,11 +672,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-673/",
                         "reason": "3.拿到Google給的Solo叫做Triggerfish，屬於非常早期階段的東西"
-                    },
-                    {
-                        "name": "winsames.com",
-                        "url": "https://winsames.com/?p=1285",
-                        "reason": "聯發科被視為基本面仍偏正向，重點包括全產品線價格調整具正面意義、與Google合作AI晶片仍處早期階段、新案開發進展被視為長期利多"
                     }
                 ]
             },
@@ -2099,11 +685,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-673/",
                         "reason": "3.拿到Google給的Solo叫做Triggerfish，屬於非常早期階段的東西"
-                    },
-                    {
-                        "name": "winsames.com",
-                        "url": "https://winsames.com/?p=1285",
-                        "reason": "聯發科被視為基本面仍偏正向，重點包括全產品線價格調整具正面意義、與Google合作AI晶片仍處早期階段、新案開發進展被視為長期利多"
                     }
                 ]
             },
@@ -2117,11 +698,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-673/",
                         "reason": "6.博通新東西：用前一個Fish去雙拼成一個晶片，在載板有機會"
-                    },
-                    {
-                        "name": "pod-summarist.rock070.dev",
-                        "url": "https://pod-summarist.rock070.dev/episodes/gooaye%E8%82%A1%E7%99%8C/ep673",
-                        "reason": "博通（Broadcom）第九代晶片謎題解開：新品 Wellfish 是將前一代晶片「二合一」封裝的雙拼設計，並非真正跳代"
                     }
                 ]
             },
@@ -2135,11 +711,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-673/",
                         "reason": "(七)、最喜歡Lumentum跟Coherent跟Marvell，泰瑞達這樣的東西也可以持續去關注，Nokia轉機是去切比較酷的業務"
-                    },
-                    {
-                        "name": "pod-summarist.rock070.dev",
-                        "url": "https://pod-summarist.rock070.dev/episodes/gooaye%E8%82%A1%E7%99%8C/ep673",
-                        "reason": "Marvell（美滿）及聯發科也有 Triggerfish 類強化版晶片"
                     }
                 ]
             },
@@ -2172,113 +743,73 @@
             {
                 "name": "聯發",
                 "ticker": "1459.TW",
-                "current_price": 11.65,
-                "change": "0.0%",
+                "current_price": 11.7,
+                "change": "0.43%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-673/",
                         "reason": "(三)、聯發科"
-                    },
-                    {
-                        "name": "winsames.com",
-                        "url": "https://winsames.com/?p=1285",
-                        "reason": "**聯發科與AI晶片動態**"
-                    },
-                    {
-                        "name": "pod-summarist.rock070.dev",
-                        "url": "https://pod-summarist.rock070.dev/episodes/gooaye%E8%82%A1%E7%99%8C/ep673",
-                        "reason": "Marvell（美滿）及聯發科也有 Triggerfish 類強化版晶片"
                     }
                 ]
             },
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2415.0,
-                "change": "0.0%",
+                "current_price": 2475.0,
+                "change": "2.48%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-673/",
                         "reason": "(二)、躲進台積電的思考"
-                    },
-                    {
-                        "name": "winsames.com",
-                        "url": "https://winsames.com/?p=1285",
-                        "reason": "**台積電與資金配置策略**"
-                    },
-                    {
-                        "name": "pod-summarist.rock070.dev",
-                        "url": "https://pod-summarist.rock070.dev/episodes/gooaye%E8%82%A1%E7%99%8C/ep673",
-                        "reason": "謝孟恭在台積電（TSM）與台灣中小型股之間來回切換，最終仍維持中小型股部位，等TSM突破前一個高點再進行換股"
                     }
                 ]
             },
             {
                 "name": "聯發科",
                 "ticker": "2454.TW",
-                "current_price": 3925.0,
-                "change": "0.0%",
+                "current_price": 3930.0,
+                "change": "0.13%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-673/",
                         "reason": "(三)、聯發科"
-                    },
-                    {
-                        "name": "winsames.com",
-                        "url": "https://winsames.com/?p=1285",
-                        "reason": "**聯發科與AI晶片動態**"
-                    },
-                    {
-                        "name": "pod-summarist.rock070.dev",
-                        "url": "https://pod-summarist.rock070.dev/episodes/gooaye%E8%82%A1%E7%99%8C/ep673",
-                        "reason": "Marvell（美滿）及聯發科也有 Triggerfish 類強化版晶片"
                     }
                 ]
             },
             {
                 "name": "全新",
                 "ticker": "2455.TW",
-                "current_price": 330.5,
-                "change": "0.0%",
+                "current_price": 338.5,
+                "change": "2.42%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-673/",
                         "reason": "3.紅酒Bardos Reserva：西班牙的，用Tempranillo搭配一點Cabernet Sauvignon去做出來的，用全新橡木桶去熟成一陣子，有種黑醋栗的味道，有一點點雪松，一點薄荷但喝不出來，現代風格的酒，這價位給了很多東西"
-                    },
-                    {
-                        "name": "pod-summarist.rock070.dev",
-                        "url": "https://pod-summarist.rock070.dev/episodes/gooaye%E8%82%A1%E7%99%8C/ep673",
-                        "reason": "相較於博通，Marvell（美滿）及聯發科等廠商的 Triggerfish 晶片屬於加強版設計（非全新獨立晶片），謝孟恭引述業界朋友評語：這些廠商雖是博通旁邊的「小屁孩」，已確實打出自己的市場"
                     }
                 ]
             },
             {
                 "name": "大量",
                 "ticker": "3167.TW",
-                "current_price": 775.0,
-                "change": "0.0%",
+                "current_price": 745.0,
+                "change": "-3.87%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-673/",
                         "reason": "4.類似Archegos爆倉：韓裔Bill Hwang用大量槓桿去搞一些標的，最後有些爆炸，連帶瘋狂砍倉一些東西，去觸發連鎖效應"
-                    },
-                    {
-                        "name": "pod-summarist.rock070.dev",
-                        "url": "https://pod-summarist.rock070.dev/episodes/gooaye%E8%82%A1%E7%99%8C/ep673",
-                        "reason": "台股近期修正觸發點，謝孟恭推測是韓國散戶大量槓桿ETF爆倉引發連鎖效應，類似2021年Archegos資本管理爆倉事件，市場上流傳的其他下跌理由均不夠紮實"
                     }
                 ]
             },
             {
                 "name": "巨大",
                 "ticker": "9921.TW",
-                "current_price": 72.7,
-                "change": "0.0%",
+                "current_price": 77.6,
+                "change": "6.74%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -2286,65 +817,10 @@
                         "reason": "9.地塊信徒：耕地影響巨大，用地塊去選酒是OK的"
                     }
                 ]
-            },
-            {
-                "name": "創見",
-                "ticker": "2451.TW",
-                "current_price": 253.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "alphabrief.app",
-                        "url": "https://alphabrief.app/e/gooaye-2026-06-24-ep673",
-                        "reason": "Gooaye 股癌2026.06.2451 分鐘回檔莫慌：被動元件與晶片漲價潮的真底氣原始標題 · EP673 | 🥬"
-                    }
-                ]
-            },
-            {
-                "name": "Meta",
-                "ticker": "META",
-                "current_price": 669.21,
-                "change": "5.97%",
-                "mentions": [
-                    {
-                        "name": "pod-summarist.rock070.dev",
-                        "url": "https://pod-summarist.rock070.dev/episodes/gooaye%E8%82%A1%E7%99%8C/ep673",
-                        "reason": "同節目更多集數EP678 | 🎮Gooaye 股癌 · 2026-07-11EP677 | 🐎Gooaye 股癌 · 2026-07-08EP676 | 🐬Gooaye 股癌 · 2026-07-04EP675 | 🎢Gooaye 股..."
-                    }
-                ]
-            },
-            {
-                "name": "台積電ADR",
-                "ticker": "TSM",
-                "current_price": 434.11,
-                "change": "-0.65%",
-                "mentions": [
-                    {
-                        "name": "pod-summarist.rock070.dev",
-                        "url": "https://pod-summarist.rock070.dev/episodes/gooaye%E8%82%A1%E7%99%8C/ep673",
-                        "reason": "謝孟恭在台積電（TSM）與台灣中小型股之間來回切換，最終仍維持中小型股部位，等TSM突破前一個高點再進行換股"
-                    }
-                ]
-            },
-            {
-                "name": "合一",
-                "ticker": "4743.TWO",
-                "current_price": 54.2,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "pod-summarist.rock070.dev",
-                        "url": "https://pod-summarist.rock070.dev/episodes/gooaye%E8%82%A1%E7%99%8C/ep673",
-                        "reason": "博通（Broadcom）第九代晶片謎題解開：新品 Wellfish 是將前一代晶片「二合一」封裝的雙拼設計，並非真正跳代"
-                    }
-                ]
             }
         ],
         "sources": [
-            "https://socialworkerdaily.com/notes-of-gooaye-ep-673/",
-            "https://winsames.com/?p=1285",
-            "https://alphabrief.app/e/gooaye-2026-06-24-ep673",
-            "https://pod-summarist.rock070.dev/episodes/gooaye%E8%82%A1%E7%99%8C/ep673"
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-673/"
         ]
     },
     {
@@ -2362,16 +838,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-671/",
                         "reason": "1.不像海外的IDM集體表態：英飛凌、安森美、MPS、瑞薩、德州儀器在過去兩個月漲很多，現在橫盤休息"
-                    },
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a327ac9fd89780001dc0395",
-                        "reason": "NordVPN目錄生活閒聊與假帳號澄清 (避免中小股操作)林口房地產觀察與餐廳投資計畫被動元件籌碼凌亂與資金輪動現象投信法規解禁與台積電「萬劍歸宗」邏輯離散元件 (Discrete)、PMIC 的漲價與外溢效應Semi Analysi..."
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "海外 IDM 已先表態，包含 onsemi（ON）、Monolithic Power Systems（MPWR）、Texas Instruments（TXN）等"
                     }
                 ]
             },
@@ -2385,11 +851,6 @@
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-671/",
                         "reason": "1.不像海外的IDM集體表態：英飛凌、安森美、MPS、瑞薩、德州儀器在過去兩個月漲很多，現在橫盤休息"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "海外 IDM 已先表態，包含 onsemi（ON）、Monolithic Power Systems（MPWR）、Texas Instruments（TXN）等"
                     }
                 ]
             },
@@ -2409,8 +870,8 @@
             {
                 "name": "台達電",
                 "ticker": "2308.TW",
-                "current_price": 1880.0,
-                "change": "0.0%",
+                "current_price": 1925.0,
+                "change": "2.39%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -2422,72 +883,47 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2415.0,
-                "change": "0.0%",
+                "current_price": 2475.0,
+                "change": "2.48%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-671/",
                         "reason": "(二)、台積電"
-                    },
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a327ac9fd89780001dc0395",
-                        "reason": "等待台積電萬劍歸宗： 具體結論：市場題材百花齊放但終將收斂，當外圍題材崩壞時，資金將大幅回流權值股"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "若中小題材休息，資金可能回流台積電與 NVIDIA 等核心 AI 股"
                     }
                 ]
             },
             {
                 "name": "新興",
                 "ticker": "2605.TW",
-                "current_price": 30.45,
-                "change": "0.0%",
+                "current_price": 30.5,
+                "change": "0.16%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-671/",
                         "reason": "6.台灣的房地產真的是鐵板一塊，尤其是新興市鎮，很多人要搬進來，有住宿需求或租店面的需求，就撐在那"
-                    },
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a327ac9fd89780001dc0395",
-                        "reason": "同時，他實地觀察到林口房地產在央行控管下依然「鐵板一塊」，屋主姿態極高，顯示新興市鎮的剛性供需仍強烈支撐房市底氣"
                     }
                 ]
             },
             {
                 "name": "富邦金",
                 "ticker": "2881.TW",
-                "current_price": 124.5,
-                "change": "0.0%",
+                "current_price": 126.5,
+                "change": "1.61%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
                         "url": "https://socialworkerdaily.com/notes-of-gooaye-ep-671/",
                         "reason": "5.台灣錢淹到膝蓋去：連金融股富邦金都噴50%了"
-                    },
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a327ac9fd89780001dc0395",
-                        "reason": "台積電與資金輪動背景與現況： 市場呈現百花齊放，中小股與金融股（如富邦金大漲近50%）輪動接棒，台積電反而陷入橫盤休息"
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "金融股也參與行情，富邦金大漲快 50%，代表資金從主流電子股外溢到金融與中小型股，形成一棒接一棒的接力行情"
                     }
                 ]
             },
             {
                 "name": "健策",
                 "ticker": "3653.TW",
-                "current_price": 3205.0,
-                "change": "0.0%",
+                "current_price": 3240.0,
+                "change": "1.09%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -2495,511 +931,10 @@
                         "reason": "一、健策：減碼散熱"
                     }
                 ]
-            },
-            {
-                "name": "谷歌",
-                "ticker": "GOOGL",
-                "current_price": 357.18,
-                "change": "-0.48%",
-                "mentions": [
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a327ac9fd89780001dc0395",
-                        "reason": "股癌EP671逐字稿我放在QA之後的google連結精華重點成本轉嫁與外溢效應重塑離散元件格局 謝孟恭指出功率元件正經歷非斷鏈式的漲價，源於晶圓代工成本上升及美系大廠轉向高毛利產品"
-                    }
-                ]
-            },
-            {
-                "name": "谷歌",
-                "ticker": "GOOG",
-                "current_price": 355.03,
-                "change": "-0.34%",
-                "mentions": [
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a327ac9fd89780001dc0395",
-                        "reason": "股癌EP671逐字稿我放在QA之後的google連結精華重點成本轉嫁與外溢效應重塑離散元件格局 謝孟恭指出功率元件正經歷非斷鏈式的漲價，源於晶圓代工成本上升及美系大廠轉向高毛利產品"
-                    }
-                ]
-            },
-            {
-                "name": "迪士尼",
-                "ticker": "DIS",
-                "current_price": 95.62,
-                "change": "-0.57%",
-                "mentions": [
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a327ac9fd89780001dc0395",
-                        "reason": "NordVPN目錄生活閒聊與假帳號澄清 (避免中小股操作)林口房地產觀察與餐廳投資計畫被動元件籌碼凌亂與資金輪動現象投信法規解禁與台積電「萬劍歸宗」邏輯離散元件 (Discrete)、PMIC 的漲價與外溢效應Semi Analysi..."
-                    },
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "Power 端 discrete、離散元件供應商較多，所以比較不是立即斷供，而是供需結構慢慢改變"
-                    }
-                ]
-            },
-            {
-                "name": "順德",
-                "ticker": "2351.TW",
-                "current_price": 200.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a327ac9fd89780001dc0395",
-                        "reason": "但一旦老大開始橫盤休息，資金便會迅速尋找老二、老三（如導線架順德、矽晶圓）進行補漲，操作上需提前備妥不同Tier的標的池"
-                    }
-                ]
-            },
-            {
-                "name": "大量",
-                "ticker": "3167.TW",
-                "current_price": 775.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a327ac9fd89780001dc0395",
-                        "reason": "主委核心邏輯： 謝孟恭認為雖然底層基本面仍在，但籌碼面因散戶大量湧入而變混亂，短線上極易出現大戶倒貨引發的亂流，甚至導致強勢股（如國巨）再度面臨處置風險"
-                    }
-                ]
-            },
-            {
-                "name": "精華",
-                "ticker": "1565.TWO",
-                "current_price": 97.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "vocus.cc",
-                        "url": "https://vocus.cc/article/6a327ac9fd89780001dc0395",
-                        "reason": "股癌EP671逐字稿我放在QA之後的google連結精華重點成本轉嫁與外溢效應重塑離散元件格局 謝孟恭指出功率元件正經歷非斷鏈式的漲價，源於晶圓代工成本上升及美系大廠轉向高毛利產品"
-                    }
-                ]
-            },
-            {
-                "name": "輝達",
-                "ticker": "NVDA",
-                "current_price": 210.96,
-                "change": "4.03%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "若中小題材休息，資金可能回流台積電與 NVIDIA 等核心 AI 股"
-                    }
-                ]
-            },
-            {
-                "name": "威世",
-                "ticker": "VSH",
-                "current_price": 44.67,
-                "change": "1.43%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "VSH"
-                    }
-                ]
-            },
-            {
-                "name": "美光",
-                "ticker": "MU",
-                "current_price": 979.3,
-                "change": "-1.24%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "美光（MU）因為是美股，比較不習慣一直移動"
-                    }
-                ]
-            },
-            {
-                "name": "亞德諾",
-                "ticker": "ADI",
-                "current_price": 395.65,
-                "change": "0.51%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "ADI"
-                    }
-                ]
-            },
-            {
-                "name": "Cloudflare",
-                "ticker": "NET",
-                "current_price": 268.4,
-                "change": "-2.68%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "Dylan Patel 在 X 上回覆提到，800VDC 明年可能只有 5% penetration rate"
-                    }
-                ]
-            },
-            {
-                "name": "聯發",
-                "ticker": "1459.TW",
-                "current_price": 11.65,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "聯發科"
-                    }
-                ]
-            },
-            {
-                "name": "華新",
-                "ticker": "1605.TW",
-                "current_price": 34.4,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "華新科"
-                    }
-                ]
-            },
-            {
-                "name": "茂矽",
-                "ticker": "2342.TW",
-                "current_price": 49.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "茂矽"
-                    }
-                ]
-            },
-            {
-                "name": "凱美",
-                "ticker": "2375.TW",
-                "current_price": 188.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "凱美"
-                    }
-                ]
-            },
-            {
-                "name": "瑞昱",
-                "ticker": "2379.TW",
-                "current_price": 840.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "2379"
-                    }
-                ]
-            },
-            {
-                "name": "聯發科",
-                "ticker": "2454.TW",
-                "current_price": 3925.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "2454"
-                    }
-                ]
-            },
-            {
-                "name": "立隆電",
-                "ticker": "2472.TW",
-                "current_price": 376.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "立隆電"
-                    }
-                ]
-            },
-            {
-                "name": "強茂",
-                "ticker": "2481.TW",
-                "current_price": 213.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "強茂"
-                    }
-                ]
-            },
-            {
-                "name": "希華",
-                "ticker": "2484.TW",
-                "current_price": 90.7,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "市場目前似乎也在把石英元件包進缺貨漲價故事裡，提到的方向包含希華、晶技"
-                    }
-                ]
-            },
-            {
-                "name": "華新科",
-                "ticker": "2492.TW",
-                "current_price": 465.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "華新科"
-                    }
-                ]
-            },
-            {
-                "name": "嘉晶",
-                "ticker": "3016.TW",
-                "current_price": 121.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "嘉晶"
-                    }
-                ]
-            },
-            {
-                "name": "禾伸堂",
-                "ticker": "3026.TW",
-                "current_price": 1005.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "禾伸堂"
-                    }
-                ]
-            },
-            {
-                "name": "晶技",
-                "ticker": "3042.TW",
-                "current_price": 200.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "市場目前似乎也在把石英元件包進缺貨漲價故事裡，提到的方向包含希華、晶技"
-                    }
-                ]
-            },
-            {
-                "name": "通嘉",
-                "ticker": "3588.TW",
-                "current_price": 66.8,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "3588"
-                    }
-                ]
-            },
-            {
-                "name": "矽力*",
-                "ticker": "6415.TW",
-                "current_price": 523.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "6415"
-                    }
-                ]
-            },
-            {
-                "name": "力智",
-                "ticker": "6719.TW",
-                "current_price": 266.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "6719"
-                    }
-                ]
-            },
-            {
-                "name": "致新",
-                "ticker": "8081.TW",
-                "current_price": 283.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "8081"
-                    }
-                ]
-            },
-            {
-                "name": "富鼎",
-                "ticker": "8261.TW",
-                "current_price": 325.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "富鼎"
-                    }
-                ]
-            },
-            {
-                "name": "尼克森",
-                "ticker": "3317.TWO",
-                "current_price": 96.6,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "尼克森"
-                    }
-                ]
-            },
-            {
-                "name": "聚積",
-                "ticker": "3527.TWO",
-                "current_price": 63.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "3527"
-                    }
-                ]
-            },
-            {
-                "name": "漢磊",
-                "ticker": "3707.TWO",
-                "current_price": 79.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "漢磊"
-                    }
-                ]
-            },
-            {
-                "name": "杰力",
-                "ticker": "5299.TWO",
-                "current_price": 118.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "杰力"
-                    }
-                ]
-            },
-            {
-                "name": "台半",
-                "ticker": "5425.TWO",
-                "current_price": 130.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "台半"
-                    }
-                ]
-            },
-            {
-                "name": "茂達",
-                "ticker": "6138.TWO",
-                "current_price": 376.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "6138"
-                    }
-                ]
-            },
-            {
-                "name": "大中",
-                "ticker": "6435.TWO",
-                "current_price": 375.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "大中"
-                    }
-                ]
-            },
-            {
-                "name": "金山電",
-                "ticker": "8042.TWO",
-                "current_price": 178.0,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "金山電"
-                    }
-                ]
-            },
-            {
-                "name": "朋程",
-                "ticker": "8255.TWO",
-                "current_price": 176.5,
-                "change": "0.0%",
-                "mentions": [
-                    {
-                        "name": "麻瓜投資",
-                        "url": "https://mugglestock.com/articles/210",
-                        "reason": "朋程"
-                    }
-                ]
             }
         ],
         "sources": [
-            "https://socialworkerdaily.com/notes-of-gooaye-ep-671/",
-            "https://vocus.cc/article/6a327ac9fd89780001dc0395",
-            "https://mugglestock.com/articles/210"
+            "https://socialworkerdaily.com/notes-of-gooaye-ep-671/"
         ]
     },
     {
@@ -3010,8 +945,8 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 150.0,
-                "change": "0.0%",
+                "current_price": 149.5,
+                "change": "-0.33%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -3072,8 +1007,8 @@
             {
                 "name": "台積電",
                 "ticker": "2330.TW",
-                "current_price": 2415.0,
-                "change": "0.0%",
+                "current_price": 2475.0,
+                "change": "2.48%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -3085,8 +1020,8 @@
             {
                 "name": "大立光",
                 "ticker": "3008.TW",
-                "current_price": 3950.0,
-                "change": "0.0%",
+                "current_price": 4345.0,
+                "change": "10.0%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -3098,8 +1033,8 @@
             {
                 "name": "大量",
                 "ticker": "3167.TW",
-                "current_price": 775.0,
-                "change": "0.0%",
+                "current_price": 745.0,
+                "change": "-3.87%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
@@ -3111,8 +1046,8 @@
             {
                 "name": "數字",
                 "ticker": "5287.TWO",
-                "current_price": 150.0,
-                "change": "0.0%",
+                "current_price": 149.5,
+                "change": "-0.33%",
                 "mentions": [
                     {
                         "name": "股癌官方筆記",
