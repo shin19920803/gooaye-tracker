@@ -1,12 +1,12 @@
 {
     "summary": {
         "total_cost": 962000.0,
-        "total_value": 2425729.0,
-        "total_pnl": 1463729.0,
-        "total_pnl_pct": "152.15%",
-        "total_daily_pnl": -4599.0,
-        "total_daily_change_pct": "-0.48%",
-        "update_time": "2026-07-22 02:38:13"
+        "total_value": 2401206.0,
+        "total_pnl": 1439206.0,
+        "total_pnl_pct": "149.61%",
+        "total_daily_pnl": -19523.0,
+        "total_daily_change_pct": "-2.03%",
+        "update_time": "2026-07-23 02:43:30"
     },
     "assets": [
         {
@@ -14,28 +14,28 @@
             "name": "台積電",
             "buy_price": 950.0,
             "shares": 1000.0,
-            "current_price": 2405.0,
-            "previous_close": 2410.0,
+            "current_price": 2380.0,
+            "previous_close": 2400.0,
             "cost": 950000.0,
-            "value": 2405000.0,
-            "pnl": 1455000.0,
-            "pnl_pct": "153.16%",
-            "daily_pnl": -5000.0,
-            "daily_change_pct": "-0.21%"
+            "value": 2380000.0,
+            "pnl": 1430000.0,
+            "pnl_pct": "150.53%",
+            "daily_pnl": -20000.0,
+            "daily_change_pct": "-0.83%"
         },
         {
             "symbol": "NVDA",
             "name": "輝達",
             "buy_price": 120.0,
             "shares": 100.0,
-            "current_price": 207.29,
-            "previous_close": 203.28,
+            "current_price": 212.06,
+            "previous_close": 207.29,
             "cost": 12000.0,
-            "value": 20729.0,
-            "pnl": 8729.0,
-            "pnl_pct": "72.74%",
-            "daily_pnl": 401.0,
-            "daily_change_pct": "1.97%"
+            "value": 21206.0,
+            "pnl": 9206.0,
+            "pnl_pct": "76.72%",
+            "daily_pnl": 477.0,
+            "daily_change_pct": "2.3%"
         }
     ]
 }
